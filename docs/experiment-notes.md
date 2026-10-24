@@ -52,8 +52,7 @@ and the paper's summary means remain documented in `measurement-dictionary.md`.
 Next, inspect individual examples and the similarity matrix together before
 choosing a broader sample, a candidate vocabulary, or a prompt comparison.
 These decisions change what the experiment measures and should be documented
-before further interpretation. These notes are an implementation record;
-the course milestone report remains the student's own writing.
+before further interpretation. These notes are an implementation record.
 
 ## Expanded baseline - October 24, 2026
 
@@ -93,7 +92,7 @@ The interactive local explorer presents the scatterplot, individual icons
 and ranked alternatives, human measurements, and the source audit. The next
 research decision is whether to test a predeclared prompt/vocabulary change
 or another model, rather than repeatedly changing prompts to improve these
-observed results. No written course milestone report has been generated.
+observed results.
 
 The finalized full-corpus score CSVs were byte-identical on a repeat CPU run
 using the same final script, corrected dataset, checkpoint, and image hashes.

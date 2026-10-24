@@ -64,6 +64,18 @@ def main():
         data["sanity"]["previews"] = {
             key: image_url(sanity_path.parent / "previews" / f"{key}.png")
             for key in [*data["sanity"]["new_control_cases"], "football-icon"]}
+    wording_path = ROOT / "results/clip-wording/comparison.json"
+    if wording_path.exists():
+        data["wording"] = json.loads(wording_path.read_text())
+        for run in data["wording"]["runs"]:
+            source = ROOT / "results" / run["folder"]
+            for filename, field in [("summary.csv", "source_summary_sha256"),
+                                    ("run.json", "source_run_sha256"),
+                                    ("similarities.csv", "source_similarities_sha256")]:
+                if hashlib.sha256((source / filename).read_bytes()).hexdigest() != run[field]:
+                    raise ValueError(f"Wording comparison is stale for {source / filename}")
+        if hashlib.sha256(wording_path.with_name("plan.json").read_bytes()).hexdigest() != data["wording"]["plan_sha256"]:
+            raise ValueError("Wording comparison plan changed")
     template = (ROOT / "src/results-view.html").read_text()
     if template.count("__RESEARCH_DATA__") != 1:
         raise ValueError("Template must contain exactly one data placeholder")

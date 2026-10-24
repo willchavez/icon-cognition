@@ -1,0 +1,14 @@
+{
+  "question": "Does the surrounding text template change the baseline relationship with human semantic closeness?",
+  "templates_fixed_before_corpus_runs": ["an icon representing {label}", "{label}", "a symbol meaning {label}"],
+  "runs": [
+    {"key": "baseline", "title": "Original icon prompt", "folder": "clip-all239", "template": "an icon representing {label}"},
+    {"key": "bare", "title": "Published label only", "folder": "clip-wording/bare", "template": "{label}"},
+    {"key": "symbol", "title": "Symbol meaning prompt", "folder": "clip-wording/symbol", "template": "a symbol meaning {label}"}
+  ],
+  "fixed_inputs": "All 239 icons, the same 231 distinct published labels in the same order, human measurements, checkpoint, preprocessing, seed, CPU float32, image and text batches of 10",
+  "primary": "Spearman correlation of intended-label cosine similarity with human semantic_distance (higher means closer)",
+  "comparison": "Each new correlation minus baseline; paired icon bootstrap, 2000 samples, seed 20261024, percentile 95% interval",
+  "secondary": ["Published label ranked first", "Median published-label rank", "Number of icons whose highest-scoring label changes"],
+  "interpretation": "Exploratory sensitivity analysis; report all three variants without selecting a winning template as a validated model. No synonyms, label edits, or per-icon template selection."
+}

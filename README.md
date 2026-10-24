@@ -74,3 +74,9 @@ The separate [sanity check](docs/clip-sanity.md) matched all three obvious
 control images and agreed with the original OpenAI reference code using the
 same weights. The explorer’s **Sanity check** tab shows these controls and the
 football/soccer-ball wording probe. The original icon experiment is preserved.
+
+The [wording experiment](docs/clip-wording.md) compares the original prompt,
+published labels alone, and `a symbol meaning {label}` across the same corpus.
+The **Wording comparison** tab shows all three results and lets you inspect any
+icon side by side. Wording changes predictions, but none of the three primary
+correlation intervals excludes zero.

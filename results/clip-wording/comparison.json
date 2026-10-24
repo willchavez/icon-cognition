@@ -1,0 +1,6366 @@
+{
+  "plan": {
+    "question": "Does the surrounding text template change the baseline relationship with human semantic closeness?",
+    "templates_fixed_before_corpus_runs": [
+      "an icon representing {label}",
+      "{label}",
+      "a symbol meaning {label}"
+    ],
+    "runs": [
+      {
+        "key": "baseline",
+        "title": "Original icon prompt",
+        "folder": "clip-all239",
+        "template": "an icon representing {label}"
+      },
+      {
+        "key": "bare",
+        "title": "Published label only",
+        "folder": "clip-wording/bare",
+        "template": "{label}"
+      },
+      {
+        "key": "symbol",
+        "title": "Symbol meaning prompt",
+        "folder": "clip-wording/symbol",
+        "template": "a symbol meaning {label}"
+      }
+    ],
+    "fixed_inputs": "All 239 icons, the same 231 distinct published labels in the same order, human measurements, checkpoint, preprocessing, seed, CPU float32, image and text batches of 10",
+    "primary": "Spearman correlation of intended-label cosine similarity with human semantic_distance (higher means closer)",
+    "comparison": "Each new correlation minus baseline; paired icon bootstrap, 2000 samples, seed 20261024, percentile 95% interval",
+    "secondary": [
+      "Published label ranked first",
+      "Median published-label rank",
+      "Number of icons whose highest-scoring label changes"
+    ],
+    "interpretation": "Exploratory sensitivity analysis; report all three variants without selecting a winning template as a validated model. No synonyms, label edits, or per-icon template selection."
+  },
+  "n": 239,
+  "candidates": 231,
+  "runs": [
+    {
+      "key": "baseline",
+      "title": "Original icon prompt",
+      "folder": "clip-all239",
+      "template": "an icon representing {label}",
+      "source_summary_sha256": "480d04bf4e49070b2cad2606857aef160b86470cfecc58ba5c97b39a6510d631",
+      "source_run_sha256": "16bec1f472641a02acc0d3539163a42d64a4f19a375348daf5e907e78649ae47",
+      "source_similarities_sha256": "dd81ab30d9f831c1ea9e2116591172aa0d44b43b57ec2e17951892ae92363bf1",
+      "primary": {
+        "rho": -0.03273574917429065,
+        "n": 239,
+        "ci95": [
+          -0.1647476060619927,
+          0.09725668077676304
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "top1": 25,
+      "median_rank": 41.0,
+      "changed_best_label": 0,
+      "rank_improved": 0,
+      "rank_worsened": 0,
+      "rho_difference_from_baseline": {
+        "value": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "key": "bare",
+      "title": "Published label only",
+      "folder": "clip-wording/bare",
+      "template": "{label}",
+      "source_summary_sha256": "48a028333efeb50a86666dcae09758e36a72845bc1e44a909571e2614bd39fb5",
+      "source_run_sha256": "1ecb08ebf61112d90aaa330f2f469000f6a5f3207f1c49bc95275d1356336851",
+      "source_similarities_sha256": "f9519c91984c9ecfae42a850927373592cc9a4954f07e116e5f59bf9d19a28b1",
+      "primary": {
+        "rho": 0.10454078868293545,
+        "n": 239,
+        "ci95": [
+          -0.023784609250589835,
+          0.2379978428780203
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "top1": 27,
+      "median_rank": 43.0,
+      "changed_best_label": 161,
+      "rank_improved": 105,
+      "rank_worsened": 108,
+      "rho_difference_from_baseline": {
+        "value": 0.1372765378572261,
+        "ci95": [
+          0.037625775616011506,
+          0.23837185905280073
+        ]
+      }
+    },
+    {
+      "key": "symbol",
+      "title": "Symbol meaning prompt",
+      "folder": "clip-wording/symbol",
+      "template": "a symbol meaning {label}",
+      "source_summary_sha256": "2878eaee2062444c2454795c4cfb0ed5b5ed72cd144a591157c0e83cd607ef19",
+      "source_run_sha256": "f5e691bfcf503878c70246ec4160276fe0caa230d3059e1e5973b7aebc83c696",
+      "source_similarities_sha256": "a7e03fab85640a479dc1112de7accb1cfefde6eb2b1a2cd39202b54a2c443111",
+      "primary": {
+        "rho": -0.11425426957380311,
+        "n": 239,
+        "ci95": [
+          -0.24094867935905787,
+          0.009378716351193746
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "top1": 29,
+      "median_rank": 40.0,
+      "changed_best_label": 135,
+      "rank_improved": 120,
+      "rank_worsened": 96,
+      "rho_difference_from_baseline": {
+        "value": -0.08151852039951246,
+        "ci95": [
+          -0.18324228260141018,
+          0.015259459515988972
+        ]
+      }
+    }
+  ],
+  "icons": [
+    {
+      "icon_id": 1,
+      "label": "Add task",
+      "human_closeness": 2.03,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2948954999446869,
+          "rank": 11,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2561747431755066,
+          "rank": 10,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26880887150764465,
+          "rank": 12,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 2,
+      "label": "Added fabric web width",
+      "human_closeness": 1.89,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2839144170284271,
+          "rank": 7,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.24020737409591675,
+          "rank": 26,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2693440616130829,
+          "rank": 21,
+          "best_label": "Webcrawler"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 3,
+      "label": "Adjust contrast",
+      "human_closeness": 2.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28855594992637634,
+          "rank": 6,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "bare",
+          "score": 0.22139160335063934,
+          "rank": 111,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2621924877166748,
+          "rank": 169,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        }
+      ],
+      "rank_range": 163
+    },
+    {
+      "icon_id": 4,
+      "label": "Air cooled condenser",
+      "human_closeness": 1.56,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27931657433509827,
+          "rank": 13,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.2427944839000702,
+          "rank": 22,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28105610609054565,
+          "rank": 11,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 11
+    },
+    {
+      "icon_id": 5,
+      "label": "Air vent - right and left outlets",
+      "human_closeness": 2.57,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.276215523481369,
+          "rank": 31,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.23648612201213837,
+          "rank": 50,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.274356871843338,
+          "rank": 69,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 38
+    },
+    {
+      "icon_id": 6,
+      "label": "Airborne troops",
+      "human_closeness": 1.57,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2311391532421112,
+          "rank": 214,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "bare",
+          "score": 0.20821639895439148,
+          "rank": 188,
+          "best_label": "Spade"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2580772340297699,
+          "rank": 178,
+          "best_label": "Spade"
+        }
+      ],
+      "rank_range": 36
+    },
+    {
+      "icon_id": 7,
+      "label": "Airbrush",
+      "human_closeness": 2.24,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2439359724521637,
+          "rank": 156,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.21521329879760742,
+          "rank": 193,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2385985106229782,
+          "rank": 212,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 56
+    },
+    {
+      "icon_id": 8,
+      "label": "All operators",
+      "human_closeness": 1.74,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24924960732460022,
+          "rank": 180,
+          "best_label": "Random Access Memory (RAM)"
+        },
+        {
+          "key": "bare",
+          "score": 0.2086118459701538,
+          "rank": 181,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2680722177028656,
+          "rank": 146,
+          "best_label": "Rye"
+        }
+      ],
+      "rank_range": 35
+    },
+    {
+      "icon_id": 9,
+      "label": "American health service",
+      "human_closeness": 1.6,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2607893943786621,
+          "rank": 18,
+          "best_label": "Scythe"
+        },
+        {
+          "key": "bare",
+          "score": 0.24399980902671814,
+          "rank": 12,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27125856280326843,
+          "rank": 12,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 6
+    },
+    {
+      "icon_id": 10,
+      "label": "Apple computer",
+      "human_closeness": 1.64,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2741348147392273,
+          "rank": 21,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2312062382698059,
+          "rank": 71,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25873449444770813,
+          "rank": 14,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 57
+    },
+    {
+      "icon_id": 11,
+      "label": "Arc ignition by contact",
+      "human_closeness": 1.68,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2645074725151062,
+          "rank": 65,
+          "best_label": "Brushing by means of brush belt"
+        },
+        {
+          "key": "bare",
+          "score": 0.23980510234832764,
+          "rank": 27,
+          "best_label": "Food processing industry"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26370131969451904,
+          "rank": 66,
+          "best_label": "Brushing by means of brush belt"
+        }
+      ],
+      "rank_range": 39
+    },
+    {
+      "icon_id": 12,
+      "label": "Archive",
+      "human_closeness": 1.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2713067829608917,
+          "rank": 27,
+          "best_label": "Confucianism"
+        },
+        {
+          "key": "bare",
+          "score": 0.23113389313220978,
+          "rank": 66,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2740716338157654,
+          "rank": 64,
+          "best_label": "Confucianism"
+        }
+      ],
+      "rank_range": 39
+    },
+    {
+      "icon_id": 13,
+      "label": "Atomic site",
+      "human_closeness": 2.31,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.30992624163627625,
+          "rank": 1,
+          "best_label": "Atomic site"
+        },
+        {
+          "key": "bare",
+          "score": 0.29020631313323975,
+          "rank": 1,
+          "best_label": "Atomic site"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3341462016105652,
+          "rank": 1,
+          "best_label": "Atomic site"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 14,
+      "label": "Automatic control (closed loop)",
+      "human_closeness": 1.39,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27334457635879517,
+          "rank": 32,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.2561928629875183,
+          "rank": 5,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2862575650215149,
+          "rank": 19,
+          "best_label": "Mail merge main document"
+        }
+      ],
+      "rank_range": 27
+    },
+    {
+      "icon_id": 15,
+      "label": "Axe",
+      "human_closeness": 3.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.259991854429245,
+          "rank": 129,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.25543004274368286,
+          "rank": 13,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29089584946632385,
+          "rank": 13,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 116
+    },
+    {
+      "icon_id": 16,
+      "label": "Baggage lockers",
+      "human_closeness": 4.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.30785366892814636,
+          "rank": 1,
+          "best_label": "Baggage lockers"
+        },
+        {
+          "key": "bare",
+          "score": 0.2735852599143982,
+          "rank": 1,
+          "best_label": "Baggage lockers"
+        },
+        {
+          "key": "symbol",
+          "score": 0.33445605635643005,
+          "rank": 1,
+          "best_label": "Baggage lockers"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 17,
+      "label": "Balance",
+      "human_closeness": 3.86,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2752268314361572,
+          "rank": 48,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "bare",
+          "score": 0.23147264122962952,
+          "rank": 78,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27657952904701233,
+          "rank": 39,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 39
+    },
+    {
+      "icon_id": 18,
+      "label": "Beating process of fabrics",
+      "human_closeness": 1.41,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28488168120384216,
+          "rank": 34,
+          "best_label": "Conveyer belt"
+        },
+        {
+          "key": "bare",
+          "score": 0.23182803392410278,
+          "rank": 97,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26670968532562256,
+          "rank": 102,
+          "best_label": "External cylindrical grinding"
+        }
+      ],
+      "rank_range": 68
+    },
+    {
+      "icon_id": 19,
+      "label": "Belt drive",
+      "human_closeness": 2.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27907267212867737,
+          "rank": 9,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "bare",
+          "score": 0.2415674477815628,
+          "rank": 43,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2663503885269165,
+          "rank": 17,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 34
+    },
+    {
+      "icon_id": 20,
+      "label": "Bending",
+      "human_closeness": 2.74,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26242774724960327,
+          "rank": 92,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.22128285467624664,
+          "rank": 121,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25584733486175537,
+          "rank": 203,
+          "best_label": "Diver"
+        }
+      ],
+      "rank_range": 111
+    },
+    {
+      "icon_id": 21,
+      "label": "Binary file",
+      "human_closeness": 2.88,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2952100336551666,
+          "rank": 1,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "bare",
+          "score": 0.30024251341819763,
+          "rank": 1,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3062492311000824,
+          "rank": 1,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 22,
+      "label": "Biohazard",
+      "human_closeness": 1.48,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.31587451696395874,
+          "rank": 1,
+          "best_label": "Biohazard"
+        },
+        {
+          "key": "bare",
+          "score": 0.31043440103530884,
+          "rank": 1,
+          "best_label": "Biohazard"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3347999155521393,
+          "rank": 1,
+          "best_label": "Biohazard"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 23,
+      "label": "Bitmap",
+      "human_closeness": 1.85,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2800489366054535,
+          "rank": 2,
+          "best_label": "Cube"
+        },
+        {
+          "key": "bare",
+          "score": 0.2714906930923462,
+          "rank": 2,
+          "best_label": "Cube"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2710496783256531,
+          "rank": 3,
+          "best_label": "Cube"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 24,
+      "label": "Blow moulding",
+      "human_closeness": 1.35,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2562645375728607,
+          "rank": 30,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.20225711166858673,
+          "rank": 115,
+          "best_label": "Product"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2265857756137848,
+          "rank": 99,
+          "best_label": "Rye"
+        }
+      ],
+      "rank_range": 85
+    },
+    {
+      "icon_id": 25,
+      "label": "Break glass to access",
+      "human_closeness": 3.31,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27364209294319153,
+          "rank": 44,
+          "best_label": "Toolbox"
+        },
+        {
+          "key": "bare",
+          "score": 0.21739143133163452,
+          "rank": 105,
+          "best_label": "Device driver"
+        },
+        {
+          "key": "symbol",
+          "score": 0.253451406955719,
+          "rank": 77,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 61
+    },
+    {
+      "icon_id": 26,
+      "label": "Bridging troops",
+      "human_closeness": 1.61,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2178761512041092,
+          "rank": 221,
+          "best_label": "Toxic substances"
+        },
+        {
+          "key": "bare",
+          "score": 0.18550755083560944,
+          "rank": 220,
+          "best_label": "Straining element"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23855094611644745,
+          "rank": 219,
+          "best_label": "Chemistry"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 27,
+      "label": "Brushing by means of brush belt",
+      "human_closeness": 1.98,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2543264627456665,
+          "rank": 157,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "bare",
+          "score": 0.20920126140117645,
+          "rank": 186,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24617813527584076,
+          "rank": 124,
+          "best_label": "Oscillating motor"
+        }
+      ],
+      "rank_range": 62
+    },
+    {
+      "icon_id": 28,
+      "label": "Building",
+      "human_closeness": 4.67,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2708643972873688,
+          "rank": 11,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.25026804208755493,
+          "rank": 13,
+          "best_label": "Plate column"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25107571482658386,
+          "rank": 8,
+          "best_label": "Plasticizing cylinder with plunger"
+        }
+      ],
+      "rank_range": 5
+    },
+    {
+      "icon_id": 29,
+      "label": "Button",
+      "human_closeness": 2.74,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2709241211414337,
+          "rank": 12,
+          "best_label": "Colour area"
+        },
+        {
+          "key": "bare",
+          "score": 0.26002416014671326,
+          "rank": 5,
+          "best_label": "Colour area"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2754547894001007,
+          "rank": 5,
+          "best_label": "Colour area"
+        }
+      ],
+      "rank_range": 7
+    },
+    {
+      "icon_id": 30,
+      "label": "Calendar",
+      "human_closeness": 3.45,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24621033668518066,
+          "rank": 138,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.21912962198257446,
+          "rank": 145,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "symbol",
+          "score": 0.21773356199264526,
+          "rank": 204,
+          "best_label": "Library"
+        }
+      ],
+      "rank_range": 66
+    },
+    {
+      "icon_id": 31,
+      "label": "Cancer",
+      "human_closeness": 2.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23907345533370972,
+          "rank": 98,
+          "best_label": "Frog"
+        },
+        {
+          "key": "bare",
+          "score": 0.22316674888134003,
+          "rank": 45,
+          "best_label": "Frog"
+        },
+        {
+          "key": "symbol",
+          "score": 0.21632757782936096,
+          "rank": 81,
+          "best_label": "Frog"
+        }
+      ],
+      "rank_range": 53
+    },
+    {
+      "icon_id": 32,
+      "label": "Cartoons",
+      "human_closeness": 2.1,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23975464701652527,
+          "rank": 182,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.21803122758865356,
+          "rank": 147,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2349385768175125,
+          "rank": 130,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 52
+    },
+    {
+      "icon_id": 33,
+      "label": "CD-interactive",
+      "human_closeness": 2.0,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27371102571487427,
+          "rank": 30,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2345247119665146,
+          "rank": 41,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23923955857753754,
+          "rank": 137,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 107
+    },
+    {
+      "icon_id": 34,
+      "label": "Centre alignment",
+      "human_closeness": 2.52,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24870644509792328,
+          "rank": 97,
+          "best_label": "Eject"
+        },
+        {
+          "key": "bare",
+          "score": 0.2151442915201187,
+          "rank": 114,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25543493032455444,
+          "rank": 98,
+          "best_label": "Electric transmission"
+        }
+      ],
+      "rank_range": 17
+    },
+    {
+      "icon_id": 35,
+      "label": "Centre of gravity",
+      "human_closeness": 1.76,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2856788635253906,
+          "rank": 21,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.2450924962759018,
+          "rank": 32,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2835341691970825,
+          "rank": 57,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 36
+    },
+    {
+      "icon_id": 36,
+      "label": "Chain reaction",
+      "human_closeness": 3.0,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26817816495895386,
+          "rank": 13,
+          "best_label": "Fast rewind"
+        },
+        {
+          "key": "bare",
+          "score": 0.24478109180927277,
+          "rank": 27,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23500671982765198,
+          "rank": 61,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 48
+    },
+    {
+      "icon_id": 37,
+      "label": "Chain saw",
+      "human_closeness": 3.05,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25514885783195496,
+          "rank": 53,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.24166527390480042,
+          "rank": 16,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2516390085220337,
+          "rank": 50,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 37
+    },
+    {
+      "icon_id": 38,
+      "label": "Chemistry",
+      "human_closeness": 3.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2599908709526062,
+          "rank": 72,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.23810537159442902,
+          "rank": 60,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2418409138917923,
+          "rank": 53,
+          "best_label": "Fixed bed reactor"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 39,
+      "label": "Chess",
+      "human_closeness": 4.38,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28929248452186584,
+          "rank": 3,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.26088425517082214,
+          "rank": 3,
+          "best_label": "Spark plug"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28068414330482483,
+          "rank": 1,
+          "best_label": "Chess"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 40,
+      "label": "Choke",
+      "human_closeness": 1.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24722078442573547,
+          "rank": 185,
+          "best_label": "Electric shaver outlet"
+        },
+        {
+          "key": "bare",
+          "score": 0.2149062305688858,
+          "rank": 159,
+          "best_label": "Zoom"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26944807171821594,
+          "rank": 81,
+          "best_label": "Zoom"
+        }
+      ],
+      "rank_range": 104
+    },
+    {
+      "icon_id": 41,
+      "label": "Christianity",
+      "human_closeness": 3.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.22847476601600647,
+          "rank": 200,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.21785151958465576,
+          "rank": 131,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.22414261102676392,
+          "rank": 199,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 69
+    },
+    {
+      "icon_id": 42,
+      "label": "Clean edge pins",
+      "human_closeness": 1.38,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2830590605735779,
+          "rank": 83,
+          "best_label": "Headlamp cleaner"
+        },
+        {
+          "key": "bare",
+          "score": 0.218673437833786,
+          "rank": 126,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25706031918525696,
+          "rank": 143,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 60
+    },
+    {
+      "icon_id": 43,
+      "label": "Cleaning of chain-link",
+      "human_closeness": 1.39,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2715720236301422,
+          "rank": 38,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2372976839542389,
+          "rank": 52,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2667095959186554,
+          "rank": 32,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 20
+    },
+    {
+      "icon_id": 44,
+      "label": "Closed",
+      "human_closeness": 2.86,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25799375772476196,
+          "rank": 98,
+          "best_label": "First aid"
+        },
+        {
+          "key": "bare",
+          "score": 0.2320622354745865,
+          "rank": 80,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2752656042575836,
+          "rank": 51,
+          "best_label": "First aid"
+        }
+      ],
+      "rank_range": 47
+    },
+    {
+      "icon_id": 45,
+      "label": "Cloth track steaming",
+      "human_closeness": 1.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25493571162223816,
+          "rank": 104,
+          "best_label": "Random Access Memory (RAM)"
+        },
+        {
+          "key": "bare",
+          "score": 0.2304706871509552,
+          "rank": 82,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24885185062885284,
+          "rank": 141,
+          "best_label": "Fixed bed reactor"
+        }
+      ],
+      "rank_range": 59
+    },
+    {
+      "icon_id": 46,
+      "label": "Co-operate",
+      "human_closeness": 3.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2685675323009491,
+          "rank": 25,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.23050853610038757,
+          "rank": 23,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2719443142414093,
+          "rank": 6,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 47,
+      "label": "Cockpit",
+      "human_closeness": 2.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.22879478335380554,
+          "rank": 156,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.21528062224388123,
+          "rank": 178,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.22670282423496246,
+          "rank": 75,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 103
+    },
+    {
+      "icon_id": 48,
+      "label": "Colour area",
+      "human_closeness": 2.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24306583404541016,
+          "rank": 160,
+          "best_label": "Plasticizing cylinder with plunger"
+        },
+        {
+          "key": "bare",
+          "score": 0.23202836513519287,
+          "rank": 61,
+          "best_label": "Spark plug"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2278018593788147,
+          "rank": 184,
+          "best_label": "Plasticizing cylinder with plunger"
+        }
+      ],
+      "rank_range": 123
+    },
+    {
+      "icon_id": 49,
+      "label": "Colour temperature lamp",
+      "human_closeness": 1.81,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3109242618083954,
+          "rank": 1,
+          "best_label": "Colour temperature lamp"
+        },
+        {
+          "key": "bare",
+          "score": 0.2597507834434509,
+          "rank": 7,
+          "best_label": "Instrument illumination"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2758580446243286,
+          "rank": 49,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 48
+    },
+    {
+      "icon_id": 50,
+      "label": "Communication",
+      "human_closeness": 3.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26345813274383545,
+          "rank": 116,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "bare",
+          "score": 0.2312547117471695,
+          "rank": 56,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28031599521636963,
+          "rank": 57,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 60
+    },
+    {
+      "icon_id": 51,
+      "label": "Compress file",
+      "human_closeness": 3.05,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24255262315273285,
+          "rank": 85,
+          "best_label": "Chess"
+        },
+        {
+          "key": "bare",
+          "score": 0.2337525635957718,
+          "rank": 50,
+          "best_label": "Spark plug"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2412310689687729,
+          "rank": 43,
+          "best_label": "Chess"
+        }
+      ],
+      "rank_range": 42
+    },
+    {
+      "icon_id": 52,
+      "label": "Confucianism",
+      "human_closeness": 1.32,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2909504771232605,
+          "rank": 1,
+          "best_label": "Confucianism"
+        },
+        {
+          "key": "bare",
+          "score": 0.27425506711006165,
+          "rank": 1,
+          "best_label": "Confucianism"
+        },
+        {
+          "key": "symbol",
+          "score": 0.30611032247543335,
+          "rank": 1,
+          "best_label": "Confucianism"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 53,
+      "label": "Connect",
+      "human_closeness": 3.38,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26008689403533936,
+          "rank": 106,
+          "best_label": "Electric shaver outlet"
+        },
+        {
+          "key": "bare",
+          "score": 0.2267720252275467,
+          "rank": 86,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24351729452610016,
+          "rank": 151,
+          "best_label": "Electric shaver outlet"
+        }
+      ],
+      "rank_range": 65
+    },
+    {
+      "icon_id": 54,
+      "label": "Convert multiple files",
+      "human_closeness": 1.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.29866620898246765,
+          "rank": 2,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "bare",
+          "score": 0.25176364183425903,
+          "rank": 21,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28728803992271423,
+          "rank": 9,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 55,
+      "label": "Conveyer belt",
+      "human_closeness": 2.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.29195037484169006,
+          "rank": 4,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.25099068880081177,
+          "rank": 20,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28790977597236633,
+          "rank": 1,
+          "best_label": "Conveyer belt"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 56,
+      "label": "Creel",
+      "human_closeness": 1.17,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2292163372039795,
+          "rank": 192,
+          "best_label": "Straining element"
+        },
+        {
+          "key": "bare",
+          "score": 0.2239861935377121,
+          "rank": 108,
+          "best_label": "Straining element"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26718759536743164,
+          "rank": 102,
+          "best_label": "Air cooled condenser"
+        }
+      ],
+      "rank_range": 90
+    },
+    {
+      "icon_id": 57,
+      "label": "Crop",
+      "human_closeness": 1.25,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23560450971126556,
+          "rank": 203,
+          "best_label": "Adjust contrast"
+        },
+        {
+          "key": "bare",
+          "score": 0.2286381870508194,
+          "rank": 70,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26979905366897583,
+          "rank": 52,
+          "best_label": "Library"
+        }
+      ],
+      "rank_range": 151
+    },
+    {
+      "icon_id": 58,
+      "label": "Cube",
+      "human_closeness": 4.86,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28469714522361755,
+          "rank": 4,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.29580843448638916,
+          "rank": 1,
+          "best_label": "Cube"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29702824354171753,
+          "rank": 1,
+          "best_label": "Cube"
+        }
+      ],
+      "rank_range": 3
+    },
+    {
+      "icon_id": 59,
+      "label": "Currency exchange",
+      "human_closeness": 3.07,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2531183958053589,
+          "rank": 79,
+          "best_label": "Fast rewind"
+        },
+        {
+          "key": "bare",
+          "score": 0.2322705090045929,
+          "rank": 66,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2530149221420288,
+          "rank": 21,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 58
+    },
+    {
+      "icon_id": 60,
+      "label": "Dam",
+      "human_closeness": 3.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24822619557380676,
+          "rank": 147,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.22058454155921936,
+          "rank": 89,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2553786039352417,
+          "rank": 46,
+          "best_label": "Added fabric web width"
+        }
+      ],
+      "rank_range": 101
+    },
+    {
+      "icon_id": 61,
+      "label": "Dangerous voltage",
+      "human_closeness": 2.79,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.298846960067749,
+          "rank": 2,
+          "best_label": "Punch marking"
+        },
+        {
+          "key": "bare",
+          "score": 0.25235918164253235,
+          "rank": 7,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.30494415760040283,
+          "rank": 1,
+          "best_label": "Dangerous voltage"
+        }
+      ],
+      "rank_range": 6
+    },
+    {
+      "icon_id": 62,
+      "label": "Debug",
+      "human_closeness": 3.48,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2898572087287903,
+          "rank": 1,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.2635866701602936,
+          "rank": 3,
+          "best_label": "Webcrawler"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2630501091480255,
+          "rank": 3,
+          "best_label": "Webcrawler"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 63,
+      "label": "Debug",
+      "human_closeness": 1.93,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2976381480693817,
+          "rank": 1,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.26116737723350525,
+          "rank": 2,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26577889919281006,
+          "rank": 3,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 64,
+      "label": "Desk set",
+      "human_closeness": 1.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.22706001996994019,
+          "rank": 90,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.20897646248340607,
+          "rank": 136,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "symbol",
+          "score": 0.214135080575943,
+          "rank": 180,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 90
+    },
+    {
+      "icon_id": 65,
+      "label": "Device driver",
+      "human_closeness": 1.11,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.280197411775589,
+          "rank": 36,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.25395166873931885,
+          "rank": 4,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27965840697288513,
+          "rank": 40,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 36
+    },
+    {
+      "icon_id": 66,
+      "label": "Diagnose",
+      "human_closeness": 2.67,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26837238669395447,
+          "rank": 80,
+          "best_label": "Punch marking"
+        },
+        {
+          "key": "bare",
+          "score": 0.225501149892807,
+          "rank": 100,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27256470918655396,
+          "rank": 115,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 35
+    },
+    {
+      "icon_id": 67,
+      "label": "Diamond extraction",
+      "human_closeness": 2.61,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3049412965774536,
+          "rank": 1,
+          "best_label": "Diamond extraction"
+        },
+        {
+          "key": "bare",
+          "score": 0.263796865940094,
+          "rank": 2,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "symbol",
+          "score": 0.30259785056114197,
+          "rank": 1,
+          "best_label": "Diamond extraction"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 68,
+      "label": "Discard files",
+      "human_closeness": 2.43,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.31716838479042053,
+          "rank": 1,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.26886385679244995,
+          "rank": 1,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29299962520599365,
+          "rank": 2,
+          "best_label": "Plasticizing cylinder with plunger"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 69,
+      "label": "Distressed vessel",
+      "human_closeness": 3.31,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24931207299232483,
+          "rank": 152,
+          "best_label": "Measure"
+        },
+        {
+          "key": "bare",
+          "score": 0.21562157571315765,
+          "rank": 141,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24068699777126312,
+          "rank": 221,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 80
+    },
+    {
+      "icon_id": 70,
+      "label": "Diver",
+      "human_closeness": 1.56,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2683560252189636,
+          "rank": 122,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "bare",
+          "score": 0.225345179438591,
+          "rank": 91,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26445332169532776,
+          "rank": 88,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 34
+    },
+    {
+      "icon_id": 71,
+      "label": "Draw",
+      "human_closeness": 2.52,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.286616712808609,
+          "rank": 4,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.259095162153244,
+          "rank": 9,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26203620433807373,
+          "rank": 26,
+          "best_label": "Spade"
+        }
+      ],
+      "rank_range": 22
+    },
+    {
+      "icon_id": 72,
+      "label": "Earthing point",
+      "human_closeness": 1.58,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2942315638065338,
+          "rank": 3,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.23884274065494537,
+          "rank": 26,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3028847873210907,
+          "rank": 22,
+          "best_label": "Centre alignment"
+        }
+      ],
+      "rank_range": 23
+    },
+    {
+      "icon_id": 73,
+      "label": "Educate",
+      "human_closeness": 3.12,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2372405081987381,
+          "rank": 211,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.20507362484931946,
+          "rank": 199,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2474355548620224,
+          "rank": 143,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 68
+    },
+    {
+      "icon_id": 74,
+      "label": "Eject",
+      "human_closeness": 2.43,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2624552547931671,
+          "rank": 102,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.21835067868232727,
+          "rank": 119,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25447186827659607,
+          "rank": 152,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 50
+    },
+    {
+      "icon_id": 75,
+      "label": "Electric shaver outlet",
+      "human_closeness": 3.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2893598675727844,
+          "rank": 2,
+          "best_label": "Macrobiotics"
+        },
+        {
+          "key": "bare",
+          "score": 0.23506182432174683,
+          "rank": 47,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26259902119636536,
+          "rank": 10,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 45
+    },
+    {
+      "icon_id": 76,
+      "label": "Electric transmission",
+      "human_closeness": 3.48,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.31989434361457825,
+          "rank": 1,
+          "best_label": "Electric transmission"
+        },
+        {
+          "key": "bare",
+          "score": 0.2670387029647827,
+          "rank": 1,
+          "best_label": "Electric transmission"
+        },
+        {
+          "key": "symbol",
+          "score": 0.31356117129325867,
+          "rank": 1,
+          "best_label": "Electric transmission"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 77,
+      "label": "Electrical loop",
+      "human_closeness": 1.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2716645896434784,
+          "rank": 40,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2342255413532257,
+          "rank": 34,
+          "best_label": "File manager"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2681635320186615,
+          "rank": 63,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 29
+    },
+    {
+      "icon_id": 78,
+      "label": "Electrical precipitator",
+      "human_closeness": 1.17,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.29145050048828125,
+          "rank": 13,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.265718013048172,
+          "rank": 12,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.294729083776474,
+          "rank": 4,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 9
+    },
+    {
+      "icon_id": 79,
+      "label": "End of reel",
+      "human_closeness": 2.17,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2693009078502655,
+          "rank": 90,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "bare",
+          "score": 0.23734791576862335,
+          "rank": 55,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28392907977104187,
+          "rank": 82,
+          "best_label": "Oscillating motor"
+        }
+      ],
+      "rank_range": 35
+    },
+    {
+      "icon_id": 80,
+      "label": "Engage pile-raising roller",
+      "human_closeness": 1.92,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.30459946393966675,
+          "rank": 3,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "bare",
+          "score": 0.2592848241329193,
+          "rank": 6,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2877258360385895,
+          "rank": 2,
+          "best_label": "Oscillating motor"
+        }
+      ],
+      "rank_range": 4
+    },
+    {
+      "icon_id": 81,
+      "label": "Engagement of seat belt",
+      "human_closeness": 4.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28995922207832336,
+          "rank": 5,
+          "best_label": "Winter sports area"
+        },
+        {
+          "key": "bare",
+          "score": 0.2290334850549698,
+          "rank": 64,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2802909016609192,
+          "rank": 4,
+          "best_label": "Winter sports area"
+        }
+      ],
+      "rank_range": 60
+    },
+    {
+      "icon_id": 82,
+      "label": "Entrance",
+      "human_closeness": 3.36,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24058106541633606,
+          "rank": 191,
+          "best_label": "Convert multiple files"
+        },
+        {
+          "key": "bare",
+          "score": 0.19277647137641907,
+          "rank": 228,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2602176070213318,
+          "rank": 131,
+          "best_label": "Automatic control (closed loop)"
+        }
+      ],
+      "rank_range": 97
+    },
+    {
+      "icon_id": 83,
+      "label": "Equipotentials",
+      "human_closeness": 2.78,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2791203260421753,
+          "rank": 64,
+          "best_label": "Rotary vacuum filter"
+        },
+        {
+          "key": "bare",
+          "score": 0.23816579580307007,
+          "rank": 59,
+          "best_label": "Rotary vacuum filter"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2700696289539337,
+          "rank": 95,
+          "best_label": "Rotary vacuum filter"
+        }
+      ],
+      "rank_range": 36
+    },
+    {
+      "icon_id": 84,
+      "label": "External cylindrical grinding",
+      "human_closeness": 2.13,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2647468149662018,
+          "rank": 41,
+          "best_label": "Device driver"
+        },
+        {
+          "key": "bare",
+          "score": 0.22461822628974915,
+          "rank": 77,
+          "best_label": "Device driver"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2705065906047821,
+          "rank": 24,
+          "best_label": "Debug"
+        }
+      ],
+      "rank_range": 53
+    },
+    {
+      "icon_id": 85,
+      "label": "External hard disk",
+      "human_closeness": 1.86,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2947508990764618,
+          "rank": 6,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.24301204085350037,
+          "rank": 33,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27114999294281006,
+          "rank": 7,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 27
+    },
+    {
+      "icon_id": 86,
+      "label": "External honing",
+      "human_closeness": 1.66,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25531408190727234,
+          "rank": 86,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.22577661275863647,
+          "rank": 110,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2542385756969452,
+          "rank": 76,
+          "best_label": "Fixed bed reactor"
+        }
+      ],
+      "rank_range": 34
+    },
+    {
+      "icon_id": 87,
+      "label": "Fallout shelter",
+      "human_closeness": 1.52,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2586919069290161,
+          "rank": 163,
+          "best_label": "Diamond extraction"
+        },
+        {
+          "key": "bare",
+          "score": 0.23203133046627045,
+          "rank": 87,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28288307785987854,
+          "rank": 51,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 112
+    },
+    {
+      "icon_id": 88,
+      "label": "Fan",
+      "human_closeness": 3.36,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24610772728919983,
+          "rank": 173,
+          "best_label": "Rotary vacuum filter"
+        },
+        {
+          "key": "bare",
+          "score": 0.2432132512331009,
+          "rank": 34,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2845359444618225,
+          "rank": 8,
+          "best_label": "Rotary vacuum filter"
+        }
+      ],
+      "rank_range": 165
+    },
+    {
+      "icon_id": 89,
+      "label": "Farm kitchen",
+      "human_closeness": 1.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2650872766971588,
+          "rank": 89,
+          "best_label": "Plasticizing cylinder with plunger"
+        },
+        {
+          "key": "bare",
+          "score": 0.2179044634103775,
+          "rank": 141,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26132386922836304,
+          "rank": 78,
+          "best_label": "Plasticizing cylinder with plunger"
+        }
+      ],
+      "rank_range": 63
+    },
+    {
+      "icon_id": 90,
+      "label": "Fast",
+      "human_closeness": 3.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2510414719581604,
+          "rank": 120,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.22544315457344055,
+          "rank": 42,
+          "best_label": "Mouse"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25896018743515015,
+          "rank": 50,
+          "best_label": "Mouse"
+        }
+      ],
+      "rank_range": 78
+    },
+    {
+      "icon_id": 91,
+      "label": "Fast forward",
+      "human_closeness": 3.38,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25247207283973694,
+          "rank": 132,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.21469144523143768,
+          "rank": 171,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26343005895614624,
+          "rank": 107,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 64
+    },
+    {
+      "icon_id": 92,
+      "label": "Fast rewind",
+      "human_closeness": 3.0,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2581852078437805,
+          "rank": 75,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.2080245316028595,
+          "rank": 176,
+          "best_label": "Device driver"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24504534900188446,
+          "rank": 158,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 101
+    },
+    {
+      "icon_id": 93,
+      "label": "Female",
+      "human_closeness": 2.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2846832573413849,
+          "rank": 3,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "bare",
+          "score": 0.21222317218780518,
+          "rank": 109,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.32166603207588196,
+          "rank": 1,
+          "best_label": "Female"
+        }
+      ],
+      "rank_range": 108
+    },
+    {
+      "icon_id": 94,
+      "label": "Fighter",
+      "human_closeness": 3.69,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2782570719718933,
+          "rank": 2,
+          "best_label": "Missile in flight"
+        },
+        {
+          "key": "bare",
+          "score": 0.25649774074554443,
+          "rank": 3,
+          "best_label": "Navy"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2608655095100403,
+          "rank": 21,
+          "best_label": "Missile in flight"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 95,
+      "label": "File manager",
+      "human_closeness": 3.24,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.30385032296180725,
+          "rank": 3,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2744395136833191,
+          "rank": 3,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27837562561035156,
+          "rank": 6,
+          "best_label": "Electric shaver outlet"
+        }
+      ],
+      "rank_range": 3
+    },
+    {
+      "icon_id": 96,
+      "label": "Films",
+      "human_closeness": 4.33,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24704688787460327,
+          "rank": 157,
+          "best_label": "Tubular film die"
+        },
+        {
+          "key": "bare",
+          "score": 0.25606513023376465,
+          "rank": 24,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26676639914512634,
+          "rank": 32,
+          "best_label": "Tubular film die"
+        }
+      ],
+      "rank_range": 133
+    },
+    {
+      "icon_id": 97,
+      "label": "Films",
+      "human_closeness": 2.79,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.22071677446365356,
+          "rank": 199,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.20991337299346924,
+          "rank": 157,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2074602097272873,
+          "rank": 166,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 42
+    },
+    {
+      "icon_id": 98,
+      "label": "First aid",
+      "human_closeness": 2.29,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3167262673377991,
+          "rank": 1,
+          "best_label": "First aid"
+        },
+        {
+          "key": "bare",
+          "score": 0.27289554476737976,
+          "rank": 1,
+          "best_label": "First aid"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3098459839820862,
+          "rank": 1,
+          "best_label": "First aid"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 99,
+      "label": "Fixed bed reactor",
+      "human_closeness": 1.32,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28680628538131714,
+          "rank": 22,
+          "best_label": "Cleaning of chain-link"
+        },
+        {
+          "key": "bare",
+          "score": 0.2630341053009033,
+          "rank": 6,
+          "best_label": "Spark coil-ignition element"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2957943081855774,
+          "rank": 3,
+          "best_label": "Typewriter"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 100,
+      "label": "Focal plane",
+      "human_closeness": 1.62,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28276798129081726,
+          "rank": 12,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "bare",
+          "score": 0.2555113732814789,
+          "rank": 8,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2810842990875244,
+          "rank": 71,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 63
+    },
+    {
+      "icon_id": 101,
+      "label": "Food processing industry",
+      "human_closeness": 2.76,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25906163454055786,
+          "rank": 41,
+          "best_label": "Kitchen"
+        },
+        {
+          "key": "bare",
+          "score": 0.2561764419078827,
+          "rank": 1,
+          "best_label": "Food processing industry"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27169474959373474,
+          "rank": 3,
+          "best_label": "Kitchen"
+        }
+      ],
+      "rank_range": 40
+    },
+    {
+      "icon_id": 102,
+      "label": "Football",
+      "human_closeness": 4.83,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.19859157502651215,
+          "rank": 221,
+          "best_label": "Button"
+        },
+        {
+          "key": "bare",
+          "score": 0.21714694797992706,
+          "rank": 88,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23313413560390472,
+          "rank": 87,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 134
+    },
+    {
+      "icon_id": 103,
+      "label": "Football ground",
+      "human_closeness": 2.31,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26545360684394836,
+          "rank": 52,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "bare",
+          "score": 0.22595380246639252,
+          "rank": 92,
+          "best_label": "Football"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2770788073539734,
+          "rank": 6,
+          "best_label": "Football"
+        }
+      ],
+      "rank_range": 86
+    },
+    {
+      "icon_id": 104,
+      "label": "Frog",
+      "human_closeness": 4.88,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25529566407203674,
+          "rank": 9,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.25219962000846863,
+          "rank": 2,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24309244751930237,
+          "rank": 3,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 7
+    },
+    {
+      "icon_id": 105,
+      "label": "Fun",
+      "human_closeness": 3.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24675226211547852,
+          "rank": 10,
+          "best_label": "Button"
+        },
+        {
+          "key": "bare",
+          "score": 0.2249886393547058,
+          "rank": 27,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2333614081144333,
+          "rank": 5,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 22
+    },
+    {
+      "icon_id": 106,
+      "label": "Gastropods",
+      "human_closeness": 1.74,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2775439918041229,
+          "rank": 2,
+          "best_label": "Earthing point"
+        },
+        {
+          "key": "bare",
+          "score": 0.2513529360294342,
+          "rank": 9,
+          "best_label": "Spade"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2799105644226074,
+          "rank": 9,
+          "best_label": "Spade"
+        }
+      ],
+      "rank_range": 7
+    },
+    {
+      "icon_id": 107,
+      "label": "Gents toilets",
+      "human_closeness": 3.33,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26898646354675293,
+          "rank": 16,
+          "best_label": "Male"
+        },
+        {
+          "key": "bare",
+          "score": 0.22478386759757996,
+          "rank": 47,
+          "best_label": "Device driver"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2579599916934967,
+          "rank": 6,
+          "best_label": "Male"
+        }
+      ],
+      "rank_range": 41
+    },
+    {
+      "icon_id": 108,
+      "label": "Go rapidly",
+      "human_closeness": 3.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2564292550086975,
+          "rank": 55,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.23114310204982758,
+          "rank": 21,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2423868477344513,
+          "rank": 53,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 34
+    },
+    {
+      "icon_id": 109,
+      "label": "Graph",
+      "human_closeness": 4.12,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2834012806415558,
+          "rank": 56,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2394942194223404,
+          "rank": 43,
+          "best_label": "Cube"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23667879402637482,
+          "rank": 179,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 136
+    },
+    {
+      "icon_id": 110,
+      "label": "Gravel pit",
+      "human_closeness": 2.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2474660575389862,
+          "rank": 132,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.21712292730808258,
+          "rank": 147,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26463770866394043,
+          "rank": 28,
+          "best_label": "Beating process of fabrics"
+        }
+      ],
+      "rank_range": 119
+    },
+    {
+      "icon_id": 111,
+      "label": "Handle with care",
+      "human_closeness": 3.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2951858639717102,
+          "rank": 3,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "bare",
+          "score": 0.22870571911334991,
+          "rank": 39,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26164883375167847,
+          "rank": 77,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 74
+    },
+    {
+      "icon_id": 112,
+      "label": "Headlamp cleaner",
+      "human_closeness": 3.03,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27406129240989685,
+          "rank": 28,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.23452913761138916,
+          "rank": 59,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2619476020336151,
+          "rank": 29,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 31
+    },
+    {
+      "icon_id": 113,
+      "label": "Heavy manufacturing",
+      "human_closeness": 2.12,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2667570114135742,
+          "rank": 106,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.23551058769226074,
+          "rank": 41,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2747862637042999,
+          "rank": 45,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 65
+    },
+    {
+      "icon_id": 114,
+      "label": "Heliport",
+      "human_closeness": 4.0,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3000353276729584,
+          "rank": 1,
+          "best_label": "Heliport"
+        },
+        {
+          "key": "bare",
+          "score": 0.2685736119747162,
+          "rank": 1,
+          "best_label": "Heliport"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3030387759208679,
+          "rank": 1,
+          "best_label": "Heliport"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 115,
+      "label": "Hierarchy",
+      "human_closeness": 2.67,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2880634367465973,
+          "rank": 14,
+          "best_label": "Centre alignment"
+        },
+        {
+          "key": "bare",
+          "score": 0.23670077323913574,
+          "rank": 48,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2826594114303589,
+          "rank": 36,
+          "best_label": "Centre alignment"
+        }
+      ],
+      "rank_range": 34
+    },
+    {
+      "icon_id": 116,
+      "label": "High water level in laundry machines",
+      "human_closeness": 2.62,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2520490288734436,
+          "rank": 166,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.1908292919397354,
+          "rank": 214,
+          "best_label": "Wall"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2467741221189499,
+          "rank": 177,
+          "best_label": "Chess"
+        }
+      ],
+      "rank_range": 48
+    },
+    {
+      "icon_id": 117,
+      "label": "Hiking trail",
+      "human_closeness": 2.81,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24415223300457,
+          "rank": 169,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2002740353345871,
+          "rank": 220,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23348572850227356,
+          "rank": 207,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 51
+    },
+    {
+      "icon_id": 118,
+      "label": "Information",
+      "human_closeness": 1.33,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2674316167831421,
+          "rank": 55,
+          "best_label": "Tubular film die"
+        },
+        {
+          "key": "bare",
+          "score": 0.22662785649299622,
+          "rank": 92,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24854104220867157,
+          "rank": 141,
+          "best_label": "Tubular film die"
+        }
+      ],
+      "rank_range": 86
+    },
+    {
+      "icon_id": 119,
+      "label": "Inject reacting resin",
+      "human_closeness": 1.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2639806270599365,
+          "rank": 130,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "bare",
+          "score": 0.22319874167442322,
+          "rank": 146,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25357285141944885,
+          "rank": 199,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 69
+    },
+    {
+      "icon_id": 120,
+      "label": "Insert object linking and embedding file",
+      "human_closeness": 1.13,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2619456350803375,
+          "rank": 55,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.23883047699928284,
+          "rank": 32,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25000905990600586,
+          "rank": 46,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 23
+    },
+    {
+      "icon_id": 121,
+      "label": "Inspect",
+      "human_closeness": 2.6,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2722010910511017,
+          "rank": 33,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.23600386083126068,
+          "rank": 47,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2624107897281647,
+          "rank": 15,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 32
+    },
+    {
+      "icon_id": 122,
+      "label": "Instrument illumination",
+      "human_closeness": 2.0,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2666371464729309,
+          "rank": 108,
+          "best_label": "Timed page cancelled"
+        },
+        {
+          "key": "bare",
+          "score": 0.23660151660442352,
+          "rank": 69,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26030534505844116,
+          "rank": 102,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 39
+    },
+    {
+      "icon_id": 123,
+      "label": "Ionising radiation",
+      "human_closeness": 2.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.33592087030410767,
+          "rank": 3,
+          "best_label": "Non-ionising radiation"
+        },
+        {
+          "key": "bare",
+          "score": 0.31043100357055664,
+          "rank": 1,
+          "best_label": "Ionising radiation"
+        },
+        {
+          "key": "symbol",
+          "score": 0.33052247762680054,
+          "rank": 2,
+          "best_label": "Non-ionising radiation"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 124,
+      "label": "Iris diaphragm: Open",
+      "human_closeness": 2.85,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28862547874450684,
+          "rank": 6,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.25170978903770447,
+          "rank": 7,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27617010474205017,
+          "rank": 140,
+          "best_label": "Added fabric web width"
+        }
+      ],
+      "rank_range": 134
+    },
+    {
+      "icon_id": 125,
+      "label": "Iron",
+      "human_closeness": 1.86,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2570336163043976,
+          "rank": 151,
+          "best_label": "Fixed bed reactor"
+        },
+        {
+          "key": "bare",
+          "score": 0.24663059413433075,
+          "rank": 24,
+          "best_label": "Fixed bed reactor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2631976306438446,
+          "rank": 53,
+          "best_label": "Fixed bed reactor"
+        }
+      ],
+      "rank_range": 127
+    },
+    {
+      "icon_id": 126,
+      "label": "Jacketed reactor",
+      "human_closeness": 1.46,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3512174189090729,
+          "rank": 1,
+          "best_label": "Jacketed reactor"
+        },
+        {
+          "key": "bare",
+          "score": 0.3053731918334961,
+          "rank": 1,
+          "best_label": "Jacketed reactor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3415450155735016,
+          "rank": 1,
+          "best_label": "Jacketed reactor"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 127,
+      "label": "Justice",
+      "human_closeness": 2.74,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2300068438053131,
+          "rank": 161,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.22840410470962524,
+          "rank": 53,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24074102938175201,
+          "rank": 31,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 130
+    },
+    {
+      "icon_id": 128,
+      "label": "Kitchen",
+      "human_closeness": 2.79,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2521473169326782,
+          "rank": 59,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.22814585268497467,
+          "rank": 102,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2543162703514099,
+          "rank": 21,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 81
+    },
+    {
+      "icon_id": 129,
+      "label": "Laminate",
+      "human_closeness": 2.15,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25683632493019104,
+          "rank": 152,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.2246088683605194,
+          "rank": 114,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2657429873943329,
+          "rank": 87,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 65
+    },
+    {
+      "icon_id": 130,
+      "label": "Launch application program",
+      "human_closeness": 3.29,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27879372239112854,
+          "rank": 46,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.23133009672164917,
+          "rank": 30,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2529517710208893,
+          "rank": 67,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 37
+    },
+    {
+      "icon_id": 131,
+      "label": "Library",
+      "human_closeness": 3.43,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2684309482574463,
+          "rank": 5,
+          "best_label": "Building"
+        },
+        {
+          "key": "bare",
+          "score": 0.2102138251066208,
+          "rank": 102,
+          "best_label": "Building"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24885831773281097,
+          "rank": 12,
+          "best_label": "Building"
+        }
+      ],
+      "rank_range": 97
+    },
+    {
+      "icon_id": 132,
+      "label": "Lift",
+      "human_closeness": 4.76,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2891390025615692,
+          "rank": 1,
+          "best_label": "Lift"
+        },
+        {
+          "key": "bare",
+          "score": 0.27609047293663025,
+          "rank": 1,
+          "best_label": "Lift"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2646753787994385,
+          "rank": 13,
+          "best_label": "Gents toilets"
+        }
+      ],
+      "rank_range": 12
+    },
+    {
+      "icon_id": 133,
+      "label": "Lift",
+      "human_closeness": 1.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28047889471054077,
+          "rank": 32,
+          "best_label": "Insert object linking and embedding file"
+        },
+        {
+          "key": "bare",
+          "score": 0.24293237924575806,
+          "rank": 35,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27460402250289917,
+          "rank": 51,
+          "best_label": "Automatic control (closed loop)"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 134,
+      "label": "Line vessel",
+      "human_closeness": 1.62,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3019132912158966,
+          "rank": 3,
+          "best_label": "Distressed vessel"
+        },
+        {
+          "key": "bare",
+          "score": 0.25349023938179016,
+          "rank": 4,
+          "best_label": "Christianity"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27260804176330566,
+          "rank": 67,
+          "best_label": "Navy"
+        }
+      ],
+      "rank_range": 64
+    },
+    {
+      "icon_id": 135,
+      "label": "Links to other web sites",
+      "human_closeness": 2.12,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25392773747444153,
+          "rank": 12,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.22545050084590912,
+          "rank": 29,
+          "best_label": "Straining element"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24791079759597778,
+          "rank": 87,
+          "best_label": "Handle with care"
+        }
+      ],
+      "rank_range": 75
+    },
+    {
+      "icon_id": 136,
+      "label": "Lock",
+      "human_closeness": 4.57,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27919769287109375,
+          "rank": 11,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.26388636231422424,
+          "rank": 2,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2939510941505432,
+          "rank": 1,
+          "best_label": "Lock"
+        }
+      ],
+      "rank_range": 10
+    },
+    {
+      "icon_id": 137,
+      "label": "Loudspeaker connection",
+      "human_closeness": 3.24,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2882106602191925,
+          "rank": 13,
+          "best_label": "Focal plane"
+        },
+        {
+          "key": "bare",
+          "score": 0.25047194957733154,
+          "rank": 21,
+          "best_label": "Focal plane"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29161426424980164,
+          "rank": 11,
+          "best_label": "Cube"
+        }
+      ],
+      "rank_range": 10
+    },
+    {
+      "icon_id": 138,
+      "label": "Lumber industry",
+      "human_closeness": 3.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24265792965888977,
+          "rank": 194,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.21657495200634003,
+          "rank": 176,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.255424439907074,
+          "rank": 132,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 62
+    },
+    {
+      "icon_id": 139,
+      "label": "Mace",
+      "human_closeness": 3.85,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25285670161247253,
+          "rank": 16,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2294825166463852,
+          "rank": 56,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26098257303237915,
+          "rank": 10,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 46
+    },
+    {
+      "icon_id": 140,
+      "label": "Macrobiotics",
+      "human_closeness": 1.24,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2870481312274933,
+          "rank": 3,
+          "best_label": "Confucianism"
+        },
+        {
+          "key": "bare",
+          "score": 0.24511337280273438,
+          "rank": 9,
+          "best_label": "Confucianism"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27360934019088745,
+          "rank": 23,
+          "best_label": "Confucianism"
+        }
+      ],
+      "rank_range": 20
+    },
+    {
+      "icon_id": 141,
+      "label": "Magnify",
+      "human_closeness": 3.64,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24979548156261444,
+          "rank": 155,
+          "best_label": "Gastropods"
+        },
+        {
+          "key": "bare",
+          "score": 0.22153376042842865,
+          "rank": 134,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23789340257644653,
+          "rank": 175,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 41
+    },
+    {
+      "icon_id": 142,
+      "label": "Mail merge main document",
+      "human_closeness": 1.83,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2817274332046509,
+          "rank": 14,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.24981318414211273,
+          "rank": 26,
+          "best_label": "File manager"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26075026392936707,
+          "rank": 23,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 12
+    },
+    {
+      "icon_id": 143,
+      "label": "Male",
+      "human_closeness": 2.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2756514549255371,
+          "rank": 19,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "bare",
+          "score": 0.23418070375919342,
+          "rank": 43,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.30200329422950745,
+          "rank": 2,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 41
+    },
+    {
+      "icon_id": 144,
+      "label": "Manual control",
+      "human_closeness": 3.12,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28218308091163635,
+          "rank": 9,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.24587181210517883,
+          "rank": 15,
+          "best_label": "Punch marking"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2910374701023102,
+          "rank": 3,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 12
+    },
+    {
+      "icon_id": 145,
+      "label": "Measure",
+      "human_closeness": 2.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26696518063545227,
+          "rank": 41,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "bare",
+          "score": 0.23355795443058014,
+          "rank": 40,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2466977834701538,
+          "rank": 98,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 58
+    },
+    {
+      "icon_id": 146,
+      "label": "Microphone",
+      "human_closeness": 4.86,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24677906930446625,
+          "rank": 59,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2522852420806885,
+          "rank": 9,
+          "best_label": "Bending"
+        },
+        {
+          "key": "symbol",
+          "score": 0.22960864007472992,
+          "rank": 54,
+          "best_label": "Diver"
+        }
+      ],
+      "rank_range": 50
+    },
+    {
+      "icon_id": 147,
+      "label": "Mineral spring",
+      "human_closeness": 2.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26607441902160645,
+          "rank": 53,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.2325136810541153,
+          "rank": 22,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2738896906375885,
+          "rank": 11,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 42
+    },
+    {
+      "icon_id": 148,
+      "label": "Missile in flight",
+      "human_closeness": 2.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.30468136072158813,
+          "rank": 1,
+          "best_label": "Missile in flight"
+        },
+        {
+          "key": "bare",
+          "score": 0.2805708944797516,
+          "rank": 2,
+          "best_label": "Arc ignition by contact"
+        },
+        {
+          "key": "symbol",
+          "score": 0.32214662432670593,
+          "rank": 1,
+          "best_label": "Missile in flight"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 149,
+      "label": "Module",
+      "human_closeness": 1.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2698802947998047,
+          "rank": 46,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.23303282260894775,
+          "rank": 44,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2776435315608978,
+          "rank": 14,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 32
+    },
+    {
+      "icon_id": 150,
+      "label": "Mouse",
+      "human_closeness": 4.57,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24922247231006622,
+          "rank": 62,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2348024994134903,
+          "rank": 44,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.228252112865448,
+          "rank": 71,
+          "best_label": "Mace"
+        }
+      ],
+      "rank_range": 27
+    },
+    {
+      "icon_id": 151,
+      "label": "Mouse connection",
+      "human_closeness": 3.52,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26329728960990906,
+          "rank": 95,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.23022150993347168,
+          "rank": 93,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26140260696411133,
+          "rank": 114,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 21
+    },
+    {
+      "icon_id": 152,
+      "label": "Mouse properties",
+      "human_closeness": 2.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2675001323223114,
+          "rank": 8,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.25458842515945435,
+          "rank": 6,
+          "best_label": "Line vessel"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25215399265289307,
+          "rank": 6,
+          "best_label": "Plasticizing cylinder with plunger"
+        }
+      ],
+      "rank_range": 2
+    },
+    {
+      "icon_id": 153,
+      "label": "Museum",
+      "human_closeness": 1.98,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25365060567855835,
+          "rank": 191,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.21335549652576447,
+          "rank": 158,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24359232187271118,
+          "rank": 113,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 78
+    },
+    {
+      "icon_id": 154,
+      "label": "Naughty",
+      "human_closeness": 3.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2425215095281601,
+          "rank": 29,
+          "best_label": "Fast rewind"
+        },
+        {
+          "key": "bare",
+          "score": 0.21541514992713928,
+          "rank": 117,
+          "best_label": "Spark plug"
+        },
+        {
+          "key": "symbol",
+          "score": 0.22467836737632751,
+          "rank": 23,
+          "best_label": "Spark plug"
+        }
+      ],
+      "rank_range": 94
+    },
+    {
+      "icon_id": 155,
+      "label": "Navy",
+      "human_closeness": 3.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2793712019920349,
+          "rank": 18,
+          "best_label": "Line vessel"
+        },
+        {
+          "key": "bare",
+          "score": 0.2853516936302185,
+          "rank": 1,
+          "best_label": "Navy"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3122444748878479,
+          "rank": 1,
+          "best_label": "Navy"
+        }
+      ],
+      "rank_range": 17
+    },
+    {
+      "icon_id": 156,
+      "label": "No entry",
+      "human_closeness": 2.79,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2523982524871826,
+          "rank": 96,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.222615048289299,
+          "rank": 61,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2603224813938141,
+          "rank": 59,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 37
+    },
+    {
+      "icon_id": 157,
+      "label": "No entry",
+      "human_closeness": 2.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25255683064460754,
+          "rank": 119,
+          "best_label": "Smooth edges"
+        },
+        {
+          "key": "bare",
+          "score": 0.23386138677597046,
+          "rank": 28,
+          "best_label": "Button"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2762807309627533,
+          "rank": 45,
+          "best_label": "External honing"
+        }
+      ],
+      "rank_range": 91
+    },
+    {
+      "icon_id": 158,
+      "label": "No entry",
+      "human_closeness": 1.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25562843680381775,
+          "rank": 171,
+          "best_label": "Male"
+        },
+        {
+          "key": "bare",
+          "score": 0.21621203422546387,
+          "rank": 120,
+          "best_label": "Christianity"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2548198401927948,
+          "rank": 100,
+          "best_label": "Male"
+        }
+      ],
+      "rank_range": 71
+    },
+    {
+      "icon_id": 159,
+      "label": "No!",
+      "human_closeness": 2.07,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28323501348495483,
+          "rank": 17,
+          "best_label": "Button"
+        },
+        {
+          "key": "bare",
+          "score": 0.23212486505508423,
+          "rank": 72,
+          "best_label": "Button"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2634252607822418,
+          "rank": 98,
+          "best_label": "Button"
+        }
+      ],
+      "rank_range": 81
+    },
+    {
+      "icon_id": 160,
+      "label": "Noise",
+      "human_closeness": 2.4,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2591172456741333,
+          "rank": 23,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "bare",
+          "score": 0.2592185437679291,
+          "rank": 6,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.270591139793396,
+          "rank": 5,
+          "best_label": "Loudspeaker connection"
+        }
+      ],
+      "rank_range": 18
+    },
+    {
+      "icon_id": 161,
+      "label": "Non-ionising radiation",
+      "human_closeness": 1.59,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27322062849998474,
+          "rank": 24,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "bare",
+          "score": 0.25222089886665344,
+          "rank": 5,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27868783473968506,
+          "rank": 5,
+          "best_label": "Loudspeaker connection"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 162,
+      "label": "Note",
+      "human_closeness": 3.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2629885673522949,
+          "rank": 20,
+          "best_label": "Spade"
+        },
+        {
+          "key": "bare",
+          "score": 0.22531995177268982,
+          "rank": 88,
+          "best_label": "Mouse"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2318417876958847,
+          "rank": 98,
+          "best_label": "Mouse"
+        }
+      ],
+      "rank_range": 78
+    },
+    {
+      "icon_id": 163,
+      "label": "Open half-nut",
+      "human_closeness": 2.13,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2629082500934601,
+          "rank": 112,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.22849270701408386,
+          "rank": 100,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26516470313072205,
+          "rank": 107,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 12
+    },
+    {
+      "icon_id": 164,
+      "label": "Open location",
+      "human_closeness": 1.33,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24520054459571838,
+          "rank": 122,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.21328075230121613,
+          "rank": 164,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25066742300987244,
+          "rank": 109,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 55
+    },
+    {
+      "icon_id": 165,
+      "label": "Open shade",
+      "human_closeness": 1.64,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2490050196647644,
+          "rank": 59,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.19955593347549438,
+          "rank": 161,
+          "best_label": "Device driver"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25112080574035645,
+          "rank": 19,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 142
+    },
+    {
+      "icon_id": 166,
+      "label": "Opening of selvedge loops",
+      "human_closeness": 1.68,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2743644714355469,
+          "rank": 12,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "bare",
+          "score": 0.23689886927604675,
+          "rank": 57,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26978588104248047,
+          "rank": 107,
+          "best_label": "Oscillating motor"
+        }
+      ],
+      "rank_range": 95
+    },
+    {
+      "icon_id": 167,
+      "label": "Oscillating motor",
+      "human_closeness": 1.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2865171432495117,
+          "rank": 14,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.24726510047912598,
+          "rank": 10,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27018502354621887,
+          "rank": 100,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 90
+    },
+    {
+      "icon_id": 168,
+      "label": "Paper industry",
+      "human_closeness": 2.71,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25004902482032776,
+          "rank": 177,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "bare",
+          "score": 0.21992464363574982,
+          "rank": 131,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25610601902008057,
+          "rank": 160,
+          "best_label": "Loudspeaker connection"
+        }
+      ],
+      "rank_range": 46
+    },
+    {
+      "icon_id": 169,
+      "label": "Paradox",
+      "human_closeness": 2.17,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2663322389125824,
+          "rank": 92,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.21954117715358734,
+          "rank": 133,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24824540317058563,
+          "rank": 161,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 69
+    },
+    {
+      "icon_id": 170,
+      "label": "Pause",
+      "human_closeness": 2.07,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26104915142059326,
+          "rank": 66,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.21026189625263214,
+          "rank": 191,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25217747688293457,
+          "rank": 149,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 125
+    },
+    {
+      "icon_id": 171,
+      "label": "Peace",
+      "human_closeness": 1.98,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2830606698989868,
+          "rank": 2,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2731863260269165,
+          "rank": 1,
+          "best_label": "Peace"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29736757278442383,
+          "rank": 1,
+          "best_label": "Peace"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 172,
+      "label": "Picnic area",
+      "human_closeness": 3.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27039283514022827,
+          "rank": 55,
+          "best_label": "Add task"
+        },
+        {
+          "key": "bare",
+          "score": 0.21780453622341156,
+          "rank": 93,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2739947736263275,
+          "rank": 11,
+          "best_label": "Lumber industry"
+        }
+      ],
+      "rank_range": 82
+    },
+    {
+      "icon_id": 173,
+      "label": "Plasticizing cylinder with plunger",
+      "human_closeness": 2.05,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28178778290748596,
+          "rank": 48,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.24270497262477875,
+          "rank": 45,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2783055305480957,
+          "rank": 77,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 32
+    },
+    {
+      "icon_id": 174,
+      "label": "Plate column",
+      "human_closeness": 1.69,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3007206916809082,
+          "rank": 2,
+          "best_label": "Plasticizing cylinder with plunger"
+        },
+        {
+          "key": "bare",
+          "score": 0.2798634469509125,
+          "rank": 4,
+          "best_label": "Scale of measurement"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28166547417640686,
+          "rank": 12,
+          "best_label": "Plasticizing cylinder with plunger"
+        }
+      ],
+      "rank_range": 10
+    },
+    {
+      "icon_id": 175,
+      "label": "Polishing process of fabrics",
+      "human_closeness": 1.32,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25900954008102417,
+          "rank": 140,
+          "best_label": "Engage pile-raising roller"
+        },
+        {
+          "key": "bare",
+          "score": 0.2211146354675293,
+          "rank": 160,
+          "best_label": "Spade"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2406163513660431,
+          "rank": 186,
+          "best_label": "Engage pile-raising roller"
+        }
+      ],
+      "rank_range": 46
+    },
+    {
+      "icon_id": 176,
+      "label": "Portable files",
+      "human_closeness": 2.57,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3111831247806549,
+          "rank": 1,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.28718772530555725,
+          "rank": 1,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29443344473838806,
+          "rank": 1,
+          "best_label": "Portable files"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 177,
+      "label": "Press tool",
+      "human_closeness": 2.38,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27786707878112793,
+          "rank": 17,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.2521263659000397,
+          "rank": 5,
+          "best_label": "Fixed bed reactor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27973201870918274,
+          "rank": 10,
+          "best_label": "Fixed bed reactor"
+        }
+      ],
+      "rank_range": 12
+    },
+    {
+      "icon_id": 178,
+      "label": "Product",
+      "human_closeness": 1.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2625281512737274,
+          "rank": 70,
+          "best_label": "Smooth edges"
+        },
+        {
+          "key": "bare",
+          "score": 0.23438958823680878,
+          "rank": 53,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26969942450523376,
+          "rank": 24,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 46
+    },
+    {
+      "icon_id": 179,
+      "label": "Protect from heat and radioactive",
+      "human_closeness": 2.6,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28763383626937866,
+          "rank": 2,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.23466262221336365,
+          "rank": 57,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2803317606449127,
+          "rank": 7,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 55
+    },
+    {
+      "icon_id": 180,
+      "label": "Punch marking",
+      "human_closeness": 2.68,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2924874424934387,
+          "rank": 2,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.2479296177625656,
+          "rank": 16,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29560837149620056,
+          "rank": 6,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 14
+    },
+    {
+      "icon_id": 181,
+      "label": "Radiation of laser apparatus",
+      "human_closeness": 1.83,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27498310804367065,
+          "rank": 50,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "bare",
+          "score": 0.22481806576251984,
+          "rank": 89,
+          "best_label": "Spark coil-ignition element"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27746522426605225,
+          "rank": 49,
+          "best_label": "Rotary vacuum filter"
+        }
+      ],
+      "rank_range": 40
+    },
+    {
+      "icon_id": 182,
+      "label": "Random Access Memory (RAM)",
+      "human_closeness": 2.0,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24773715436458588,
+          "rank": 60,
+          "best_label": "Fast rewind"
+        },
+        {
+          "key": "bare",
+          "score": 0.22684918344020844,
+          "rank": 111,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23294314742088318,
+          "rank": 116,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 56
+    },
+    {
+      "icon_id": 183,
+      "label": "Recycle",
+      "human_closeness": 3.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2639126479625702,
+          "rank": 24,
+          "best_label": "Spade"
+        },
+        {
+          "key": "bare",
+          "score": 0.23942959308624268,
+          "rank": 26,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2509865462779999,
+          "rank": 21,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 5
+    },
+    {
+      "icon_id": 184,
+      "label": "Return to home page",
+      "human_closeness": 2.43,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.26885896921157837,
+          "rank": 6,
+          "best_label": "Mouse properties"
+        },
+        {
+          "key": "bare",
+          "score": 0.23895731568336487,
+          "rank": 23,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25539249181747437,
+          "rank": 8,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 17
+    },
+    {
+      "icon_id": 185,
+      "label": "Rinse",
+      "human_closeness": 1.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27099427580833435,
+          "rank": 19,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.24144932627677917,
+          "rank": 12,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24582786858081818,
+          "rank": 64,
+          "best_label": "Gravel pit"
+        }
+      ],
+      "rank_range": 52
+    },
+    {
+      "icon_id": 186,
+      "label": "Risk of explosion",
+      "human_closeness": 2.76,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2925683557987213,
+          "rank": 4,
+          "best_label": "Protect from heat and radioactive"
+        },
+        {
+          "key": "bare",
+          "score": 0.2772160470485687,
+          "rank": 1,
+          "best_label": "Risk of explosion"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2868626117706299,
+          "rank": 16,
+          "best_label": "Non-ionising radiation"
+        }
+      ],
+      "rank_range": 15
+    },
+    {
+      "icon_id": 187,
+      "label": "Roman",
+      "human_closeness": 3.62,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23693574965000153,
+          "rank": 178,
+          "best_label": "Fast rewind"
+        },
+        {
+          "key": "bare",
+          "score": 0.2232750952243805,
+          "rank": 127,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.22595207393169403,
+          "rank": 156,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 51
+    },
+    {
+      "icon_id": 188,
+      "label": "Rotary vacuum filter",
+      "human_closeness": 1.7,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2838689088821411,
+          "rank": 49,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.23290158808231354,
+          "rank": 86,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28672006726264954,
+          "rank": 40,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 46
+    },
+    {
+      "icon_id": 189,
+      "label": "Rotation of cylinder with direction of cloth",
+      "human_closeness": 1.87,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23400285840034485,
+          "rank": 151,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.21689891815185547,
+          "rank": 120,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2149643898010254,
+          "rank": 185,
+          "best_label": "Debug"
+        }
+      ],
+      "rank_range": 65
+    },
+    {
+      "icon_id": 190,
+      "label": "Rye",
+      "human_closeness": 2.17,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23812273144721985,
+          "rank": 180,
+          "best_label": "Crop"
+        },
+        {
+          "key": "bare",
+          "score": 0.23394514620304108,
+          "rank": 29,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.28765687346458435,
+          "rank": 4,
+          "best_label": "Crop"
+        }
+      ],
+      "rank_range": 176
+    },
+    {
+      "icon_id": 191,
+      "label": "Safe",
+      "human_closeness": 4.62,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2534051835536957,
+          "rank": 43,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.22363321483135223,
+          "rank": 76,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23297558724880219,
+          "rank": 69,
+          "best_label": "Baggage lockers"
+        }
+      ],
+      "rank_range": 33
+    },
+    {
+      "icon_id": 192,
+      "label": "Safety device against overload",
+      "human_closeness": 1.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23642729222774506,
+          "rank": 144,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.2096714973449707,
+          "rank": 170,
+          "best_label": "Focal plane"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2640288770198822,
+          "rank": 133,
+          "best_label": "Cube"
+        }
+      ],
+      "rank_range": 37
+    },
+    {
+      "icon_id": 193,
+      "label": "Safety isolating transformer",
+      "human_closeness": 1.25,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3094138205051422,
+          "rank": 3,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "bare",
+          "score": 0.2442651391029358,
+          "rank": 27,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.30810004472732544,
+          "rank": 1,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 26
+    },
+    {
+      "icon_id": 194,
+      "label": "Scale of measurement",
+      "human_closeness": 2.38,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2681848704814911,
+          "rank": 47,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.22178228199481964,
+          "rank": 83,
+          "best_label": "Spark coil-ignition element"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2455708086490631,
+          "rank": 223,
+          "best_label": "Kitchen"
+        }
+      ],
+      "rank_range": 176
+    },
+    {
+      "icon_id": 195,
+      "label": "Scythe",
+      "human_closeness": 4.23,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2758500277996063,
+          "rank": 10,
+          "best_label": "Punch marking"
+        },
+        {
+          "key": "bare",
+          "score": 0.25954532623291016,
+          "rank": 1,
+          "best_label": "Scythe"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3035723865032196,
+          "rank": 5,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 9
+    },
+    {
+      "icon_id": 196,
+      "label": "Sea mine decoy",
+      "human_closeness": 1.54,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27209237217903137,
+          "rank": 68,
+          "best_label": "Webcrawler"
+        },
+        {
+          "key": "bare",
+          "score": 0.23353147506713867,
+          "rank": 39,
+          "best_label": "Webcrawler"
+        },
+        {
+          "key": "symbol",
+          "score": 0.275042861700058,
+          "rank": 32,
+          "best_label": "Webcrawler"
+        }
+      ],
+      "rank_range": 36
+    },
+    {
+      "icon_id": 197,
+      "label": "Search",
+      "human_closeness": 2.7,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23001514375209808,
+          "rank": 89,
+          "best_label": "Frog"
+        },
+        {
+          "key": "bare",
+          "score": 0.22222357988357544,
+          "rank": 62,
+          "best_label": "Frog"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2101081758737564,
+          "rank": 115,
+          "best_label": "Frog"
+        }
+      ],
+      "rank_range": 53
+    },
+    {
+      "icon_id": 198,
+      "label": "Search",
+      "human_closeness": 3.29,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23984690010547638,
+          "rank": 46,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.23506858944892883,
+          "rank": 30,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.21993878483772278,
+          "rank": 65,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 35
+    },
+    {
+      "icon_id": 199,
+      "label": "Search",
+      "human_closeness": 2.43,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27750569581985474,
+          "rank": 6,
+          "best_label": "Insert object linking and embedding file"
+        },
+        {
+          "key": "bare",
+          "score": 0.25331661105155945,
+          "rank": 14,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2572292983531952,
+          "rank": 25,
+          "best_label": "Spade"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 200,
+      "label": "Select irregular area",
+      "human_closeness": 1.79,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2591446042060852,
+          "rank": 77,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2351197451353073,
+          "rank": 45,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.25360536575317383,
+          "rank": 62,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 32
+    },
+    {
+      "icon_id": 201,
+      "label": "Shopping",
+      "human_closeness": 4.1,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.29366281628608704,
+          "rank": 1,
+          "best_label": "Shopping"
+        },
+        {
+          "key": "bare",
+          "score": 0.27317219972610474,
+          "rank": 1,
+          "best_label": "Shopping"
+        },
+        {
+          "key": "symbol",
+          "score": 0.30141833424568176,
+          "rank": 1,
+          "best_label": "Shopping"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 202,
+      "label": "Slow",
+      "human_closeness": 3.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.29882311820983887,
+          "rank": 1,
+          "best_label": "Slow"
+        },
+        {
+          "key": "bare",
+          "score": 0.26388582587242126,
+          "rank": 1,
+          "best_label": "Slow"
+        },
+        {
+          "key": "symbol",
+          "score": 0.268099844455719,
+          "rank": 2,
+          "best_label": "Vertebrates"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 203,
+      "label": "Smooth edges",
+      "human_closeness": 1.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2437208890914917,
+          "rank": 23,
+          "best_label": "Chess"
+        },
+        {
+          "key": "bare",
+          "score": 0.24803388118743896,
+          "rank": 12,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24997350573539734,
+          "rank": 22,
+          "best_label": "Chess"
+        }
+      ],
+      "rank_range": 11
+    },
+    {
+      "icon_id": 204,
+      "label": "Sound",
+      "human_closeness": 3.53,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27728110551834106,
+          "rank": 4,
+          "best_label": "Loudspeaker connection"
+        },
+        {
+          "key": "bare",
+          "score": 0.23390842974185944,
+          "rank": 33,
+          "best_label": "Microphone"
+        },
+        {
+          "key": "symbol",
+          "score": 0.27912095189094543,
+          "rank": 5,
+          "best_label": "Loudspeaker connection"
+        }
+      ],
+      "rank_range": 29
+    },
+    {
+      "icon_id": 205,
+      "label": "Spade",
+      "human_closeness": 3.62,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25847506523132324,
+          "rank": 117,
+          "best_label": "Insert object linking and embedding file"
+        },
+        {
+          "key": "bare",
+          "score": 0.24754759669303894,
+          "rank": 21,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "symbol",
+          "score": 0.29096072912216187,
+          "rank": 10,
+          "best_label": "Press tool"
+        }
+      ],
+      "rank_range": 107
+    },
+    {
+      "icon_id": 206,
+      "label": "Spark coil-ignition element",
+      "human_closeness": 1.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3019767701625824,
+          "rank": 2,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "bare",
+          "score": 0.28686320781707764,
+          "rank": 2,
+          "best_label": "Oscillating motor"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3107350766658783,
+          "rank": 2,
+          "best_label": "Oscillating motor"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 207,
+      "label": "Spark plug",
+      "human_closeness": 4.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2968164384365082,
+          "rank": 1,
+          "best_label": "Spark plug"
+        },
+        {
+          "key": "bare",
+          "score": 0.3014792203903198,
+          "rank": 1,
+          "best_label": "Spark plug"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3180743455886841,
+          "rank": 1,
+          "best_label": "Spark plug"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 208,
+      "label": "Sterilizer",
+      "human_closeness": 1.36,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2699975073337555,
+          "rank": 110,
+          "best_label": "Earthing point"
+        },
+        {
+          "key": "bare",
+          "score": 0.23027990758419037,
+          "rank": 97,
+          "best_label": "Button"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2799646556377411,
+          "rank": 88,
+          "best_label": "Diver"
+        }
+      ],
+      "rank_range": 22
+    },
+    {
+      "icon_id": 209,
+      "label": "Straining element",
+      "human_closeness": 1.28,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2742166817188263,
+          "rank": 45,
+          "best_label": "CD-interactive"
+        },
+        {
+          "key": "bare",
+          "score": 0.23919859528541565,
+          "rank": 30,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2738519310951233,
+          "rank": 33,
+          "best_label": "Automatic control (closed loop)"
+        }
+      ],
+      "rank_range": 15
+    },
+    {
+      "icon_id": 210,
+      "label": "Suction removal of trimmed edges",
+      "human_closeness": 2.49,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2611370384693146,
+          "rank": 57,
+          "best_label": "Random Access Memory (RAM)"
+        },
+        {
+          "key": "bare",
+          "score": 0.22871682047843933,
+          "rank": 80,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2897707521915436,
+          "rank": 23,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 57
+    },
+    {
+      "icon_id": 211,
+      "label": "Surgery",
+      "human_closeness": 3.45,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24366438388824463,
+          "rank": 165,
+          "best_label": "Line vessel"
+        },
+        {
+          "key": "bare",
+          "score": 0.22002919018268585,
+          "rank": 131,
+          "best_label": "Line vessel"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2431640625,
+          "rank": 100,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 65
+    },
+    {
+      "icon_id": 212,
+      "label": "Tape cassette",
+      "human_closeness": 4.83,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2969416677951813,
+          "rank": 1,
+          "best_label": "Tape cassette"
+        },
+        {
+          "key": "bare",
+          "score": 0.28065061569213867,
+          "rank": 1,
+          "best_label": "Tape cassette"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2789686322212219,
+          "rank": 1,
+          "best_label": "Tape cassette"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 213,
+      "label": "Tape recorder",
+      "human_closeness": 2.69,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.24537502229213715,
+          "rank": 198,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "bare",
+          "score": 0.21555300056934357,
+          "rank": 171,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24396991729736328,
+          "rank": 220,
+          "best_label": "Binary file"
+        }
+      ],
+      "rank_range": 49
+    },
+    {
+      "icon_id": 214,
+      "label": "Temperature",
+      "human_closeness": 4.33,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2588300406932831,
+          "rank": 16,
+          "best_label": "Plasticizing cylinder with plunger"
+        },
+        {
+          "key": "bare",
+          "score": 0.23312869668006897,
+          "rank": 44,
+          "best_label": "External honing"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26458796858787537,
+          "rank": 16,
+          "best_label": "Spade"
+        }
+      ],
+      "rank_range": 28
+    },
+    {
+      "icon_id": 215,
+      "label": "Thin ice",
+      "human_closeness": 3.74,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2571563124656677,
+          "rank": 140,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.21436430513858795,
+          "rank": 140,
+          "best_label": "Webcrawler"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2611274719238281,
+          "rank": 172,
+          "best_label": "Punch marking"
+        }
+      ],
+      "rank_range": 32
+    },
+    {
+      "icon_id": 216,
+      "label": "Three star freezing compartment",
+      "human_closeness": 2.95,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28642702102661133,
+          "rank": 2,
+          "best_label": "Punch marking"
+        },
+        {
+          "key": "bare",
+          "score": 0.2458702027797699,
+          "rank": 6,
+          "best_label": "Punch marking"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3065492510795593,
+          "rank": 1,
+          "best_label": "Three star freezing compartment"
+        }
+      ],
+      "rank_range": 5
+    },
+    {
+      "icon_id": 217,
+      "label": "Timber",
+      "human_closeness": 2.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.22262364625930786,
+          "rank": 149,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.22821098566055298,
+          "rank": 89,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2332395613193512,
+          "rank": 40,
+          "best_label": "Added fabric web width"
+        }
+      ],
+      "rank_range": 109
+    },
+    {
+      "icon_id": 218,
+      "label": "Time",
+      "human_closeness": 3.55,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27406591176986694,
+          "rank": 6,
+          "best_label": "Timed page cancelled"
+        },
+        {
+          "key": "bare",
+          "score": 0.2540813684463501,
+          "rank": 3,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2765657603740692,
+          "rank": 6,
+          "best_label": "Automatic control (closed loop)"
+        }
+      ],
+      "rank_range": 3
+    },
+    {
+      "icon_id": 219,
+      "label": "Timed page cancelled",
+      "human_closeness": 2.6,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2696247696876526,
+          "rank": 67,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "bare",
+          "score": 0.2167656421661377,
+          "rank": 162,
+          "best_label": "Rotation of cylinder with direction of cloth"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2819491922855377,
+          "rank": 85,
+          "best_label": "Draw"
+        }
+      ],
+      "rank_range": 95
+    },
+    {
+      "icon_id": 220,
+      "label": "Toolbox",
+      "human_closeness": 3.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.27150759100914,
+          "rank": 9,
+          "best_label": "Clean edge pins"
+        },
+        {
+          "key": "bare",
+          "score": 0.2559661865234375,
+          "rank": 12,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24882906675338745,
+          "rank": 65,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 56
+    },
+    {
+      "icon_id": 221,
+      "label": "Topic",
+      "human_closeness": 1.88,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2659118175506592,
+          "rank": 70,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2308855503797531,
+          "rank": 70,
+          "best_label": "Cube"
+        },
+        {
+          "key": "symbol",
+          "score": 0.23065699636936188,
+          "rank": 178,
+          "best_label": "Discard files"
+        }
+      ],
+      "rank_range": 108
+    },
+    {
+      "icon_id": 222,
+      "label": "Tourist activities",
+      "human_closeness": 1.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2526722252368927,
+          "rank": 136,
+          "best_label": "Air vent - right and left outlets"
+        },
+        {
+          "key": "bare",
+          "score": 0.21502919495105743,
+          "rank": 183,
+          "best_label": "Binary file"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26504939794540405,
+          "rank": 136,
+          "best_label": "Winter sports area"
+        }
+      ],
+      "rank_range": 47
+    },
+    {
+      "icon_id": 223,
+      "label": "Toxic substances",
+      "human_closeness": 3.45,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2829538881778717,
+          "rank": 3,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2388790100812912,
+          "rank": 19,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26827579736709595,
+          "rank": 3,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 16
+    },
+    {
+      "icon_id": 224,
+      "label": "Tubular film die",
+      "human_closeness": 1.18,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28272560238838196,
+          "rank": 36,
+          "best_label": "Press tool"
+        },
+        {
+          "key": "bare",
+          "score": 0.2482762485742569,
+          "rank": 17,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2773735225200653,
+          "rank": 30,
+          "best_label": "Fixed bed reactor"
+        }
+      ],
+      "rank_range": 19
+    },
+    {
+      "icon_id": 225,
+      "label": "Typewriter",
+      "human_closeness": 4.9,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3224450647830963,
+          "rank": 1,
+          "best_label": "Typewriter"
+        },
+        {
+          "key": "bare",
+          "score": 0.3159675598144531,
+          "rank": 1,
+          "best_label": "Typewriter"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3054673969745636,
+          "rank": 1,
+          "best_label": "Typewriter"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 226,
+      "label": "Undo",
+      "human_closeness": 2.26,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2843233644962311,
+          "rank": 12,
+          "best_label": "Mail merge main document"
+        },
+        {
+          "key": "bare",
+          "score": 0.24884033203125,
+          "rank": 12,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26681414246559143,
+          "rank": 57,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 45
+    },
+    {
+      "icon_id": 227,
+      "label": "Vertebrates",
+      "human_closeness": 2.12,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25881439447402954,
+          "rank": 77,
+          "best_label": "Fast rewind"
+        },
+        {
+          "key": "bare",
+          "score": 0.23054930567741394,
+          "rank": 72,
+          "best_label": "Spade"
+        },
+        {
+          "key": "symbol",
+          "score": 0.26551151275634766,
+          "rank": 34,
+          "best_label": "Spade"
+        }
+      ],
+      "rank_range": 43
+    },
+    {
+      "icon_id": 228,
+      "label": "Vibrate",
+      "human_closeness": 2.76,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2538076341152191,
+          "rank": 117,
+          "best_label": "Portable files"
+        },
+        {
+          "key": "bare",
+          "score": 0.23198221623897552,
+          "rank": 99,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2589226961135864,
+          "rank": 108,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 18
+    },
+    {
+      "icon_id": 229,
+      "label": "Video camera",
+      "human_closeness": 4.69,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2961118221282959,
+          "rank": 1,
+          "best_label": "Video camera"
+        },
+        {
+          "key": "bare",
+          "score": 0.2831180691719055,
+          "rank": 1,
+          "best_label": "Video camera"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2811373770236969,
+          "rank": 1,
+          "best_label": "Video camera"
+        }
+      ],
+      "rank_range": 0
+    },
+    {
+      "icon_id": 230,
+      "label": "Wall",
+      "human_closeness": 4.4,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2394128292798996,
+          "rank": 59,
+          "best_label": "Discard files"
+        },
+        {
+          "key": "bare",
+          "score": 0.2515370547771454,
+          "rank": 9,
+          "best_label": "Cube"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2263309508562088,
+          "rank": 88,
+          "best_label": "Cleaning of chain-link"
+        }
+      ],
+      "rank_range": 79
+    },
+    {
+      "icon_id": 231,
+      "label": "Water cooled condenser",
+      "human_closeness": 2.02,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.290283739566803,
+          "rank": 11,
+          "best_label": "Safety isolating transformer"
+        },
+        {
+          "key": "bare",
+          "score": 0.2615015208721161,
+          "rank": 6,
+          "best_label": "Automatic control (closed loop)"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2867302894592285,
+          "rank": 4,
+          "best_label": "Safety isolating transformer"
+        }
+      ],
+      "rank_range": 7
+    },
+    {
+      "icon_id": 232,
+      "label": "Water power",
+      "human_closeness": 1.5,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2602100372314453,
+          "rank": 70,
+          "best_label": "Random Access Memory (RAM)"
+        },
+        {
+          "key": "bare",
+          "score": 0.21884284913539886,
+          "rank": 93,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2526542544364929,
+          "rank": 33,
+          "best_label": "Winter sports area"
+        }
+      ],
+      "rank_range": 60
+    },
+    {
+      "icon_id": 233,
+      "label": "Webcrawler",
+      "human_closeness": 3.14,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.28666165471076965,
+          "rank": 2,
+          "best_label": "Debug"
+        },
+        {
+          "key": "bare",
+          "score": 0.28013643622398376,
+          "rank": 1,
+          "best_label": "Webcrawler"
+        },
+        {
+          "key": "symbol",
+          "score": 0.284675657749176,
+          "rank": 1,
+          "best_label": "Webcrawler"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 234,
+      "label": "Weight",
+      "human_closeness": 3.19,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.25948449969291687,
+          "rank": 125,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "bare",
+          "score": 0.2538950443267822,
+          "rank": 9,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2643721401691437,
+          "rank": 21,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 116
+    },
+    {
+      "icon_id": 235,
+      "label": "Wheel",
+      "human_closeness": 4.48,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3091261386871338,
+          "rank": 1,
+          "best_label": "Wheel"
+        },
+        {
+          "key": "bare",
+          "score": 0.2885984778404236,
+          "rank": 1,
+          "best_label": "Wheel"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2768735885620117,
+          "rank": 10,
+          "best_label": "Rotary vacuum filter"
+        }
+      ],
+      "rank_range": 9
+    },
+    {
+      "icon_id": 236,
+      "label": "Windscreen demisting and defrosting",
+      "human_closeness": 2.88,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.2656591832637787,
+          "rank": 67,
+          "best_label": "Handle with care"
+        },
+        {
+          "key": "bare",
+          "score": 0.18861283361911774,
+          "rank": 229,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.24335473775863647,
+          "rank": 198,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 162
+    },
+    {
+      "icon_id": 237,
+      "label": "Winter sports area",
+      "human_closeness": 2.24,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.3073245882987976,
+          "rank": 1,
+          "best_label": "Winter sports area"
+        },
+        {
+          "key": "bare",
+          "score": 0.2686704397201538,
+          "rank": 2,
+          "best_label": "Bitmap"
+        },
+        {
+          "key": "symbol",
+          "score": 0.3295549154281616,
+          "rank": 1,
+          "best_label": "Winter sports area"
+        }
+      ],
+      "rank_range": 1
+    },
+    {
+      "icon_id": 238,
+      "label": "Zoom",
+      "human_closeness": 1.76,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.23866625130176544,
+          "rank": 177,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "bare",
+          "score": 0.23317740857601166,
+          "rank": 55,
+          "best_label": "Added fabric web width"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2711128890514374,
+          "rank": 44,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 133
+    },
+    {
+      "icon_id": 239,
+      "label": "Zoom",
+      "human_closeness": 1.1,
+      "variants": [
+        {
+          "key": "baseline",
+          "score": 0.22324196994304657,
+          "rank": 201,
+          "best_label": "CD-interactive"
+        },
+        {
+          "key": "bare",
+          "score": 0.22441527247428894,
+          "rank": 45,
+          "best_label": "Links to other web sites"
+        },
+        {
+          "key": "symbol",
+          "score": 0.2493593990802765,
+          "rank": 55,
+          "best_label": "Bitmap"
+        }
+      ],
+      "rank_range": 156
+    }
+  ],
+  "fixed_inputs_verified": true,
+  "plan_sha256": "62e17f2b24c88299b6ee2588ae07880080ec9ddfd1adfefb9ccfbae74ceaebae",
+  "script_sha256": "eb77733a833883a809788032dcc24c67f11568195b0c610e73701fc252125dec",
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 20261024,
+    "unit": "icon",
+    "paired": true,
+    "interval": "95% percentile; resample the same icon indices in every template"
+  },
+  "limitations": [
+    "Exploratory sensitivity analysis, not held-out predictive evaluation",
+    "No synonym edits or per-icon template selection",
+    "Cosine levels across prompts are not calibrated probabilities",
+    "Bootstrap describes icon sampling, not participant uncertainty",
+    "Source measurement summary discrepancies remain unresolved"
+  ]
+}

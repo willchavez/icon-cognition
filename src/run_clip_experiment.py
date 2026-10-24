@@ -79,7 +79,11 @@ def main():
     parser.add_argument("--batch-size", type=int, default=10, help="Limit encoding memory (default: 10)")
     parser.add_argument("--output", type=Path, default=ROOT / "results/clip-first10")
     parser.add_argument("--check-inputs", action="store_true", help="Validate joins without loading CLIP")
+    parser.add_argument("--prompt-template", default=PROMPT,
+                        help="Text template containing exactly one {label}; default preserves baseline")
     args = parser.parse_args()
+    if args.prompt_template.count("{label}") != 1 or "{" in args.prompt_template.replace("{label}", "") or "}" in args.prompt_template.replace("{label}", ""):
+        parser.error("--prompt-template must contain exactly one {label} and no other braces")
     if args.batch_size < 1:
         parser.error("--batch-size must be positive")
     if args.all:
@@ -89,7 +93,7 @@ def main():
     rows = load_inputs(args.ids)
     # Deduplicate repeated published function names, preserving selected order.
     candidates = list(dict.fromkeys(r["label"] for r in rows))
-    prompts = [PROMPT.format(label=label) for label in candidates]
+    prompts = [args.prompt_template.format(label=label) for label in candidates]
     if args.check_inputs:
         print(f"Validated {len(rows)} images/labels/measurement joins; {len(candidates)} unique candidates")
         return
@@ -172,7 +176,7 @@ def main():
         activation="QuickGELU (force_quick_gelu=True, matches pretrained checkpoint)",
         weights_state_sha256=weights.hexdigest(), device="cpu", precision="float32", seed=0,
         deterministic_algorithms=True, torch_threads=4, model_eval=True,
-        icon_ids=args.ids, candidates=candidates, prompts=prompts, prompt_template=PROMPT,
+        icon_ids=args.ids, candidates=candidates, prompts=prompts, prompt_template=args.prompt_template,
         batch_size=args.batch_size,
         tie_rule="earlier candidate in recorded vocabulary wins exact cosine ties",
         score="dot product of L2-normalized image/text embeddings; no softmax or logit scaling",
