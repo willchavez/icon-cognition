@@ -5,3 +5,5 @@ __pycache__/
 .ipynb_checkpoints/
 tmp/
 data/raw/mcdougall-1999/paper.pdf
+data/raw/clip-sanity/*.jpg
+data/raw/clip-sanity/*.png

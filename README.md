@@ -69,3 +69,8 @@ labels. Its intended-label similarity has Spearman correlation -0.0327 with
 human semantic closeness (95% icon-bootstrap interval -0.1647 to 0.0973).
 This baseline provides no clear positive association; it is an exploratory
 result, not evidence that all vision-language models fail at this task.
+
+The separate [sanity check](docs/clip-sanity.md) matched all three obvious
+control images and agreed with the original OpenAI reference code using the
+same weights. The explorer’s **Sanity check** tab shows these controls and the
+football/soccer-ball wording probe. The original icon experiment is preserved.

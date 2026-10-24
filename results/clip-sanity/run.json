@@ -1,0 +1,550 @@
+{
+  "completed_at_utc": "2026-10-24T19:54:31.186438+00:00",
+  "model": "ViT-B-32",
+  "pretrained": "openai",
+  "activation": "QuickGELU",
+  "device": "cpu",
+  "precision": "float32",
+  "labels": [
+    "dog",
+    "cat",
+    "diagram",
+    "soccer ball",
+    "bicycle",
+    "football"
+  ],
+  "templates": [
+    "an icon representing {label}",
+    "a photo of a {label}",
+    "{label}"
+  ],
+  "primary_control_count": 3,
+  "primary_controls_passed": 3,
+  "new_control_cases": [
+    "dog",
+    "cats",
+    "diagram"
+  ],
+  "results": [
+    {
+      "image_id": "dog",
+      "kind": "new control",
+      "template": "an icon representing {label}",
+      "expected_label": "dog",
+      "best_label": "dog",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "dog",
+          "cosine": 0.26483964920043945,
+          "rank": 1
+        },
+        {
+          "label": "cat",
+          "cosine": 0.2153162658214569,
+          "rank": 2
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.21006722748279572,
+          "rank": 3
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.2020697146654129,
+          "rank": 4
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.19068388640880585,
+          "rank": 5
+        },
+        {
+          "label": "football",
+          "cosine": 0.17603297531604767,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "cats",
+      "kind": "new control",
+      "template": "an icon representing {label}",
+      "expected_label": "cat",
+      "best_label": "cat",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "cat",
+          "cosine": 0.22384002804756165,
+          "rank": 1
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.1856391876935959,
+          "rank": 2
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.17444013059139252,
+          "rank": 3
+        },
+        {
+          "label": "dog",
+          "cosine": 0.16714100539684296,
+          "rank": 4
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.16415709257125854,
+          "rank": 5
+        },
+        {
+          "label": "football",
+          "cosine": 0.13506753742694855,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "diagram",
+      "kind": "new control",
+      "template": "an icon representing {label}",
+      "expected_label": "diagram",
+      "best_label": "diagram",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "diagram",
+          "cosine": 0.23679006099700928,
+          "rank": 1
+        },
+        {
+          "label": "dog",
+          "cosine": 0.1949625462293625,
+          "rank": 2
+        },
+        {
+          "label": "cat",
+          "cosine": 0.1896510124206543,
+          "rank": 3
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.17302343249320984,
+          "rank": 4
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.15477129817008972,
+          "rank": 5
+        },
+        {
+          "label": "football",
+          "cosine": 0.1317548006772995,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "football-icon",
+      "kind": "appearance diagnostic; not a new control",
+      "template": "an icon representing {label}",
+      "expected_label": "soccer ball",
+      "best_label": "soccer ball",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "soccer ball",
+          "cosine": 0.25970661640167236,
+          "rank": 1
+        },
+        {
+          "label": "cat",
+          "cosine": 0.23149374127388,
+          "rank": 2
+        },
+        {
+          "label": "dog",
+          "cosine": 0.22632966935634613,
+          "rank": 3
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.22089318931102753,
+          "rank": 4
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.21692468225955963,
+          "rank": 5
+        },
+        {
+          "label": "football",
+          "cosine": 0.19859157502651215,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "dog",
+      "kind": "new control",
+      "template": "a photo of a {label}",
+      "expected_label": "dog",
+      "best_label": "dog",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "dog",
+          "cosine": 0.27996861934661865,
+          "rank": 1
+        },
+        {
+          "label": "cat",
+          "cosine": 0.2243739813566208,
+          "rank": 2
+        },
+        {
+          "label": "football",
+          "cosine": 0.20977646112442017,
+          "rank": 3
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.20486785471439362,
+          "rank": 4
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.19305913150310516,
+          "rank": 5
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.1813531517982483,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "cats",
+      "kind": "new control",
+      "template": "a photo of a {label}",
+      "expected_label": "cat",
+      "best_label": "cat",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "cat",
+          "cosine": 0.24570035934448242,
+          "rank": 1
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.2130497246980667,
+          "rank": 2
+        },
+        {
+          "label": "dog",
+          "cosine": 0.19304901361465454,
+          "rank": 3
+        },
+        {
+          "label": "football",
+          "cosine": 0.18169677257537842,
+          "rank": 4
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.18143734335899353,
+          "rank": 5
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.16460637748241425,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "diagram",
+      "kind": "new control",
+      "template": "a photo of a {label}",
+      "expected_label": "diagram",
+      "best_label": "diagram",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "diagram",
+          "cosine": 0.2569173574447632,
+          "rank": 1
+        },
+        {
+          "label": "dog",
+          "cosine": 0.20955437421798706,
+          "rank": 2
+        },
+        {
+          "label": "cat",
+          "cosine": 0.2011420875787735,
+          "rank": 3
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.19373221695423126,
+          "rank": 4
+        },
+        {
+          "label": "football",
+          "cosine": 0.16715213656425476,
+          "rank": 5
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.1657043695449829,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "football-icon",
+      "kind": "appearance diagnostic; not a new control",
+      "template": "a photo of a {label}",
+      "expected_label": "soccer ball",
+      "best_label": "soccer ball",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "soccer ball",
+          "cosine": 0.25884348154067993,
+          "rank": 1
+        },
+        {
+          "label": "football",
+          "cosine": 0.2532806098461151,
+          "rank": 2
+        },
+        {
+          "label": "dog",
+          "cosine": 0.23033207654953003,
+          "rank": 3
+        },
+        {
+          "label": "cat",
+          "cosine": 0.22269651293754578,
+          "rank": 4
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.2188810110092163,
+          "rank": 5
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.20668354630470276,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "dog",
+      "kind": "new control",
+      "template": "{label}",
+      "expected_label": "dog",
+      "best_label": "dog",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "dog",
+          "cosine": 0.2596261203289032,
+          "rank": 1
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.21053282916545868,
+          "rank": 2
+        },
+        {
+          "label": "football",
+          "cosine": 0.19555261731147766,
+          "rank": 3
+        },
+        {
+          "label": "cat",
+          "cosine": 0.19352084398269653,
+          "rank": 4
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.1858121156692505,
+          "rank": 5
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.1774940937757492,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "cats",
+      "kind": "new control",
+      "template": "{label}",
+      "expected_label": "cat",
+      "best_label": "cat",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "cat",
+          "cosine": 0.2327663153409958,
+          "rank": 1
+        },
+        {
+          "label": "football",
+          "cosine": 0.20389126241207123,
+          "rank": 2
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.19758068025112152,
+          "rank": 3
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.1913326382637024,
+          "rank": 4
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.184144526720047,
+          "rank": 5
+        },
+        {
+          "label": "dog",
+          "cosine": 0.18280650675296783,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "diagram",
+      "kind": "new control",
+      "template": "{label}",
+      "expected_label": "diagram",
+      "best_label": "diagram",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "diagram",
+          "cosine": 0.2534227669239044,
+          "rank": 1
+        },
+        {
+          "label": "dog",
+          "cosine": 0.19548077881336212,
+          "rank": 2
+        },
+        {
+          "label": "cat",
+          "cosine": 0.18915103375911713,
+          "rank": 3
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.18774498999118805,
+          "rank": 4
+        },
+        {
+          "label": "football",
+          "cosine": 0.18081587553024292,
+          "rank": 5
+        },
+        {
+          "label": "soccer ball",
+          "cosine": 0.17601418495178223,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "image_id": "football-icon",
+      "kind": "appearance diagnostic; not a new control",
+      "template": "{label}",
+      "expected_label": "soccer ball",
+      "best_label": "soccer ball",
+      "expected_rank": 1,
+      "rankings": [
+        {
+          "label": "soccer ball",
+          "cosine": 0.26521748304367065,
+          "rank": 1
+        },
+        {
+          "label": "dog",
+          "cosine": 0.23320133984088898,
+          "rank": 2
+        },
+        {
+          "label": "cat",
+          "cosine": 0.2185191512107849,
+          "rank": 3
+        },
+        {
+          "label": "football",
+          "cosine": 0.21714694797992706,
+          "rank": 4
+        },
+        {
+          "label": "diagram",
+          "cosine": 0.21531108021736145,
+          "rank": 5
+        },
+        {
+          "label": "bicycle",
+          "cosine": 0.21181504428386688,
+          "rank": 6
+        }
+      ]
+    }
+  ],
+  "reference": {
+    "commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "same_loaded_weights": true,
+    "tokens_identical": true,
+    "preprocessing_max_abs_delta": 0.0,
+    "image_embedding_max_abs_delta": 4.284083843231201e-07,
+    "text_embedding_max_abs_delta": 3.5762786865234375e-07,
+    "cosine_max_abs_delta": 3.8743019104003906e-07,
+    "tolerance": 1e-05,
+    "passed": true
+  },
+  "official_readme_control": {
+    "prompts": [
+      "a diagram",
+      "a dog",
+      "a cat"
+    ],
+    "cosines": [
+      0.252625972032547,
+      0.19940444827079773,
+      0.1913215070962906
+    ],
+    "best_label": "a diagram"
+  },
+  "weights_state_sha256": "cf4e516c00859f7b9ccbd587e141872b9d4315fa89dba2586e52c90a67fb2b0c",
+  "weights_match_committed_baseline": true,
+  "source_manifest_sha256": "844c257fad8da428c970cdb8e3ada77eabeceec0ef9dca1e0892f2d48a51e989",
+  "script_sha256": "f8c225846445208599a83b7c87aad98ec78eabc296b05e69390c0e14e683e861",
+  "images_sha256": {
+    "dog": "f3f87bb8ab3c26c7ecfd3ac60421d7f32b0503d1d6c5baf8bac42ed93d86351a",
+    "cats": "cf6f3c4befa148732c7453e0de5afab00f682427435fead2d88b07a9615cdac2",
+    "diagram": "308a3ca4503f1c7a07803916c369d78c4ef501e5ab7fc727da9b5e1d2f9ec85b",
+    "football-icon": "80f8967fd8dbf1f4fcd0025699ab14ce4db5e04f06c826a832473610154af8a5"
+  },
+  "limitations": [
+    "Three new obvious controls, not a recognition benchmark",
+    "Football and soccer ball are valid related labels; the alias probe tests wording sensitivity",
+    "Reference comparison isolates implementation differences using the same downloaded weights",
+    "Passing controls does not validate the model as a predictor of human understandability"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "images": [
+    {
+      "id": "dog",
+      "file": "dog.jpg",
+      "expected_label": "dog",
+      "url": "https://raw.githubusercontent.com/pytorch/hub/master/images/dog.jpg",
+      "sha256": "f3f87bb8ab3c26c7ecfd3ac60421d7f32b0503d1d6c5baf8bac42ed93d86351a"
+    },
+    {
+      "id": "cats",
+      "file": "cats.png",
+      "expected_label": "cat",
+      "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/coco_sample.png",
+      "sha256": "cf6f3c4befa148732c7453e0de5afab00f682427435fead2d88b07a9615cdac2"
+    },
+    {
+      "id": "diagram",
+      "file": "diagram.png",
+      "expected_label": "diagram",
+      "url": "https://raw.githubusercontent.com/openai/CLIP/d05afc436d78f1c48dc0dbf8e5980a9d471f35f6/CLIP.png",
+      "sha256": "308a3ca4503f1c7a07803916c369d78c4ef501e5ab7fc727da9b5e1d2f9ec85b"
+    }
+  ],
+  "reference": {
+    "repository": "https://github.com/openai/CLIP",
+    "commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "files": {
+      "__init__.py": "d7930eb290ebed432116795c91473200d098451a94c0aedd4ae0f934f97955e8",
+      "clip.py": "9540f200fbf8145479fa655382a56dab048d238cc698b9cbd8df3b6d86d3f1b6",
+      "model.py": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c",
+      "simple_tokenizer.py": "d1b09f10ed3d1e2c343619cb98cbfacb92363dd8607526a43aa7fe2d60d15bad",
+      "bpe_simple_vocab_16e6.txt.gz": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+    }
+  }
+}

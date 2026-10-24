@@ -58,6 +58,12 @@ def main():
                 audit=json.loads((DATA / "measurement-audit.json").read_text()),
                 auditImages={i: image_url(DATA / "audit-evidence" / f"icon-{i:03}-complexity-count.png")
                              for i in [34, 136, 172, 201]})
+    sanity_path = ROOT / "results/clip-sanity/run.json"
+    if sanity_path.exists():
+        data["sanity"] = json.loads(sanity_path.read_text())
+        data["sanity"]["previews"] = {
+            key: image_url(sanity_path.parent / "previews" / f"{key}.png")
+            for key in [*data["sanity"]["new_control_cases"], "football-icon"]}
     template = (ROOT / "src/results-view.html").read_text()
     if template.count("__RESEARCH_DATA__") != 1:
         raise ValueError("Template must contain exactly one data placeholder")
