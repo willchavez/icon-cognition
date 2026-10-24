@@ -1,0 +1,2181 @@
+{
+  "n": 239,
+  "candidate_count": 231,
+  "intended_top1": 25,
+  "median_intended_rank": 41.0,
+  "top_prediction_counts": {
+    "Bitmap": 26,
+    "Portable files": 17,
+    "Air vent - right and left outlets": 12,
+    "Debug": 11,
+    "Added fabric web width": 9,
+    "Handle with care": 8,
+    "Discard files": 8,
+    "Mail merge main document": 7,
+    "Safety isolating transformer": 7,
+    "Loudspeaker connection": 6,
+    "Binary file": 6,
+    "Oscillating motor": 6,
+    "Fast rewind": 6,
+    "Engage pile-raising roller": 5,
+    "Rotation of cylinder with direction of cloth": 4,
+    "Random Access Memory (RAM)": 4,
+    "Plasticizing cylinder with plunger": 4,
+    "Punch marking": 4,
+    "Confucianism": 3,
+    "Press tool": 3,
+    "Button": 3,
+    "Insert object linking and embedding file": 3,
+    "Frog": 2,
+    "Electric shaver outlet": 2,
+    "First aid": 2,
+    "Chess": 2,
+    "Diamond extraction": 2,
+    "Winter sports area": 2,
+    "Rotary vacuum filter": 2,
+    "Missile in flight": 2,
+    "Tubular film die": 2,
+    "Earthing point": 2,
+    "Male": 2,
+    "Timed page cancelled": 2,
+    "Line vessel": 2,
+    "Smooth edges": 2,
+    "Spade": 2,
+    "CD-interactive": 2,
+    "Scythe": 1,
+    "Brushing by means of brush belt": 1,
+    "Atomic site": 1,
+    "Baggage lockers": 1,
+    "Conveyer belt": 1,
+    "Biohazard": 1,
+    "Cube": 1,
+    "Toolbox": 1,
+    "Toxic substances": 1,
+    "Colour area": 1,
+    "Eject": 1,
+    "Headlamp cleaner": 1,
+    "Colour temperature lamp": 1,
+    "Straining element": 1,
+    "Adjust contrast": 1,
+    "Measure": 1,
+    "Macrobiotics": 1,
+    "Electric transmission": 1,
+    "Convert multiple files": 1,
+    "Device driver": 1,
+    "Cleaning of chain-link": 1,
+    "Kitchen": 1,
+    "Heliport": 1,
+    "Centre alignment": 1,
+    "Non-ionising radiation": 1,
+    "Fixed bed reactor": 1,
+    "Jacketed reactor": 1,
+    "Building": 1,
+    "Lift": 1,
+    "Distressed vessel": 1,
+    "Focal plane": 1,
+    "Gastropods": 1,
+    "Add task": 1,
+    "Mouse properties": 1,
+    "Protect from heat and radioactive": 1,
+    "Crop": 1,
+    "Webcrawler": 1,
+    "Shopping": 1,
+    "Slow": 1,
+    "Spark plug": 1,
+    "Tape cassette": 1,
+    "Clean edge pins": 1,
+    "Typewriter": 1,
+    "Video camera": 1,
+    "Wheel": 1
+  },
+  "correlations": {
+    "intended_similarity": {
+      "semantic_distance": {
+        "rho": -0.03273574917429065,
+        "n": 239,
+        "ci95": [
+          -0.1647476060619927,
+          0.09725668077676304
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "familiarity": {
+        "rho": 0.08509357114276052,
+        "n": 239,
+        "ci95": [
+          -0.04209394817060999,
+          0.20813358043601665
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concept_agreement_pct": {
+        "rho": -0.02558294613492685,
+        "n": 239,
+        "ci95": [
+          -0.1502805167087578,
+          0.10247801873828608
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "name_agreement_pct": {
+        "rho": -0.036465047575214876,
+        "n": 239,
+        "ci95": [
+          -0.16163804826043834,
+          0.08908643979167372
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "meaningfulness": {
+        "rho": 0.057530655156872564,
+        "n": 239,
+        "ci95": [
+          -0.07112016282418121,
+          0.18114604675621274
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concreteness": {
+        "rho": -0.04811890293206269,
+        "n": 239,
+        "ci95": [
+          -0.1800738906420251,
+          0.0798805643264485
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity": {
+        "rho": -0.06066855459630394,
+        "n": 239,
+        "ci95": [
+          -0.19971291110383982,
+          0.07937577223351304
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity_metric": {
+        "rho": 0.017368018254573507,
+        "n": 239,
+        "ci95": [
+          -0.12090587600995595,
+          0.15436195328149555
+        ],
+        "valid_bootstrap_samples": 2000
+      }
+    },
+    "intended_minus_best_alternative": {
+      "semantic_distance": {
+        "rho": 0.11526341672880004,
+        "n": 239,
+        "ci95": [
+          -0.011166752484494195,
+          0.24017142882249495
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "familiarity": {
+        "rho": 0.21445559604648068,
+        "n": 239,
+        "ci95": [
+          0.09046554966657526,
+          0.3284269967457594
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concept_agreement_pct": {
+        "rho": 0.1104652418433243,
+        "n": 239,
+        "ci95": [
+          -0.014776031367398301,
+          0.22955375107182907
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "name_agreement_pct": {
+        "rho": 0.1481589991324574,
+        "n": 239,
+        "ci95": [
+          0.023447506395143564,
+          0.27248388290066256
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "meaningfulness": {
+        "rho": 0.19503959735348517,
+        "n": 239,
+        "ci95": [
+          0.07334393402804261,
+          0.31104612458771924
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concreteness": {
+        "rho": 0.11337041561219001,
+        "n": 239,
+        "ci95": [
+          -0.018534999588193747,
+          0.24205572529881106
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity": {
+        "rho": -0.027590041517105788,
+        "n": 239,
+        "ci95": [
+          -0.15745293053991208,
+          0.1040361221161911
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity_metric": {
+        "rho": 0.03669520009604155,
+        "n": 239,
+        "ci95": [
+          -0.09868515169696794,
+          0.16397473005934526
+        ],
+        "valid_bootstrap_samples": 2000
+      }
+    }
+  },
+  "semantic_similarity_partial_controlling_familiarity": {
+    "rho": -0.09533367111028306,
+    "n": 239,
+    "ci95": [
+      -0.2128964785228595,
+      0.03161877355652144
+    ],
+    "valid_bootstrap_samples": 2000
+  },
+  "disagreement_order": [
+    {
+      "icon_id": 102,
+      "label": "Football",
+      "model_percentile": 0.0,
+      "human_closeness_percentile": 0.9810924369747899,
+      "model_minus_human_percentile": -0.9810924369747899,
+      "familiarity": 4.53
+    },
+    {
+      "icon_id": 230,
+      "label": "Wall",
+      "model_percentile": 0.08403361344537816,
+      "human_closeness_percentile": 0.9411764705882353,
+      "model_minus_human_percentile": -0.8571428571428571,
+      "familiarity": 3.0
+    },
+    {
+      "icon_id": 41,
+      "label": "Christianity",
+      "model_percentile": 0.025210084033613446,
+      "human_closeness_percentile": 0.8634453781512605,
+      "model_minus_human_percentile": -0.8382352941176471,
+      "familiarity": 4.1
+    },
+    {
+      "icon_id": 146,
+      "label": "Microphone",
+      "model_percentile": 0.15546218487394958,
+      "human_closeness_percentile": 0.9894957983193278,
+      "model_minus_human_percentile": -0.8340336134453782,
+      "familiarity": 4.2
+    },
+    {
+      "icon_id": 187,
+      "label": "Roman",
+      "model_percentile": 0.06302521008403361,
+      "human_closeness_percentile": 0.8466386554621849,
+      "model_minus_human_percentile": -0.7836134453781513,
+      "familiarity": 2.97
+    },
+    {
+      "icon_id": 96,
+      "label": "Films",
+      "model_percentile": 0.15966386554621848,
+      "human_closeness_percentile": 0.930672268907563,
+      "model_minus_human_percentile": -0.7710084033613446,
+      "familiarity": 4.55
+    },
+    {
+      "icon_id": 150,
+      "label": "Mouse",
+      "model_percentile": 0.18907563025210083,
+      "human_closeness_percentile": 0.9558823529411765,
+      "model_minus_human_percentile": -0.7668067226890757,
+      "familiarity": 3.22
+    },
+    {
+      "icon_id": 60,
+      "label": "Dam",
+      "model_percentile": 0.17647058823529413,
+      "human_closeness_percentile": 0.8949579831932774,
+      "model_minus_human_percentile": -0.7184873949579832,
+      "familiarity": 3.48
+    },
+    {
+      "icon_id": 104,
+      "label": "Frog",
+      "model_percentile": 0.2773109243697479,
+      "human_closeness_percentile": 0.9957983193277311,
+      "model_minus_human_percentile": -0.7184873949579832,
+      "familiarity": 3.28
+    },
+    {
+      "icon_id": 191,
+      "label": "Safe",
+      "model_percentile": 0.24789915966386555,
+      "human_closeness_percentile": 0.9621848739495799,
+      "model_minus_human_percentile": -0.7142857142857143,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 211,
+      "label": "Surgery",
+      "model_percentile": 0.11764705882352941,
+      "human_closeness_percentile": 0.8067226890756303,
+      "model_minus_human_percentile": -0.6890756302521008,
+      "familiarity": 3.1
+    },
+    {
+      "icon_id": 82,
+      "label": "Entrance",
+      "model_percentile": 0.09663865546218488,
+      "human_closeness_percentile": 0.7836134453781513,
+      "model_minus_human_percentile": -0.6869747899159664,
+      "familiarity": 2.6
+    },
+    {
+      "icon_id": 198,
+      "label": "Search",
+      "model_percentile": 0.09243697478991597,
+      "human_closeness_percentile": 0.7626050420168067,
+      "model_minus_human_percentile": -0.6701680672268907,
+      "familiarity": 3.83
+    },
+    {
+      "icon_id": 30,
+      "label": "Calendar",
+      "model_percentile": 0.14705882352941177,
+      "human_closeness_percentile": 0.8067226890756303,
+      "model_minus_human_percentile": -0.6596638655462185,
+      "familiarity": 3.22
+    },
+    {
+      "icon_id": 141,
+      "label": "Magnify",
+      "model_percentile": 0.20168067226890757,
+      "human_closeness_percentile": 0.8529411764705882,
+      "model_minus_human_percentile": -0.6512605042016806,
+      "familiarity": 2.2
+    },
+    {
+      "icon_id": 88,
+      "label": "Fan",
+      "model_percentile": 0.14285714285714285,
+      "human_closeness_percentile": 0.7836134453781513,
+      "model_minus_human_percentile": -0.6407563025210083,
+      "familiarity": 2.35
+    },
+    {
+      "icon_id": 138,
+      "label": "Lumber industry",
+      "model_percentile": 0.1092436974789916,
+      "human_closeness_percentile": 0.75,
+      "model_minus_human_percentile": -0.6407563025210083,
+      "familiarity": 2.45
+    },
+    {
+      "icon_id": 73,
+      "label": "Educate",
+      "model_percentile": 0.06722689075630252,
+      "human_closeness_percentile": 0.7037815126050421,
+      "model_minus_human_percentile": -0.6365546218487396,
+      "familiarity": 3.1
+    },
+    {
+      "icon_id": 139,
+      "label": "Mace",
+      "model_percentile": 0.23949579831932774,
+      "human_closeness_percentile": 0.8739495798319328,
+      "model_minus_human_percentile": -0.634453781512605,
+      "familiarity": 2.95
+    },
+    {
+      "icon_id": 154,
+      "label": "Naughty",
+      "model_percentile": 0.10084033613445378,
+      "human_closeness_percentile": 0.7184873949579832,
+      "model_minus_human_percentile": -0.6176470588235294,
+      "familiarity": 2.83
+    },
+    {
+      "icon_id": 97,
+      "label": "Films",
+      "model_percentile": 0.008403361344537815,
+      "human_closeness_percentile": 0.615546218487395,
+      "model_minus_human_percentile": -0.6071428571428572,
+      "familiarity": 3.67
+    },
+    {
+      "icon_id": 214,
+      "label": "Temperature",
+      "model_percentile": 0.3319327731092437,
+      "human_closeness_percentile": 0.930672268907563,
+      "model_minus_human_percentile": -0.5987394957983194,
+      "familiarity": 4.7
+    },
+    {
+      "icon_id": 51,
+      "label": "Compress file",
+      "model_percentile": 0.10504201680672269,
+      "human_closeness_percentile": 0.6911764705882353,
+      "model_minus_human_percentile": -0.5861344537815126,
+      "familiarity": 2.3
+    },
+    {
+      "icon_id": 69,
+      "label": "Distressed vessel",
+      "model_percentile": 0.19747899159663865,
+      "human_closeness_percentile": 0.7710084033613446,
+      "model_minus_human_percentile": -0.573529411764706,
+      "familiarity": 2.98
+    },
+    {
+      "icon_id": 108,
+      "label": "Go rapidly",
+      "model_percentile": 0.29411764705882354,
+      "human_closeness_percentile": 0.8634453781512605,
+      "model_minus_human_percentile": -0.569327731092437,
+      "familiarity": 4.05
+    },
+    {
+      "icon_id": 91,
+      "label": "Fast forward",
+      "model_percentile": 0.226890756302521,
+      "human_closeness_percentile": 0.792016806722689,
+      "model_minus_human_percentile": -0.5651260504201681,
+      "familiarity": 4.27
+    },
+    {
+      "icon_id": 215,
+      "label": "Thin ice",
+      "model_percentile": 0.3067226890756303,
+      "human_closeness_percentile": 0.8697478991596639,
+      "model_minus_human_percentile": -0.5630252100840336,
+      "familiarity": 3.0
+    },
+    {
+      "icon_id": 48,
+      "label": "Colour area",
+      "model_percentile": 0.1134453781512605,
+      "human_closeness_percentile": 0.6617647058823529,
+      "model_minus_human_percentile": -0.5483193277310924,
+      "familiarity": 3.4
+    },
+    {
+      "icon_id": 127,
+      "label": "Justice",
+      "model_percentile": 0.037815126050420166,
+      "human_closeness_percentile": 0.5840336134453782,
+      "model_minus_human_percentile": -0.546218487394958,
+      "familiarity": 3.88
+    },
+    {
+      "icon_id": 15,
+      "label": "Axe",
+      "model_percentile": 0.36134453781512604,
+      "human_closeness_percentile": 0.8949579831932774,
+      "model_minus_human_percentile": -0.5336134453781514,
+      "familiarity": 3.12
+    },
+    {
+      "icon_id": 105,
+      "label": "Fun",
+      "model_percentile": 0.15126050420168066,
+      "human_closeness_percentile": 0.6785714285714286,
+      "model_minus_human_percentile": -0.5273109243697479,
+      "familiarity": 4.15
+    },
+    {
+      "icon_id": 205,
+      "label": "Spade",
+      "model_percentile": 0.31932773109243695,
+      "human_closeness_percentile": 0.8466386554621849,
+      "model_minus_human_percentile": -0.5273109243697479,
+      "familiarity": 2.5
+    },
+    {
+      "icon_id": 38,
+      "label": "Chemistry",
+      "model_percentile": 0.35714285714285715,
+      "human_closeness_percentile": 0.884453781512605,
+      "model_minus_human_percentile": -0.5273109243697478,
+      "familiarity": 4.1
+    },
+    {
+      "icon_id": 197,
+      "label": "Search",
+      "model_percentile": 0.04201680672268908,
+      "human_closeness_percentile": 0.5672268907563025,
+      "model_minus_human_percentile": -0.5252100840336135,
+      "familiarity": 2.15
+    },
+    {
+      "icon_id": 217,
+      "label": "Timber",
+      "model_percentile": 0.012605042016806723,
+      "human_closeness_percentile": 0.5126050420168067,
+      "model_minus_human_percentile": -0.49999999999999994,
+      "familiarity": 2.42
+    },
+    {
+      "icon_id": 117,
+      "label": "Hiking trail",
+      "model_percentile": 0.13025210084033614,
+      "human_closeness_percentile": 0.6260504201680672,
+      "model_minus_human_percentile": -0.4957983193277311,
+      "familiarity": 3.38
+    },
+    {
+      "icon_id": 162,
+      "label": "Note",
+      "model_percentile": 0.40756302521008403,
+      "human_closeness_percentile": 0.8949579831932774,
+      "model_minus_human_percentile": -0.4873949579831933,
+      "familiarity": 3.35
+    },
+    {
+      "icon_id": 47,
+      "label": "Cockpit",
+      "model_percentile": 0.029411764705882353,
+      "human_closeness_percentile": 0.5126050420168067,
+      "model_minus_human_percentile": -0.4831932773109243,
+      "familiarity": 1.73
+    },
+    {
+      "icon_id": 90,
+      "label": "Fast",
+      "model_percentile": 0.21008403361344538,
+      "human_closeness_percentile": 0.6785714285714286,
+      "model_minus_human_percentile": -0.4684873949579832,
+      "familiarity": 3.73
+    },
+    {
+      "icon_id": 59,
+      "label": "Currency exchange",
+      "model_percentile": 0.24369747899159663,
+      "human_closeness_percentile": 0.6974789915966386,
+      "model_minus_human_percentile": -0.45378151260504196,
+      "familiarity": 3.87
+    },
+    {
+      "icon_id": 28,
+      "label": "Building",
+      "model_percentile": 0.5378151260504201,
+      "human_closeness_percentile": 0.9663865546218487,
+      "model_minus_human_percentile": -0.4285714285714286,
+      "familiarity": 3.88
+    },
+    {
+      "icon_id": 53,
+      "label": "Connect",
+      "model_percentile": 0.36554621848739494,
+      "human_closeness_percentile": 0.792016806722689,
+      "model_minus_human_percentile": -0.4264705882352941,
+      "familiarity": 3.58
+    },
+    {
+      "icon_id": 213,
+      "label": "Tape recorder",
+      "model_percentile": 0.13865546218487396,
+      "human_closeness_percentile": 0.5630252100840336,
+      "model_minus_human_percentile": -0.42436974789915966,
+      "familiarity": 3.3
+    },
+    {
+      "icon_id": 37,
+      "label": "Chain saw",
+      "model_percentile": 0.27310924369747897,
+      "human_closeness_percentile": 0.6911764705882353,
+      "model_minus_human_percentile": -0.4180672268907563,
+      "familiarity": 2.95
+    },
+    {
+      "icon_id": 151,
+      "label": "Mouse connection",
+      "model_percentile": 0.4117647058823529,
+      "human_closeness_percentile": 0.8277310924369747,
+      "model_minus_human_percentile": -0.4159663865546218,
+      "familiarity": 3.4
+    },
+    {
+      "icon_id": 31,
+      "label": "Cancer",
+      "model_percentile": 0.07983193277310924,
+      "human_closeness_percentile": 0.49369747899159666,
+      "model_minus_human_percentile": -0.4138655462184874,
+      "familiarity": 3.23
+    },
+    {
+      "icon_id": 128,
+      "label": "Kitchen",
+      "model_percentile": 0.2184873949579832,
+      "human_closeness_percentile": 0.615546218487395,
+      "model_minus_human_percentile": -0.3970588235294118,
+      "familiarity": 1.65
+    },
+    {
+      "icon_id": 156,
+      "label": "No entry",
+      "model_percentile": 0.22268907563025211,
+      "human_closeness_percentile": 0.615546218487395,
+      "model_minus_human_percentile": -0.3928571428571429,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 234,
+      "label": "Weight",
+      "model_percentile": 0.35294117647058826,
+      "human_closeness_percentile": 0.7310924369747899,
+      "model_minus_human_percentile": -0.3781512605042016,
+      "familiarity": 2.05
+    },
+    {
+      "icon_id": 168,
+      "label": "Paper industry",
+      "model_percentile": 0.20588235294117646,
+      "human_closeness_percentile": 0.5735294117647058,
+      "model_minus_human_percentile": -0.3676470588235294,
+      "familiarity": 3.0
+    },
+    {
+      "icon_id": 92,
+      "label": "Fast rewind",
+      "model_percentile": 0.31512605042016806,
+      "human_closeness_percentile": 0.6701680672268907,
+      "model_minus_human_percentile": -0.35504201680672265,
+      "familiarity": 4.25
+    },
+    {
+      "icon_id": 172,
+      "label": "Picnic area",
+      "model_percentile": 0.5336134453781513,
+      "human_closeness_percentile": 0.884453781512605,
+      "model_minus_human_percentile": -0.35084033613445376,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 190,
+      "label": "Rye",
+      "model_percentile": 0.07142857142857142,
+      "human_closeness_percentile": 0.42016806722689076,
+      "model_minus_human_percentile": -0.3487394957983193,
+      "familiarity": 2.74
+    },
+    {
+      "icon_id": 228,
+      "label": "Vibrate",
+      "model_percentile": 0.25630252100840334,
+      "human_closeness_percentile": 0.5966386554621849,
+      "model_minus_human_percentile": -0.3403361344537815,
+      "familiarity": 1.8
+    },
+    {
+      "icon_id": 116,
+      "label": "High water level in laundry machines",
+      "model_percentile": 0.21428571428571427,
+      "human_closeness_percentile": 0.5462184873949579,
+      "model_minus_human_percentile": -0.33193277310924363,
+      "familiarity": 3.85
+    },
+    {
+      "icon_id": 183,
+      "label": "Recycle",
+      "model_percentile": 0.42016806722689076,
+      "human_closeness_percentile": 0.75,
+      "model_minus_human_percentile": -0.32983193277310924,
+      "familiarity": 4.42
+    },
+    {
+      "icon_id": 44,
+      "label": "Closed",
+      "model_percentile": 0.31092436974789917,
+      "human_closeness_percentile": 0.634453781512605,
+      "model_minus_human_percentile": -0.32352941176470584,
+      "familiarity": 2.6
+    },
+    {
+      "icon_id": 34,
+      "label": "Centre alignment",
+      "model_percentile": 0.18067226890756302,
+      "human_closeness_percentile": 0.5021008403361344,
+      "model_minus_human_percentile": -0.3214285714285714,
+      "familiarity": 2.05
+    },
+    {
+      "icon_id": 7,
+      "label": "Airbrush",
+      "model_percentile": 0.12605042016806722,
+      "human_closeness_percentile": 0.43067226890756305,
+      "model_minus_human_percentile": -0.3046218487394958,
+      "familiarity": 1.55
+    },
+    {
+      "icon_id": 50,
+      "label": "Communication",
+      "model_percentile": 0.41596638655462187,
+      "human_closeness_percentile": 0.7184873949579832,
+      "model_minus_human_percentile": -0.3025210084033613,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 131,
+      "label": "Library",
+      "model_percentile": 0.5,
+      "human_closeness_percentile": 0.7983193277310925,
+      "model_minus_human_percentile": -0.2983193277310925,
+      "familiarity": 3.05
+    },
+    {
+      "icon_id": 195,
+      "label": "Scythe",
+      "model_percentile": 0.6260504201680672,
+      "human_closeness_percentile": 0.9201680672268907,
+      "model_minus_human_percentile": -0.2941176470588235,
+      "familiarity": 3.02
+    },
+    {
+      "icon_id": 64,
+      "label": "Desk set",
+      "model_percentile": 0.02100840336134454,
+      "human_closeness_percentile": 0.31092436974789917,
+      "model_minus_human_percentile": -0.28991596638655465,
+      "familiarity": 1.8
+    },
+    {
+      "icon_id": 32,
+      "label": "Cartoons",
+      "model_percentile": 0.08823529411764706,
+      "human_closeness_percentile": 0.37815126050420167,
+      "model_minus_human_percentile": -0.2899159663865546,
+      "familiarity": 2.43
+    },
+    {
+      "icon_id": 136,
+      "label": "Lock",
+      "model_percentile": 0.6680672268907563,
+      "human_closeness_percentile": 0.9558823529411765,
+      "model_minus_human_percentile": -0.28781512605042026,
+      "familiarity": 4.03
+    },
+    {
+      "icon_id": 220,
+      "label": "Toolbox",
+      "model_percentile": 0.5546218487394958,
+      "human_closeness_percentile": 0.8235294117647058,
+      "model_minus_human_percentile": -0.26890756302521,
+      "familiarity": 3.28
+    },
+    {
+      "icon_id": 107,
+      "label": "Gents toilets",
+      "model_percentile": 0.5126050420168067,
+      "human_closeness_percentile": 0.7773109243697479,
+      "model_minus_human_percentile": -0.26470588235294124,
+      "familiarity": 4.95
+    },
+    {
+      "icon_id": 17,
+      "label": "Balance",
+      "model_percentile": 0.6176470588235294,
+      "human_closeness_percentile": 0.8781512605042017,
+      "model_minus_human_percentile": -0.26050420168067223,
+      "familiarity": 2.6
+    },
+    {
+      "icon_id": 101,
+      "label": "Food processing industry",
+      "model_percentile": 0.3403361344537815,
+      "human_closeness_percentile": 0.5966386554621849,
+      "model_minus_human_percentile": -0.25630252100840334,
+      "familiarity": 2.69
+    },
+    {
+      "icon_id": 218,
+      "label": "Time",
+      "model_percentile": 0.5966386554621849,
+      "human_closeness_percentile": 0.8382352941176471,
+      "model_minus_human_percentile": -0.24159663865546221,
+      "familiarity": 3.95
+    },
+    {
+      "icon_id": 58,
+      "label": "Cube",
+      "model_percentile": 0.7521008403361344,
+      "human_closeness_percentile": 0.9894957983193278,
+      "model_minus_human_percentile": -0.23739495798319332,
+      "familiarity": 3.75
+    },
+    {
+      "icon_id": 189,
+      "label": "Rotation of cylinder with direction of cloth",
+      "model_percentile": 0.05042016806722689,
+      "human_closeness_percentile": 0.2773109243697479,
+      "model_minus_human_percentile": -0.22689075630252103,
+      "familiarity": 1.48
+    },
+    {
+      "icon_id": 46,
+      "label": "Co-operate",
+      "model_percentile": 0.5042016806722689,
+      "human_closeness_percentile": 0.7184873949579832,
+      "model_minus_human_percentile": -0.2142857142857143,
+      "familiarity": 3.93
+    },
+    {
+      "icon_id": 94,
+      "label": "Fighter",
+      "model_percentile": 0.6512605042016807,
+      "human_closeness_percentile": 0.8571428571428571,
+      "model_minus_human_percentile": -0.2058823529411764,
+      "familiarity": 4.33
+    },
+    {
+      "icon_id": 204,
+      "label": "Sound",
+      "model_percentile": 0.634453781512605,
+      "human_closeness_percentile": 0.8319327731092437,
+      "model_minus_human_percentile": -0.19747899159663873,
+      "familiarity": 4.6
+    },
+    {
+      "icon_id": 236,
+      "label": "Windscreen demisting and defrosting",
+      "model_percentile": 0.44537815126050423,
+      "human_closeness_percentile": 0.6407563025210085,
+      "model_minus_human_percentile": -0.19537815126050423,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 20,
+      "label": "Bending",
+      "model_percentile": 0.3907563025210084,
+      "human_closeness_percentile": 0.5840336134453782,
+      "model_minus_human_percentile": -0.19327731092436978,
+      "familiarity": 1.65
+    },
+    {
+      "icon_id": 25,
+      "label": "Break glass to access",
+      "model_percentile": 0.5840336134453782,
+      "human_closeness_percentile": 0.7710084033613446,
+      "model_minus_human_percentile": -0.1869747899159664,
+      "familiarity": 3.02
+    },
+    {
+      "icon_id": 36,
+      "label": "Chain reaction",
+      "model_percentile": 0.4831932773109244,
+      "human_closeness_percentile": 0.6701680672268907,
+      "model_minus_human_percentile": -0.18697478991596633,
+      "familiarity": 3.58
+    },
+    {
+      "icon_id": 110,
+      "label": "Gravel pit",
+      "model_percentile": 0.16806722689075632,
+      "human_closeness_percentile": 0.35084033613445376,
+      "model_minus_human_percentile": -0.18277310924369744,
+      "familiarity": 2.85
+    },
+    {
+      "icon_id": 109,
+      "label": "Graph",
+      "model_percentile": 0.7310924369747899,
+      "human_closeness_percentile": 0.9117647058823529,
+      "model_minus_human_percentile": -0.18067226890756305,
+      "familiarity": 3.53
+    },
+    {
+      "icon_id": 145,
+      "label": "Measure",
+      "model_percentile": 0.47058823529411764,
+      "human_closeness_percentile": 0.6512605042016807,
+      "model_minus_human_percentile": -0.18067226890756305,
+      "familiarity": 2.48
+    },
+    {
+      "icon_id": 26,
+      "label": "Bridging troops",
+      "model_percentile": 0.004201680672268907,
+      "human_closeness_percentile": 0.17647058823529413,
+      "model_minus_human_percentile": -0.1722689075630252,
+      "familiarity": 2.87
+    },
+    {
+      "icon_id": 152,
+      "label": "Mouse properties",
+      "model_percentile": 0.4789915966386555,
+      "human_closeness_percentile": 0.6512605042016807,
+      "model_minus_human_percentile": -0.1722689075630252,
+      "familiarity": 3.87
+    },
+    {
+      "icon_id": 238,
+      "label": "Zoom",
+      "model_percentile": 0.07563025210084033,
+      "human_closeness_percentile": 0.2415966386554622,
+      "model_minus_human_percentile": -0.16596638655462187,
+      "familiarity": 1.95
+    },
+    {
+      "icon_id": 182,
+      "label": "Random Access Memory (RAM)",
+      "model_percentile": 0.1722689075630252,
+      "human_closeness_percentile": 0.33613445378151263,
+      "model_minus_human_percentile": -0.16386554621848742,
+      "familiarity": 3.15
+    },
+    {
+      "icon_id": 132,
+      "label": "Lift",
+      "model_percentile": 0.8109243697478992,
+      "human_closeness_percentile": 0.9747899159663865,
+      "model_minus_human_percentile": -0.16386554621848737,
+      "familiarity": 3.82
+    },
+    {
+      "icon_id": 40,
+      "label": "Choke",
+      "model_percentile": 0.1638655462184874,
+      "human_closeness_percentile": 0.2920168067226891,
+      "model_minus_human_percentile": -0.1281512605042017,
+      "familiarity": 3.2
+    },
+    {
+      "icon_id": 135,
+      "label": "Links to other web sites",
+      "model_percentile": 0.2605042016806723,
+      "human_closeness_percentile": 0.3865546218487395,
+      "model_minus_human_percentile": -0.12605042016806722,
+      "familiarity": 3.02
+    },
+    {
+      "icon_id": 39,
+      "label": "Chess",
+      "model_percentile": 0.8151260504201681,
+      "human_closeness_percentile": 0.9369747899159664,
+      "model_minus_human_percentile": -0.12184873949579833,
+      "familiarity": 4.45
+    },
+    {
+      "icon_id": 160,
+      "label": "Noise",
+      "model_percentile": 0.3445378151260504,
+      "human_closeness_percentile": 0.46638655462184875,
+      "model_minus_human_percentile": -0.12184873949579833,
+      "familiarity": 3.58
+    },
+    {
+      "icon_id": 157,
+      "label": "No entry",
+      "model_percentile": 0.23109243697478993,
+      "human_closeness_percentile": 0.35084033613445376,
+      "model_minus_human_percentile": -0.11974789915966383,
+      "familiarity": 4.87
+    },
+    {
+      "icon_id": 6,
+      "label": "Airborne troops",
+      "model_percentile": 0.046218487394957986,
+      "human_closeness_percentile": 0.15966386554621848,
+      "model_minus_human_percentile": -0.11344537815126049,
+      "familiarity": 3.0
+    },
+    {
+      "icon_id": 129,
+      "label": "Laminate",
+      "model_percentile": 0.29831932773109243,
+      "human_closeness_percentile": 0.4117647058823529,
+      "model_minus_human_percentile": -0.11344537815126049,
+      "familiarity": 1.92
+    },
+    {
+      "icon_id": 130,
+      "label": "Launch application program",
+      "model_percentile": 0.6554621848739496,
+      "human_closeness_percentile": 0.7626050420168067,
+      "model_minus_human_percentile": -0.1071428571428571,
+      "familiarity": 3.18
+    },
+    {
+      "icon_id": 210,
+      "label": "Suction removal of trimmed edges",
+      "model_percentile": 0.38235294117647056,
+      "human_closeness_percentile": 0.48739495798319327,
+      "model_minus_human_percentile": -0.1050420168067227,
+      "familiarity": 1.52
+    },
+    {
+      "icon_id": 81,
+      "label": "Engagement of seat belt",
+      "model_percentile": 0.8277310924369747,
+      "human_closeness_percentile": 0.9243697478991597,
+      "model_minus_human_percentile": -0.09663865546218497,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 112,
+      "label": "Headlamp cleaner",
+      "model_percentile": 0.592436974789916,
+      "human_closeness_percentile": 0.6848739495798319,
+      "model_minus_human_percentile": -0.09243697478991597,
+      "familiarity": 2.75
+    },
+    {
+      "icon_id": 223,
+      "label": "Toxic substances",
+      "model_percentile": 0.7142857142857143,
+      "human_closeness_percentile": 0.8067226890756303,
+      "model_minus_human_percentile": -0.09243697478991597,
+      "familiarity": 4.65
+    },
+    {
+      "icon_id": 212,
+      "label": "Tape cassette",
+      "model_percentile": 0.8907563025210085,
+      "human_closeness_percentile": 0.9810924369747899,
+      "model_minus_human_percentile": -0.09033613445378141,
+      "familiarity": 4.53
+    },
+    {
+      "icon_id": 229,
+      "label": "Video camera",
+      "model_percentile": 0.8823529411764706,
+      "human_closeness_percentile": 0.9705882352941176,
+      "model_minus_human_percentile": -0.08823529411764708,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 74,
+      "label": "Eject",
+      "model_percentile": 0.3949579831932773,
+      "human_closeness_percentile": 0.47689075630252103,
+      "model_minus_human_percentile": -0.08193277310924374,
+      "familiarity": 3.43
+    },
+    {
+      "icon_id": 155,
+      "label": "Navy",
+      "model_percentile": 0.6764705882352942,
+      "human_closeness_percentile": 0.75,
+      "model_minus_human_percentile": -0.07352941176470584,
+      "familiarity": 4.32
+    },
+    {
+      "icon_id": 153,
+      "label": "Museum",
+      "model_percentile": 0.25210084033613445,
+      "human_closeness_percentile": 0.3235294117647059,
+      "model_minus_human_percentile": -0.07142857142857145,
+      "familiarity": 2.0
+    },
+    {
+      "icon_id": 207,
+      "label": "Spark plug",
+      "model_percentile": 0.8865546218487395,
+      "human_closeness_percentile": 0.9495798319327731,
+      "model_minus_human_percentile": -0.06302521008403361,
+      "familiarity": 3.6
+    },
+    {
+      "icon_id": 27,
+      "label": "Brushing by means of brush belt",
+      "model_percentile": 0.2647058823529412,
+      "human_closeness_percentile": 0.3235294117647059,
+      "model_minus_human_percentile": -0.05882352941176472,
+      "familiarity": 2.2
+    },
+    {
+      "icon_id": 227,
+      "label": "Vertebrates",
+      "model_percentile": 0.3277310924369748,
+      "human_closeness_percentile": 0.3865546218487395,
+      "model_minus_human_percentile": -0.05882352941176472,
+      "familiarity": 2.45
+    },
+    {
+      "icon_id": 66,
+      "label": "Diagnose",
+      "model_percentile": 0.4957983193277311,
+      "human_closeness_percentile": 0.5525210084033614,
+      "model_minus_human_percentile": -0.05672268907563027,
+      "familiarity": 3.57
+    },
+    {
+      "icon_id": 201,
+      "label": "Shopping",
+      "model_percentile": 0.8571428571428571,
+      "human_closeness_percentile": 0.907563025210084,
+      "model_minus_human_percentile": -0.050420168067226934,
+      "familiarity": 4.03
+    },
+    {
+      "icon_id": 29,
+      "label": "Button",
+      "model_percentile": 0.542016806722689,
+      "human_closeness_percentile": 0.5840336134453782,
+      "model_minus_human_percentile": -0.04201680672268915,
+      "familiarity": 2.5
+    },
+    {
+      "icon_id": 8,
+      "label": "All operators",
+      "model_percentile": 0.19327731092436976,
+      "human_closeness_percentile": 0.23319327731092437,
+      "model_minus_human_percentile": -0.03991596638655462,
+      "familiarity": 2.5
+    },
+    {
+      "icon_id": 75,
+      "label": "Electric shaver outlet",
+      "model_percentile": 0.819327731092437,
+      "human_closeness_percentile": 0.8382352941176471,
+      "model_minus_human_percentile": -0.018907563025210128,
+      "familiarity": 3.35
+    },
+    {
+      "icon_id": 219,
+      "label": "Timed page cancelled",
+      "model_percentile": 0.5210084033613446,
+      "human_closeness_percentile": 0.5336134453781513,
+      "model_minus_human_percentile": -0.012605042016806678,
+      "familiarity": 1.98
+    },
+    {
+      "icon_id": 103,
+      "label": "Football ground",
+      "model_percentile": 0.4411764705882353,
+      "human_closeness_percentile": 0.45168067226890757,
+      "model_minus_human_percentile": -0.010504201680672287,
+      "familiarity": 2.48
+    },
+    {
+      "icon_id": 225,
+      "label": "Typewriter",
+      "model_percentile": 0.9915966386554622,
+      "human_closeness_percentile": 1.0,
+      "model_minus_human_percentile": -0.008403361344537785,
+      "familiarity": 3.88
+    },
+    {
+      "icon_id": 165,
+      "label": "Open shade",
+      "model_percentile": 0.18487394957983194,
+      "human_closeness_percentile": 0.19117647058823528,
+      "model_minus_human_percentile": -0.006302521008403339,
+      "familiarity": 4.23
+    },
+    {
+      "icon_id": 144,
+      "label": "Manual control",
+      "model_percentile": 0.7016806722689075,
+      "human_closeness_percentile": 0.7037815126050421,
+      "model_minus_human_percentile": -0.0021008403361345573,
+      "familiarity": 3.37
+    },
+    {
+      "icon_id": 203,
+      "label": "Smooth edges",
+      "model_percentile": 0.12184873949579832,
+      "human_closeness_percentile": 0.12184873949579832,
+      "model_minus_human_percentile": 0.0,
+      "familiarity": 2.42
+    },
+    {
+      "icon_id": 62,
+      "label": "Debug",
+      "model_percentile": 0.8235294117647058,
+      "human_closeness_percentile": 0.8172268907563025,
+      "model_minus_human_percentile": 0.006302521008403339,
+      "familiarity": 3.2
+    },
+    {
+      "icon_id": 170,
+      "label": "Pause",
+      "model_percentile": 0.37815126050420167,
+      "human_closeness_percentile": 0.37184873949579833,
+      "model_minus_human_percentile": 0.006302521008403339,
+      "familiarity": 3.28
+    },
+    {
+      "icon_id": 56,
+      "label": "Creel",
+      "model_percentile": 0.03361344537815126,
+      "human_closeness_percentile": 0.0273109243697479,
+      "model_minus_human_percentile": 0.00630252100840336,
+      "familiarity": 1.83
+    },
+    {
+      "icon_id": 163,
+      "label": "Open half-nut",
+      "model_percentile": 0.40336134453781514,
+      "human_closeness_percentile": 0.39705882352941174,
+      "model_minus_human_percentile": 0.0063025210084033945,
+      "familiarity": 1.83
+    },
+    {
+      "icon_id": 19,
+      "label": "Belt drive",
+      "model_percentile": 0.6596638655462185,
+      "human_closeness_percentile": 0.6512605042016807,
+      "model_minus_human_percentile": 0.008403361344537785,
+      "familiarity": 3.1
+    },
+    {
+      "icon_id": 114,
+      "label": "Heliport",
+      "model_percentile": 0.9117647058823529,
+      "human_closeness_percentile": 0.9033613445378151,
+      "model_minus_human_percentile": 0.008403361344537785,
+      "familiarity": 4.05
+    },
+    {
+      "icon_id": 239,
+      "label": "Zoom",
+      "model_percentile": 0.01680672268907563,
+      "human_closeness_percentile": 0.008403361344537815,
+      "model_minus_human_percentile": 0.008403361344537815,
+      "familiarity": 1.73
+    },
+    {
+      "icon_id": 235,
+      "label": "Wheel",
+      "model_percentile": 0.9537815126050421,
+      "human_closeness_percentile": 0.9453781512605042,
+      "model_minus_human_percentile": 0.008403361344537896,
+      "familiarity": 2.83
+    },
+    {
+      "icon_id": 57,
+      "label": "Crop",
+      "model_percentile": 0.0546218487394958,
+      "human_closeness_percentile": 0.04411764705882353,
+      "model_minus_human_percentile": 0.010504201680672266,
+      "familiarity": 1.8
+    },
+    {
+      "icon_id": 147,
+      "label": "Mineral spring",
+      "model_percentile": 0.453781512605042,
+      "human_closeness_percentile": 0.43907563025210083,
+      "model_minus_human_percentile": 0.01470588235294118,
+      "familiarity": 3.02
+    },
+    {
+      "icon_id": 194,
+      "label": "Scale of measurement",
+      "model_percentile": 0.48739495798319327,
+      "human_closeness_percentile": 0.46008403361344535,
+      "model_minus_human_percentile": 0.027310924369747913,
+      "familiarity": 1.87
+    },
+    {
+      "icon_id": 184,
+      "label": "Return to home page",
+      "model_percentile": 0.5084033613445378,
+      "human_closeness_percentile": 0.47689075630252103,
+      "model_minus_human_percentile": 0.03151260504201675,
+      "familiarity": 3.9
+    },
+    {
+      "icon_id": 125,
+      "label": "Iron",
+      "model_percentile": 0.3025210084033613,
+      "human_closeness_percentile": 0.2710084033613445,
+      "model_minus_human_percentile": 0.031512605042016806,
+      "familiarity": 2.42
+    },
+    {
+      "icon_id": 16,
+      "label": "Baggage lockers",
+      "model_percentile": 0.9495798319327731,
+      "human_closeness_percentile": 0.9159663865546218,
+      "model_minus_human_percentile": 0.03361344537815125,
+      "familiarity": 4.13
+    },
+    {
+      "icon_id": 84,
+      "label": "External cylindrical grinding",
+      "model_percentile": 0.4327731092436975,
+      "human_closeness_percentile": 0.39705882352941174,
+      "model_minus_human_percentile": 0.035714285714285754,
+      "familiarity": 1.78
+    },
+    {
+      "icon_id": 121,
+      "label": "Inspect",
+      "model_percentile": 0.5714285714285714,
+      "human_closeness_percentile": 0.5336134453781513,
+      "model_minus_human_percentile": 0.037815126050420145,
+      "familiarity": 3.8
+    },
+    {
+      "icon_id": 169,
+      "label": "Paradox",
+      "model_percentile": 0.4579831932773109,
+      "human_closeness_percentile": 0.42016806722689076,
+      "model_minus_human_percentile": 0.037815126050420145,
+      "familiarity": 3.18
+    },
+    {
+      "icon_id": 45,
+      "label": "Cloth track steaming",
+      "model_percentile": 0.2689075630252101,
+      "human_closeness_percentile": 0.22268907563025211,
+      "model_minus_human_percentile": 0.04621848739495796,
+      "familiarity": 1.72
+    },
+    {
+      "icon_id": 192,
+      "label": "Safety device against overload",
+      "model_percentile": 0.058823529411764705,
+      "human_closeness_percentile": 0.0021008403361344537,
+      "model_minus_human_percentile": 0.05672268907563025,
+      "familiarity": 1.95
+    },
+    {
+      "icon_id": 83,
+      "label": "Equipotentials",
+      "model_percentile": 0.6638655462184874,
+      "human_closeness_percentile": 0.6050420168067226,
+      "model_minus_human_percentile": 0.05882352941176472,
+      "familiarity": 3.15
+    },
+    {
+      "icon_id": 233,
+      "label": "Webcrawler",
+      "model_percentile": 0.7773109243697479,
+      "human_closeness_percentile": 0.7184873949579832,
+      "model_minus_human_percentile": 0.05882352941176472,
+      "familiarity": 3.33
+    },
+    {
+      "icon_id": 164,
+      "label": "Open location",
+      "model_percentile": 0.13445378151260504,
+      "human_closeness_percentile": 0.07352941176470588,
+      "model_minus_human_percentile": 0.06092436974789915,
+      "familiarity": 1.9
+    },
+    {
+      "icon_id": 137,
+      "label": "Loudspeaker connection",
+      "model_percentile": 0.7983193277310925,
+      "human_closeness_percentile": 0.7373949579831933,
+      "model_minus_human_percentile": 0.060924369747899165,
+      "familiarity": 3.93
+    },
+    {
+      "icon_id": 158,
+      "label": "No entry",
+      "model_percentile": 0.2857142857142857,
+      "human_closeness_percentile": 0.22268907563025211,
+      "model_minus_human_percentile": 0.06302521008403358,
+      "familiarity": 3.65
+    },
+    {
+      "icon_id": 113,
+      "label": "Heavy manufacturing",
+      "model_percentile": 0.46638655462184875,
+      "human_closeness_percentile": 0.3865546218487395,
+      "model_minus_human_percentile": 0.07983193277310924,
+      "familiarity": 3.25
+    },
+    {
+      "icon_id": 86,
+      "label": "External honing",
+      "model_percentile": 0.2815126050420168,
+      "human_closeness_percentile": 0.19747899159663865,
+      "model_minus_human_percentile": 0.08403361344537816,
+      "familiarity": 2.1
+    },
+    {
+      "icon_id": 79,
+      "label": "End of reel",
+      "model_percentile": 0.5168067226890757,
+      "human_closeness_percentile": 0.42016806722689076,
+      "model_minus_human_percentile": 0.09663865546218492,
+      "familiarity": 1.7
+    },
+    {
+      "icon_id": 200,
+      "label": "Select irregular area",
+      "model_percentile": 0.3487394957983193,
+      "human_closeness_percentile": 0.24789915966386555,
+      "model_minus_human_percentile": 0.10084033613445376,
+      "familiarity": 2.28
+    },
+    {
+      "icon_id": 216,
+      "label": "Three star freezing compartment",
+      "model_percentile": 0.7647058823529411,
+      "human_closeness_percentile": 0.6617647058823529,
+      "model_minus_human_percentile": 0.1029411764705882,
+      "familiarity": 3.13
+    },
+    {
+      "icon_id": 5,
+      "label": "Air vent - right and left outlets",
+      "model_percentile": 0.6302521008403361,
+      "human_closeness_percentile": 0.523109243697479,
+      "model_minus_human_percentile": 0.1071428571428571,
+      "familiarity": 2.05
+    },
+    {
+      "icon_id": 222,
+      "label": "Tourist activities",
+      "model_percentile": 0.23529411764705882,
+      "human_closeness_percentile": 0.12184873949579832,
+      "model_minus_human_percentile": 0.1134453781512605,
+      "familiarity": 3.43
+    },
+    {
+      "icon_id": 122,
+      "label": "Instrument illumination",
+      "model_percentile": 0.46218487394957986,
+      "human_closeness_percentile": 0.33613445378151263,
+      "model_minus_human_percentile": 0.12605042016806722,
+      "familiarity": 3.78
+    },
+    {
+      "icon_id": 202,
+      "label": "Slow",
+      "model_percentile": 0.9033613445378151,
+      "human_closeness_percentile": 0.75,
+      "model_minus_human_percentile": 0.15336134453781514,
+      "familiarity": 3.45
+    },
+    {
+      "icon_id": 111,
+      "label": "Handle with care",
+      "model_percentile": 0.8739495798319328,
+      "human_closeness_percentile": 0.7184873949579832,
+      "model_minus_human_percentile": 0.15546218487394958,
+      "familiarity": 3.08
+    },
+    {
+      "icon_id": 199,
+      "label": "Search",
+      "model_percentile": 0.6386554621848739,
+      "human_closeness_percentile": 0.47689075630252103,
+      "model_minus_human_percentile": 0.16176470588235287,
+      "familiarity": 3.65
+    },
+    {
+      "icon_id": 221,
+      "label": "Topic",
+      "model_percentile": 0.4495798319327731,
+      "human_closeness_percentile": 0.2815126050420168,
+      "model_minus_human_percentile": 0.16806722689075632,
+      "familiarity": 3.5
+    },
+    {
+      "icon_id": 76,
+      "label": "Electric transmission",
+      "model_percentile": 0.9873949579831933,
+      "human_closeness_percentile": 0.8172268907563025,
+      "model_minus_human_percentile": 0.17016806722689082,
+      "familiarity": 4.45
+    },
+    {
+      "icon_id": 124,
+      "label": "Iris diaphragm: Open",
+      "model_percentile": 0.8067226890756303,
+      "human_closeness_percentile": 0.6302521008403361,
+      "model_minus_human_percentile": 0.17647058823529416,
+      "familiarity": 2.48
+    },
+    {
+      "icon_id": 177,
+      "label": "Press tool",
+      "model_percentile": 0.6470588235294118,
+      "human_closeness_percentile": 0.46008403361344535,
+      "model_minus_human_percentile": 0.18697478991596644,
+      "familiarity": 2.03
+    },
+    {
+      "icon_id": 87,
+      "label": "Fallout shelter",
+      "model_percentile": 0.3235294117647059,
+      "human_closeness_percentile": 0.13445378151260504,
+      "model_minus_human_percentile": 0.18907563025210086,
+      "familiarity": 3.55
+    },
+    {
+      "icon_id": 95,
+      "label": "File manager",
+      "model_percentile": 0.9285714285714286,
+      "human_closeness_percentile": 0.7373949579831933,
+      "model_minus_human_percentile": 0.19117647058823528,
+      "familiarity": 4.0
+    },
+    {
+      "icon_id": 119,
+      "label": "Inject reacting resin",
+      "model_percentile": 0.42436974789915966,
+      "human_closeness_percentile": 0.22268907563025211,
+      "model_minus_human_percentile": 0.20168067226890754,
+      "familiarity": 1.8
+    },
+    {
+      "icon_id": 9,
+      "label": "American health service",
+      "model_percentile": 0.3739495798319328,
+      "human_closeness_percentile": 0.1722689075630252,
+      "model_minus_human_percentile": 0.20168067226890757,
+      "familiarity": 2.7
+    },
+    {
+      "icon_id": 24,
+      "label": "Blow moulding",
+      "model_percentile": 0.28991596638655465,
+      "human_closeness_percentile": 0.07983193277310924,
+      "model_minus_human_percentile": 0.2100840336134454,
+      "familiarity": 4.33
+    },
+    {
+      "icon_id": 143,
+      "label": "Male",
+      "model_percentile": 0.6218487394957983,
+      "human_closeness_percentile": 0.4054621848739496,
+      "model_minus_human_percentile": 0.21638655462184875,
+      "familiarity": 4.75
+    },
+    {
+      "icon_id": 11,
+      "label": "Arc ignition by contact",
+      "model_percentile": 0.42857142857142855,
+      "human_closeness_percentile": 0.20378151260504201,
+      "model_minus_human_percentile": 0.22478991596638653,
+      "familiarity": 2.65
+    },
+    {
+      "icon_id": 21,
+      "label": "Binary file",
+      "model_percentile": 0.8781512605042017,
+      "human_closeness_percentile": 0.6407563025210085,
+      "model_minus_human_percentile": 0.2373949579831932,
+      "familiarity": 2.45
+    },
+    {
+      "icon_id": 115,
+      "label": "Hierarchy",
+      "model_percentile": 0.7941176470588235,
+      "human_closeness_percentile": 0.5525210084033614,
+      "model_minus_human_percentile": 0.2415966386554621,
+      "familiarity": 2.65
+    },
+    {
+      "icon_id": 232,
+      "label": "Water power",
+      "model_percentile": 0.3697478991596639,
+      "human_closeness_percentile": 0.12184873949579832,
+      "model_minus_human_percentile": 0.24789915966386555,
+      "familiarity": 2.7
+    },
+    {
+      "icon_id": 33,
+      "label": "CD-interactive",
+      "model_percentile": 0.5882352941176471,
+      "human_closeness_percentile": 0.33613445378151263,
+      "model_minus_human_percentile": 0.25210084033613445,
+      "familiarity": 1.82
+    },
+    {
+      "icon_id": 77,
+      "label": "Electrical loop",
+      "model_percentile": 0.5630252100840336,
+      "human_closeness_percentile": 0.31092436974789917,
+      "model_minus_human_percentile": 0.25210084033613445,
+      "familiarity": 1.48
+    },
+    {
+      "icon_id": 179,
+      "label": "Protect from heat and radioactive",
+      "model_percentile": 0.7899159663865546,
+      "human_closeness_percentile": 0.5336134453781513,
+      "model_minus_human_percentile": 0.25630252100840334,
+      "familiarity": 2.2
+    },
+    {
+      "icon_id": 186,
+      "label": "Risk of explosion",
+      "model_percentile": 0.8529411764705882,
+      "human_closeness_percentile": 0.5966386554621849,
+      "model_minus_human_percentile": 0.25630252100840334,
+      "familiarity": 3.3
+    },
+    {
+      "icon_id": 55,
+      "label": "Conveyer belt",
+      "model_percentile": 0.8445378151260504,
+      "human_closeness_percentile": 0.5735294117647058,
+      "model_minus_human_percentile": 0.2710084033613446,
+      "familiarity": 2.45
+    },
+    {
+      "icon_id": 71,
+      "label": "Draw",
+      "model_percentile": 0.773109243697479,
+      "human_closeness_percentile": 0.5021008403361344,
+      "model_minus_human_percentile": 0.2710084033613446,
+      "familiarity": 2.6
+    },
+    {
+      "icon_id": 175,
+      "label": "Polishing process of fabrics",
+      "model_percentile": 0.33613445378151263,
+      "human_closeness_percentile": 0.06302521008403361,
+      "model_minus_human_percentile": 0.273109243697479,
+      "familiarity": 2.45
+    },
+    {
+      "icon_id": 180,
+      "label": "Punch marking",
+      "model_percentile": 0.8487394957983193,
+      "human_closeness_percentile": 0.5588235294117647,
+      "model_minus_human_percentile": 0.2899159663865546,
+      "familiarity": 2.13
+    },
+    {
+      "icon_id": 61,
+      "label": "Dangerous voltage",
+      "model_percentile": 0.907563025210084,
+      "human_closeness_percentile": 0.615546218487395,
+      "model_minus_human_percentile": 0.29201680672268904,
+      "familiarity": 4.52
+    },
+    {
+      "icon_id": 226,
+      "label": "Undo",
+      "model_percentile": 0.7436974789915967,
+      "human_closeness_percentile": 0.43907563025210083,
+      "model_minus_human_percentile": 0.3046218487394958,
+      "familiarity": 2.88
+    },
+    {
+      "icon_id": 3,
+      "label": "Adjust contrast",
+      "model_percentile": 0.8025210084033614,
+      "human_closeness_percentile": 0.49369747899159666,
+      "model_minus_human_percentile": 0.3088235294117647,
+      "familiarity": 3.2
+    },
+    {
+      "icon_id": 173,
+      "label": "Plasticizing cylinder with plunger",
+      "model_percentile": 0.6974789915966386,
+      "human_closeness_percentile": 0.36554621848739494,
+      "model_minus_human_percentile": 0.3319327731092437,
+      "familiarity": 2.15
+    },
+    {
+      "icon_id": 70,
+      "label": "Diver",
+      "model_percentile": 0.49159663865546216,
+      "human_closeness_percentile": 0.15336134453781514,
+      "model_minus_human_percentile": 0.338235294117647,
+      "familiarity": 1.83
+    },
+    {
+      "icon_id": 93,
+      "label": "Female",
+      "model_percentile": 0.7478991596638656,
+      "human_closeness_percentile": 0.4054621848739496,
+      "model_minus_human_percentile": 0.34243697478991597,
+      "familiarity": 4.75
+    },
+    {
+      "icon_id": 159,
+      "label": "No!",
+      "model_percentile": 0.726890756302521,
+      "human_closeness_percentile": 0.37184873949579833,
+      "model_minus_human_percentile": 0.35504201680672265,
+      "familiarity": 4.7
+    },
+    {
+      "icon_id": 181,
+      "label": "Radiation of laser apparatus",
+      "model_percentile": 0.6134453781512605,
+      "human_closeness_percentile": 0.25840336134453784,
+      "model_minus_human_percentile": 0.3550420168067227,
+      "familiarity": 3.13
+    },
+    {
+      "icon_id": 120,
+      "label": "Insert object linking and embedding file",
+      "model_percentile": 0.3865546218487395,
+      "human_closeness_percentile": 0.01680672268907563,
+      "model_minus_human_percentile": 0.3697478991596639,
+      "familiarity": 2.0
+    },
+    {
+      "icon_id": 133,
+      "label": "Lift",
+      "model_percentile": 0.6890756302521008,
+      "human_closeness_percentile": 0.2920168067226891,
+      "model_minus_human_percentile": 0.39705882352941174,
+      "familiarity": 2.42
+    },
+    {
+      "icon_id": 178,
+      "label": "Product",
+      "model_percentile": 0.39915966386554624,
+      "human_closeness_percentile": 0.0021008403361344537,
+      "model_minus_human_percentile": 0.3970588235294118,
+      "familiarity": 2.12
+    },
+    {
+      "icon_id": 171,
+      "label": "Peace",
+      "model_percentile": 0.7226890756302521,
+      "human_closeness_percentile": 0.3235294117647059,
+      "model_minus_human_percentile": 0.3991596638655462,
+      "familiarity": 4.35
+    },
+    {
+      "icon_id": 67,
+      "label": "Diamond extraction",
+      "model_percentile": 0.9411764705882353,
+      "human_closeness_percentile": 0.542016806722689,
+      "model_minus_human_percentile": 0.39915966386554624,
+      "familiarity": 2.43
+    },
+    {
+      "icon_id": 185,
+      "label": "Rinse",
+      "model_percentile": 0.5462184873949579,
+      "human_closeness_percentile": 0.14495798319327732,
+      "model_minus_human_percentile": 0.4012605042016806,
+      "familiarity": 1.65
+    },
+    {
+      "icon_id": 118,
+      "label": "Information",
+      "model_percentile": 0.47478991596638653,
+      "human_closeness_percentile": 0.07352941176470588,
+      "model_minus_human_percentile": 0.40126050420168063,
+      "familiarity": 3.05
+    },
+    {
+      "icon_id": 149,
+      "label": "Module",
+      "model_percentile": 0.5252100840336135,
+      "human_closeness_percentile": 0.12184873949579832,
+      "model_minus_human_percentile": 0.40336134453781514,
+      "familiarity": 3.43
+    },
+    {
+      "icon_id": 166,
+      "label": "Opening of selvedge loops",
+      "model_percentile": 0.6092436974789915,
+      "human_closeness_percentile": 0.20378151260504201,
+      "model_minus_human_percentile": 0.4054621848739495,
+      "familiarity": 1.5
+    },
+    {
+      "icon_id": 161,
+      "label": "Non-ionising radiation",
+      "model_percentile": 0.5756302521008403,
+      "human_closeness_percentile": 0.16806722689075632,
+      "model_minus_human_percentile": 0.407563025210084,
+      "familiarity": 3.67
+    },
+    {
+      "icon_id": 10,
+      "label": "Apple computer",
+      "model_percentile": 0.6008403361344538,
+      "human_closeness_percentile": 0.19117647058823528,
+      "model_minus_human_percentile": 0.4096638655462185,
+      "familiarity": 1.98
+    },
+    {
+      "icon_id": 106,
+      "label": "Gastropods",
+      "model_percentile": 0.6428571428571429,
+      "human_closeness_percentile": 0.23319327731092437,
+      "model_minus_human_percentile": 0.40966386554621853,
+      "familiarity": 3.1
+    },
+    {
+      "icon_id": 23,
+      "label": "Bitmap",
+      "model_percentile": 0.680672268907563,
+      "human_closeness_percentile": 0.2647058823529412,
+      "model_minus_human_percentile": 0.41596638655462187,
+      "familiarity": 2.27
+    },
+    {
+      "icon_id": 89,
+      "label": "Farm kitchen",
+      "model_percentile": 0.4369747899159664,
+      "human_closeness_percentile": 0.02100840336134454,
+      "model_minus_human_percentile": 0.41596638655462187,
+      "familiarity": 1.88
+    },
+    {
+      "icon_id": 148,
+      "label": "Missile in flight",
+      "model_percentile": 0.9369747899159664,
+      "human_closeness_percentile": 0.5126050420168067,
+      "model_minus_human_percentile": 0.4243697478991597,
+      "familiarity": 2.72
+    },
+    {
+      "icon_id": 196,
+      "label": "Sea mine decoy",
+      "model_percentile": 0.5672268907563025,
+      "human_closeness_percentile": 0.13865546218487396,
+      "model_minus_human_percentile": 0.42857142857142855,
+      "familiarity": 1.58
+    },
+    {
+      "icon_id": 12,
+      "label": "Archive",
+      "model_percentile": 0.5504201680672269,
+      "human_closeness_percentile": 0.12184873949579832,
+      "model_minus_human_percentile": 0.4285714285714286,
+      "familiarity": 1.95
+    },
+    {
+      "icon_id": 142,
+      "label": "Mail merge main document",
+      "model_percentile": 0.6932773109243697,
+      "human_closeness_percentile": 0.25840336134453784,
+      "model_minus_human_percentile": 0.4348739495798319,
+      "familiarity": 2.28
+    },
+    {
+      "icon_id": 208,
+      "label": "Sterilizer",
+      "model_percentile": 0.5294117647058824,
+      "human_closeness_percentile": 0.08403361344537816,
+      "model_minus_human_percentile": 0.4453781512605042,
+      "familiarity": 1.9
+    },
+    {
+      "icon_id": 176,
+      "label": "Portable files",
+      "model_percentile": 0.9705882352941176,
+      "human_closeness_percentile": 0.523109243697479,
+      "model_minus_human_percentile": 0.4474789915966386,
+      "familiarity": 3.8
+    },
+    {
+      "icon_id": 2,
+      "label": "Added fabric web width",
+      "model_percentile": 0.7394957983193278,
+      "human_closeness_percentile": 0.2857142857142857,
+      "model_minus_human_percentile": 0.45378151260504207,
+      "familiarity": 1.93
+    },
+    {
+      "icon_id": 43,
+      "label": "Cleaning of chain-link",
+      "model_percentile": 0.5588235294117647,
+      "human_closeness_percentile": 0.09453781512605042,
+      "model_minus_human_percentile": 0.4642857142857143,
+      "familiarity": 1.7
+    },
+    {
+      "icon_id": 231,
+      "label": "Water cooled condenser",
+      "model_percentile": 0.8319327731092437,
+      "human_closeness_percentile": 0.35084033613445376,
+      "model_minus_human_percentile": 0.48109243697479,
+      "familiarity": 2.9
+    },
+    {
+      "icon_id": 14,
+      "label": "Automatic control (closed loop)",
+      "model_percentile": 0.5798319327731093,
+      "human_closeness_percentile": 0.09453781512605042,
+      "model_minus_human_percentile": 0.4852941176470589,
+      "familiarity": 1.93
+    },
+    {
+      "icon_id": 68,
+      "label": "Discard files",
+      "model_percentile": 0.9831932773109243,
+      "human_closeness_percentile": 0.47689075630252103,
+      "model_minus_human_percentile": 0.5063025210084033,
+      "familiarity": 3.1
+    },
+    {
+      "icon_id": 1,
+      "label": "Add task",
+      "model_percentile": 0.8697478991596639,
+      "human_closeness_percentile": 0.36134453781512604,
+      "model_minus_human_percentile": 0.5084033613445378,
+      "familiarity": 3.05
+    },
+    {
+      "icon_id": 13,
+      "label": "Atomic site",
+      "model_percentile": 0.9621848739495799,
+      "human_closeness_percentile": 0.45168067226890757,
+      "model_minus_human_percentile": 0.5105042016806722,
+      "familiarity": 3.73
+    },
+    {
+      "icon_id": 237,
+      "label": "Winter sports area",
+      "model_percentile": 0.9453781512605042,
+      "human_closeness_percentile": 0.43067226890756305,
+      "model_minus_human_percentile": 0.5147058823529411,
+      "familiarity": 4.45
+    },
+    {
+      "icon_id": 35,
+      "label": "Centre of gravity",
+      "model_percentile": 0.7605042016806722,
+      "human_closeness_percentile": 0.2415966386554622,
+      "model_minus_human_percentile": 0.51890756302521,
+      "familiarity": 1.78
+    },
+    {
+      "icon_id": 4,
+      "label": "Air cooled condenser",
+      "model_percentile": 0.6722689075630253,
+      "human_closeness_percentile": 0.15336134453781514,
+      "model_minus_human_percentile": 0.5189075630252101,
+      "familiarity": 1.75
+    },
+    {
+      "icon_id": 188,
+      "label": "Rotary vacuum filter",
+      "model_percentile": 0.7352941176470589,
+      "human_closeness_percentile": 0.21428571428571427,
+      "model_minus_human_percentile": 0.5210084033613446,
+      "familiarity": 1.53
+    },
+    {
+      "icon_id": 100,
+      "label": "Focal plane",
+      "model_percentile": 0.7100840336134454,
+      "human_closeness_percentile": 0.18277310924369747,
+      "model_minus_human_percentile": 0.5273109243697479,
+      "familiarity": 3.35
+    },
+    {
+      "icon_id": 98,
+      "label": "First aid",
+      "model_percentile": 0.9789915966386554,
+      "human_closeness_percentile": 0.44537815126050423,
+      "model_minus_human_percentile": 0.5336134453781511,
+      "familiarity": 4.8
+    },
+    {
+      "icon_id": 209,
+      "label": "Straining element",
+      "model_percentile": 0.6050420168067226,
+      "human_closeness_percentile": 0.0546218487394958,
+      "model_minus_human_percentile": 0.5504201680672268,
+      "familiarity": 1.95
+    },
+    {
+      "icon_id": 63,
+      "label": "Debug",
+      "model_percentile": 0.8949579831932774,
+      "human_closeness_percentile": 0.3025210084033613,
+      "model_minus_human_percentile": 0.5924369747899161,
+      "familiarity": 3.2
+    },
+    {
+      "icon_id": 85,
+      "label": "External hard disk",
+      "model_percentile": 0.865546218487395,
+      "human_closeness_percentile": 0.2710084033613445,
+      "model_minus_human_percentile": 0.5945378151260505,
+      "familiarity": 1.98
+    },
+    {
+      "icon_id": 206,
+      "label": "Spark coil-ignition element",
+      "model_percentile": 0.9243697478991597,
+      "human_closeness_percentile": 0.31092436974789917,
+      "model_minus_human_percentile": 0.6134453781512605,
+      "familiarity": 2.55
+    },
+    {
+      "icon_id": 42,
+      "label": "Clean edge pins",
+      "model_percentile": 0.7184873949579832,
+      "human_closeness_percentile": 0.08823529411764706,
+      "model_minus_human_percentile": 0.6302521008403361,
+      "familiarity": 1.6
+    },
+    {
+      "icon_id": 80,
+      "label": "Engage pile-raising roller",
+      "model_percentile": 0.9327731092436975,
+      "human_closeness_percentile": 0.29831932773109243,
+      "model_minus_human_percentile": 0.634453781512605,
+      "familiarity": 2.08
+    },
+    {
+      "icon_id": 123,
+      "label": "Ionising radiation",
+      "model_percentile": 0.9957983193277311,
+      "human_closeness_percentile": 0.35084033613445376,
+      "model_minus_human_percentile": 0.6449579831932774,
+      "familiarity": 4.5
+    },
+    {
+      "icon_id": 18,
+      "label": "Beating process of fabrics",
+      "model_percentile": 0.7563025210084033,
+      "human_closeness_percentile": 0.10084033613445378,
+      "model_minus_human_percentile": 0.6554621848739496,
+      "familiarity": 1.65
+    },
+    {
+      "icon_id": 65,
+      "label": "Device driver",
+      "model_percentile": 0.6848739495798319,
+      "human_closeness_percentile": 0.012605042016806723,
+      "model_minus_human_percentile": 0.6722689075630253,
+      "familiarity": 2.2
+    },
+    {
+      "icon_id": 224,
+      "label": "Tubular film die",
+      "model_percentile": 0.7058823529411765,
+      "human_closeness_percentile": 0.03361344537815126,
+      "model_minus_human_percentile": 0.6722689075630253,
+      "familiarity": 1.88
+    },
+    {
+      "icon_id": 72,
+      "label": "Earthing point",
+      "model_percentile": 0.8613445378151261,
+      "human_closeness_percentile": 0.1638655462184874,
+      "model_minus_human_percentile": 0.6974789915966387,
+      "familiarity": 2.58
+    },
+    {
+      "icon_id": 174,
+      "label": "Plate column",
+      "model_percentile": 0.9159663865546218,
+      "human_closeness_percentile": 0.21008403361344538,
+      "model_minus_human_percentile": 0.7058823529411764,
+      "familiarity": 2.73
+    },
+    {
+      "icon_id": 49,
+      "label": "Colour temperature lamp",
+      "model_percentile": 0.9663865546218487,
+      "human_closeness_percentile": 0.25210084033613445,
+      "model_minus_human_percentile": 0.7142857142857143,
+      "familiarity": 3.8
+    },
+    {
+      "icon_id": 99,
+      "label": "Fixed bed reactor",
+      "model_percentile": 0.7815126050420168,
+      "human_closeness_percentile": 0.06302521008403361,
+      "model_minus_human_percentile": 0.7184873949579832,
+      "familiarity": 1.87
+    },
+    {
+      "icon_id": 167,
+      "label": "Oscillating motor",
+      "model_percentile": 0.7689075630252101,
+      "human_closeness_percentile": 0.05042016806722689,
+      "model_minus_human_percentile": 0.7184873949579832,
+      "familiarity": 1.85
+    },
+    {
+      "icon_id": 134,
+      "label": "Line vessel",
+      "model_percentile": 0.9201680672268907,
+      "human_closeness_percentile": 0.18277310924369747,
+      "model_minus_human_percentile": 0.7373949579831932,
+      "familiarity": 1.7
+    },
+    {
+      "icon_id": 140,
+      "label": "Macrobiotics",
+      "model_percentile": 0.7857142857142857,
+      "human_closeness_percentile": 0.037815126050420166,
+      "model_minus_human_percentile": 0.7478991596638656,
+      "familiarity": 4.42
+    },
+    {
+      "icon_id": 54,
+      "label": "Convert multiple files",
+      "model_percentile": 0.8991596638655462,
+      "human_closeness_percentile": 0.14495798319327732,
+      "model_minus_human_percentile": 0.7542016806722689,
+      "familiarity": 1.55
+    },
+    {
+      "icon_id": 52,
+      "label": "Confucianism",
+      "model_percentile": 0.8361344537815126,
+      "human_closeness_percentile": 0.06302521008403361,
+      "model_minus_human_percentile": 0.773109243697479,
+      "familiarity": 1.45
+    },
+    {
+      "icon_id": 78,
+      "label": "Electrical precipitator",
+      "model_percentile": 0.8403361344537815,
+      "human_closeness_percentile": 0.0273109243697479,
+      "model_minus_human_percentile": 0.8130252100840336,
+      "familiarity": 1.92
+    },
+    {
+      "icon_id": 22,
+      "label": "Biohazard",
+      "model_percentile": 0.9747899159663865,
+      "human_closeness_percentile": 0.1092436974789916,
+      "model_minus_human_percentile": 0.865546218487395,
+      "familiarity": 2.45
+    },
+    {
+      "icon_id": 126,
+      "label": "Jacketed reactor",
+      "model_percentile": 1.0,
+      "human_closeness_percentile": 0.10504201680672269,
+      "model_minus_human_percentile": 0.8949579831932774,
+      "familiarity": 1.38
+    },
+    {
+      "icon_id": 193,
+      "label": "Safety isolating transformer",
+      "model_percentile": 0.957983193277311,
+      "human_closeness_percentile": 0.04411764705882353,
+      "model_minus_human_percentile": 0.9138655462184875,
+      "familiarity": 2.1
+    }
+  ],
+  "method": "Spearman correlation with average ranks for ties",
+  "primary_comparison": "intended_similarity versus semantic_distance (higher means closer)",
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 20261024,
+    "unit": "icon",
+    "interval": "95% percentile"
+  },
+  "source_summary_sha256": "480d04bf4e49070b2cad2606857aef160b86470cfecc58ba5c97b39a6510d631",
+  "analysis_script_sha256": "5c5cc36e7af15bc4a648d27a3040892b41a3da8a8fd995a6635c1a1a39eb955c",
+  "limitations": [
+    "Exploratory associations, not held-out predictive evaluation",
+    "Secondary comparisons are exploratory; no significance claims",
+    "Bootstrap resamples this icon corpus, not participant-level uncertainty",
+    "Partial rank correlation describes association conditional on familiarity; not causation",
+    "Human summary-statistic discrepancies remain unresolved"
+  ]
+}

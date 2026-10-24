@@ -1,0 +1,15 @@
+{
+  "icons": 10,
+  "image_text_pairs": 100,
+  "all_scores_finite_and_in_range": true,
+  "unique_vocabulary_and_ranks_per_icon": true,
+  "summary_matches_pair_scores": true,
+  "repeated_cpu_run_csvs_byte_identical": true,
+  "output_sha256": {
+    "summary.csv": "1b89dfe46497fd72b2111d5a16e3cbfab0c9738d17558211517b8bd6f2a2df4d",
+    "similarities.csv": "5a6848646263a55fe005b19746dcf6fc8f7961db58bfdb4ba916deeb80b8a4f1"
+  },
+  "weights_state_sha256": "cf4e516c00859f7b9ccbd587e141872b9d4315fa89dba2586e52c90a67fb2b0c",
+  "repeat_run_started_at_utc": "2026-10-24T19:26:12.660180+00:00",
+  "note": "Same local CPU, package versions, inputs and model configuration; timestamps differ as expected."
+}

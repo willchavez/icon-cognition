@@ -1,0 +1,270 @@
+{
+  "n": 10,
+  "candidate_count": 10,
+  "intended_top1": 2,
+  "median_intended_rank": 2.5,
+  "top_prediction_counts": {
+    "Added fabric web width": 6,
+    "Air vent - right and left outlets": 2,
+    "Adjust contrast": 1,
+    "American health service": 1
+  },
+  "correlations": {
+    "intended_similarity": {
+      "semantic_distance": {
+        "rho": 0.34545454545454546,
+        "n": 10,
+        "ci95": [
+          -0.30828419811320756,
+          0.8607813868322585
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "familiarity": {
+        "rho": 0.2606060606060606,
+        "n": 10,
+        "ci95": [
+          -0.7876842948717947,
+          0.8039848197343451
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concept_agreement_pct": {
+        "rho": -0.2538952735230717,
+        "n": 10,
+        "ci95": [
+          -0.7783765290425712,
+          0.45097843129062465
+        ],
+        "valid_bootstrap_samples": 1998
+      },
+      "name_agreement_pct": {
+        "rho": -0.11693691643036609,
+        "n": 10,
+        "ci95": [
+          -0.8419046274960933,
+          0.6120816558741281
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "meaningfulness": {
+        "rho": 0.23636363636363636,
+        "n": 10,
+        "ci95": [
+          -0.750077160493827,
+          0.8701508169250102
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concreteness": {
+        "rho": -0.3586642707712381,
+        "n": 10,
+        "ci95": [
+          -0.7900127258649189,
+          0.3726102941176468
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity": {
+        "rho": -0.06666666666666667,
+        "n": 10,
+        "ci95": [
+          -0.8364779874213838,
+          0.6815286624203822
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity_metric": {
+        "rho": -0.19694638556693236,
+        "n": 10,
+        "ci95": [
+          -0.8721500516856557,
+          0.6754718364938117
+        ],
+        "valid_bootstrap_samples": 2000
+      }
+    },
+    "intended_minus_best_alternative": {
+      "semantic_distance": {
+        "rho": 0.16363636363636364,
+        "n": 10,
+        "ci95": [
+          -0.5749999999999998,
+          0.7750349378881984
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "familiarity": {
+        "rho": 0.23636363636363636,
+        "n": 10,
+        "ci95": [
+          -0.5975337576330952,
+          0.8463576158940385
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concept_agreement_pct": {
+        "rho": -0.16275338046350746,
+        "n": 10,
+        "ci95": [
+          -0.7824758900557374,
+          0.4784639420589686
+        ],
+        "valid_bootstrap_samples": 1998
+      },
+      "name_agreement_pct": {
+        "rho": -0.41235649478076464,
+        "n": 10,
+        "ci95": [
+          -0.8738678915874097,
+          0.19545766022076747
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "meaningfulness": {
+        "rho": 0.09090909090909091,
+        "n": 10,
+        "ci95": [
+          -0.6226415094339623,
+          0.7197979499725818
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "concreteness": {
+        "rho": 0.0,
+        "n": 10,
+        "ci95": [
+          -0.6732534448876212,
+          0.7391706924315616
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity": {
+        "rho": 0.3212121212121212,
+        "n": 10,
+        "ci95": [
+          -0.5386792452830187,
+          0.9221151460004959
+        ],
+        "valid_bootstrap_samples": 2000
+      },
+      "complexity_metric": {
+        "rho": 0.0,
+        "n": 10,
+        "ci95": [
+          -0.7583703543365117,
+          0.7200960587967865
+        ],
+        "valid_bootstrap_samples": 2000
+      }
+    }
+  },
+  "semantic_similarity_partial_controlling_familiarity": {
+    "rho": 0.3233486463414306,
+    "n": 10,
+    "ci95": [
+      -0.46708474745692274,
+      0.8767644528655537
+    ],
+    "valid_bootstrap_samples": 1996
+  },
+  "disagreement_order": [
+    {
+      "icon_id": 7,
+      "label": "Airbrush",
+      "model_percentile": 0.1111111111111111,
+      "human_closeness_percentile": 0.7777777777777778,
+      "model_minus_human_percentile": -0.6666666666666667,
+      "familiarity": 1.55
+    },
+    {
+      "icon_id": 5,
+      "label": "Air vent - right and left outlets",
+      "model_percentile": 0.5555555555555556,
+      "human_closeness_percentile": 1.0,
+      "model_minus_human_percentile": -0.4444444444444444,
+      "familiarity": 2.05
+    },
+    {
+      "icon_id": 8,
+      "label": "All operators",
+      "model_percentile": 0.2222222222222222,
+      "human_closeness_percentile": 0.4444444444444444,
+      "model_minus_human_percentile": -0.2222222222222222,
+      "familiarity": 2.5
+    },
+    {
+      "icon_id": 6,
+      "label": "Airborne troops",
+      "model_percentile": 0.0,
+      "human_closeness_percentile": 0.1111111111111111,
+      "model_minus_human_percentile": -0.1111111111111111,
+      "familiarity": 3.0
+    },
+    {
+      "icon_id": 3,
+      "label": "Adjust contrast",
+      "model_percentile": 0.8888888888888888,
+      "human_closeness_percentile": 0.8888888888888888,
+      "model_minus_human_percentile": 0.0,
+      "familiarity": 3.2
+    },
+    {
+      "icon_id": 9,
+      "label": "American health service",
+      "model_percentile": 0.3333333333333333,
+      "human_closeness_percentile": 0.2222222222222222,
+      "model_minus_human_percentile": 0.1111111111111111,
+      "familiarity": 2.7
+    },
+    {
+      "icon_id": 10,
+      "label": "Apple computer",
+      "model_percentile": 0.4444444444444444,
+      "human_closeness_percentile": 0.3333333333333333,
+      "model_minus_human_percentile": 0.1111111111111111,
+      "familiarity": 1.98
+    },
+    {
+      "icon_id": 2,
+      "label": "Added fabric web width",
+      "model_percentile": 0.7777777777777778,
+      "human_closeness_percentile": 0.5555555555555556,
+      "model_minus_human_percentile": 0.2222222222222222,
+      "familiarity": 1.93
+    },
+    {
+      "icon_id": 1,
+      "label": "Add task",
+      "model_percentile": 1.0,
+      "human_closeness_percentile": 0.6666666666666666,
+      "model_minus_human_percentile": 0.33333333333333337,
+      "familiarity": 3.05
+    },
+    {
+      "icon_id": 4,
+      "label": "Air cooled condenser",
+      "model_percentile": 0.6666666666666666,
+      "human_closeness_percentile": 0.0,
+      "model_minus_human_percentile": 0.6666666666666666,
+      "familiarity": 1.75
+    }
+  ],
+  "method": "Spearman correlation with average ranks for ties",
+  "primary_comparison": "intended_similarity versus semantic_distance (higher means closer)",
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 20261024,
+    "unit": "icon",
+    "interval": "95% percentile"
+  },
+  "source_summary_sha256": "1b89dfe46497fd72b2111d5a16e3cbfab0c9738d17558211517b8bd6f2a2df4d",
+  "analysis_script_sha256": "5c5cc36e7af15bc4a648d27a3040892b41a3da8a8fd995a6635c1a1a39eb955c",
+  "limitations": [
+    "Exploratory associations, not held-out predictive evaluation",
+    "Secondary comparisons are exploratory; no significance claims",
+    "Bootstrap resamples this icon corpus, not participant-level uncertainty",
+    "Partial rank correlation describes association conditional on familiarity; not causation",
+    "Human summary-statistic discrepancies remain unresolved"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "icon_count": 239,
   "numerical_value_count": 1912,
-  "manual_correction_count": 52,
+  "manual_correction_count": 53,
   "source_sha256": "c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1",
   "summary_comparison": {
     "concreteness": {
@@ -40,7 +40,7 @@
       "maximum": 4.9
     },
     "complexity_metric": {
-      "extracted_mean": 8.543933054393305,
+      "extracted_mean": 8.523012552301255,
       "published_table_1_mean": 8.6,
       "matches_at_two_decimals": false,
       "minimum": 1.0,

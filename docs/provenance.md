@@ -134,3 +134,19 @@ are retained and flagged. Neither agreement values nor component counts were
 adjusted to force a match with the summary table. The generated
 `measurement-validation.json` records these comparisons. Alternative names
 printed beneath the ratings remain untranscribed, and no CLIP results exist.
+
+## Follow-up measurement audit — October 24, 2026
+
+Reread all 717 values in the three columns whose aggregate means differ from
+Table 1 using isolated source-value crops and a second Vision OCR pass. Of
+these, 628 matched numerically and all 89 remaining flags were visually
+inspected. Four complexity counts were corrected: icon 34 from 3 to 5, 136
+from 8 to 3, 172 from 4 to 6, and 201 from 7 to 3. The first three correct an
+earlier manual transcription; the fourth corrects an earlier OCR misread.
+The correction ledger now has 53 entries. No subjective ratings or agreement
+values changed. Audit evidence and before/after values are retained beside
+the processed dataset. Three summary-mean differences remain unresolved.
+
+The original ten-icon experiment remains preserved. A new all-239 run uses
+the corrected table and the same model, activation, preprocessing, and prompt;
+its candidate vocabulary consists of all 231 unique published function labels.

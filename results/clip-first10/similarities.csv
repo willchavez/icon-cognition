@@ -1,0 +1,101 @@
+icon_id,intended_label,candidate_index,candidate_label,prompt,cosine_similarity,rank,is_intended
+1,Add task,1,Added fabric web width,an icon representing Added fabric web width,0.30149906873703003,1,False
+1,Add task,0,Add task,an icon representing Add task,0.2948954999446869,2,True
+1,Add task,2,Adjust contrast,an icon representing Adjust contrast,0.28858962655067444,3,False
+1,Add task,9,Apple computer,an icon representing Apple computer,0.2825067639350891,4,False
+1,Add task,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.2696642279624939,5,False
+1,Add task,8,American health service,an icon representing American health service,0.2483201026916504,6,False
+1,Add task,6,Airbrush,an icon representing Airbrush,0.2380584180355072,7,False
+1,Add task,7,All operators,an icon representing All operators,0.23728017508983612,8,False
+1,Add task,3,Air cooled condenser,an icon representing Air cooled condenser,0.2353239208459854,9,False
+1,Add task,5,Airborne troops,an icon representing Airborne troops,0.22711634635925293,10,False
+2,Added fabric web width,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.28494054079055786,1,False
+2,Added fabric web width,1,Added fabric web width,an icon representing Added fabric web width,0.2839144170284271,2,True
+2,Added fabric web width,0,Add task,an icon representing Add task,0.2758612632751465,3,False
+2,Added fabric web width,2,Adjust contrast,an icon representing Adjust contrast,0.26990067958831787,4,False
+2,Added fabric web width,9,Apple computer,an icon representing Apple computer,0.2588087320327759,5,False
+2,Added fabric web width,3,Air cooled condenser,an icon representing Air cooled condenser,0.24854378402233124,6,False
+2,Added fabric web width,7,All operators,an icon representing All operators,0.2473522573709488,7,False
+2,Added fabric web width,6,Airbrush,an icon representing Airbrush,0.24417681992053986,8,False
+2,Added fabric web width,8,American health service,an icon representing American health service,0.2343786358833313,9,False
+2,Added fabric web width,5,Airborne troops,an icon representing Airborne troops,0.2168179154396057,10,False
+3,Adjust contrast,2,Adjust contrast,an icon representing Adjust contrast,0.28855594992637634,1,True
+3,Adjust contrast,1,Added fabric web width,an icon representing Added fabric web width,0.2836226522922516,2,False
+3,Adjust contrast,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.2787298560142517,3,False
+3,Adjust contrast,0,Add task,an icon representing Add task,0.27032220363616943,4,False
+3,Adjust contrast,9,Apple computer,an icon representing Apple computer,0.2646256387233734,5,False
+3,Adjust contrast,3,Air cooled condenser,an icon representing Air cooled condenser,0.25285205245018005,6,False
+3,Adjust contrast,7,All operators,an icon representing All operators,0.24523301422595978,7,False
+3,Adjust contrast,8,American health service,an icon representing American health service,0.23500363528728485,8,False
+3,Adjust contrast,5,Airborne troops,an icon representing Airborne troops,0.22867834568023682,9,False
+3,Adjust contrast,6,Airbrush,an icon representing Airbrush,0.22604063153266907,10,False
+4,Air cooled condenser,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.29213947057724,1,False
+4,Air cooled condenser,1,Added fabric web width,an icon representing Added fabric web width,0.27987170219421387,2,False
+4,Air cooled condenser,3,Air cooled condenser,an icon representing Air cooled condenser,0.27931657433509827,3,True
+4,Air cooled condenser,2,Adjust contrast,an icon representing Adjust contrast,0.2754876911640167,4,False
+4,Air cooled condenser,0,Add task,an icon representing Add task,0.26945123076438904,5,False
+4,Air cooled condenser,9,Apple computer,an icon representing Apple computer,0.26255056262016296,6,False
+4,Air cooled condenser,7,All operators,an icon representing All operators,0.2509589195251465,7,False
+4,Air cooled condenser,8,American health service,an icon representing American health service,0.24874155223369598,8,False
+4,Air cooled condenser,6,Airbrush,an icon representing Airbrush,0.2256499081850052,9,False
+4,Air cooled condenser,5,Airborne troops,an icon representing Airborne troops,0.21571198105812073,10,False
+5,Air vent - right and left outlets,1,Added fabric web width,an icon representing Added fabric web width,0.2979234457015991,1,False
+5,Air vent - right and left outlets,2,Adjust contrast,an icon representing Adjust contrast,0.28314799070358276,2,False
+5,Air vent - right and left outlets,0,Add task,an icon representing Add task,0.282316654920578,3,False
+5,Air vent - right and left outlets,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.276215523481369,4,True
+5,Air vent - right and left outlets,3,Air cooled condenser,an icon representing Air cooled condenser,0.26842793822288513,5,False
+5,Air vent - right and left outlets,9,Apple computer,an icon representing Apple computer,0.26374825835227966,6,False
+5,Air vent - right and left outlets,7,All operators,an icon representing All operators,0.25921860337257385,7,False
+5,Air vent - right and left outlets,8,American health service,an icon representing American health service,0.24729406833648682,8,False
+5,Air vent - right and left outlets,6,Airbrush,an icon representing Airbrush,0.24040552973747253,9,False
+5,Air vent - right and left outlets,5,Airborne troops,an icon representing Airborne troops,0.22814175486564636,10,False
+6,Airborne troops,1,Added fabric web width,an icon representing Added fabric web width,0.27821487188339233,1,False
+6,Airborne troops,2,Adjust contrast,an icon representing Adjust contrast,0.2776831090450287,2,False
+6,Airborne troops,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.276868611574173,3,False
+6,Airborne troops,0,Add task,an icon representing Add task,0.2694728374481201,4,False
+6,Airborne troops,9,Apple computer,an icon representing Apple computer,0.26457148790359497,5,False
+6,Airborne troops,6,Airbrush,an icon representing Airbrush,0.2548852860927582,6,False
+6,Airborne troops,7,All operators,an icon representing All operators,0.25430047512054443,7,False
+6,Airborne troops,3,Air cooled condenser,an icon representing Air cooled condenser,0.24781684577465057,8,False
+6,Airborne troops,8,American health service,an icon representing American health service,0.2354888617992401,9,False
+6,Airborne troops,5,Airborne troops,an icon representing Airborne troops,0.2311391532421112,10,True
+7,Airbrush,1,Added fabric web width,an icon representing Added fabric web width,0.2768726050853729,1,False
+7,Airbrush,0,Add task,an icon representing Add task,0.2753714919090271,2,False
+7,Airbrush,2,Adjust contrast,an icon representing Adjust contrast,0.269584983587265,3,False
+7,Airbrush,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.2591725289821625,4,False
+7,Airbrush,9,Apple computer,an icon representing Apple computer,0.2578904926776886,5,False
+7,Airbrush,7,All operators,an icon representing All operators,0.25021636486053467,6,False
+7,Airbrush,3,Air cooled condenser,an icon representing Air cooled condenser,0.2439683973789215,7,False
+7,Airbrush,6,Airbrush,an icon representing Airbrush,0.2439359724521637,8,True
+7,Airbrush,8,American health service,an icon representing American health service,0.24141712486743927,9,False
+7,Airbrush,5,Airborne troops,an icon representing Airborne troops,0.22123168408870697,10,False
+8,All operators,1,Added fabric web width,an icon representing Added fabric web width,0.2946617007255554,1,False
+8,All operators,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.2840644419193268,2,False
+8,All operators,0,Add task,an icon representing Add task,0.28130626678466797,3,False
+8,All operators,2,Adjust contrast,an icon representing Adjust contrast,0.27917930483818054,4,False
+8,All operators,3,Air cooled condenser,an icon representing Air cooled condenser,0.26656457781791687,5,False
+8,All operators,9,Apple computer,an icon representing Apple computer,0.26604005694389343,6,False
+8,All operators,8,American health service,an icon representing American health service,0.2514656186103821,7,False
+8,All operators,6,Airbrush,an icon representing Airbrush,0.24983105063438416,8,False
+8,All operators,7,All operators,an icon representing All operators,0.24924960732460022,9,True
+8,All operators,5,Airborne troops,an icon representing Airborne troops,0.23896266520023346,10,False
+9,American health service,8,American health service,an icon representing American health service,0.2607893943786621,1,True
+9,American health service,2,Adjust contrast,an icon representing Adjust contrast,0.25700148940086365,2,False
+9,American health service,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.2566852271556854,3,False
+9,American health service,7,All operators,an icon representing All operators,0.24948416650295258,4,False
+9,American health service,1,Added fabric web width,an icon representing Added fabric web width,0.24855542182922363,5,False
+9,American health service,0,Add task,an icon representing Add task,0.24823765456676483,6,False
+9,American health service,9,Apple computer,an icon representing Apple computer,0.24566511809825897,7,False
+9,American health service,3,Air cooled condenser,an icon representing Air cooled condenser,0.2446913719177246,8,False
+9,American health service,6,Airbrush,an icon representing Airbrush,0.23580944538116455,9,False
+9,American health service,5,Airborne troops,an icon representing Airborne troops,0.23237751424312592,10,False
+10,Apple computer,1,Added fabric web width,an icon representing Added fabric web width,0.27559396624565125,1,False
+10,Apple computer,9,Apple computer,an icon representing Apple computer,0.2741348147392273,2,True
+10,Apple computer,0,Add task,an icon representing Add task,0.27191340923309326,3,False
+10,Apple computer,4,Air vent - right and left outlets,an icon representing Air vent - right and left outlets,0.2660170793533325,4,False
+10,Apple computer,2,Adjust contrast,an icon representing Adjust contrast,0.26305660605430603,5,False
+10,Apple computer,7,All operators,an icon representing All operators,0.2622489035129547,6,False
+10,Apple computer,8,American health service,an icon representing American health service,0.2553340494632721,7,False
+10,Apple computer,3,Air cooled condenser,an icon representing Air cooled condenser,0.2536888122558594,8,False
+10,Apple computer,6,Airbrush,an icon representing Airbrush,0.2301623821258545,9,False
+10,Apple computer,5,Airborne troops,an icon representing Airborne troops,0.2212388813495636,10,False

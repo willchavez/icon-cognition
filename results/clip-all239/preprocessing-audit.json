@@ -1,0 +1,13 @@
+{
+  "icons_checked": 239,
+  "resize_shortest_edge": 224,
+  "center_crop": [
+    224,
+    224
+  ],
+  "interpolation": "bicubic",
+  "dark_pixel_threshold": 180,
+  "icons_with_dark_content_touching_transformed_edge": [],
+  "first_ten_preview": "input-preview.png",
+  "limitation": "Geometry/content-edge check, not a guarantee of model recognition or source-image quality"
+}

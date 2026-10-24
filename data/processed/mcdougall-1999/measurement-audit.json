@@ -1,0 +1,35 @@
+{
+  "scope": "All three discrepant-summary columns, 239 icons: 717 source values",
+  "method": "Second OCR pass on isolated single-value crops, compared with CSV; all 89 flags visually inspected",
+  "second_pass_numeric_matches_before_review": 628,
+  "visually_reviewed_flags": 89,
+  "confirmed_transcription_corrections": [
+    {
+      "icon_id": 34,
+      "field": "complexity_metric",
+      "old": 3,
+      "new": 5
+    },
+    {
+      "icon_id": 136,
+      "field": "complexity_metric",
+      "old": 8,
+      "new": 3
+    },
+    {
+      "icon_id": 172,
+      "field": "complexity_metric",
+      "old": 4,
+      "new": 6
+    },
+    {
+      "icon_id": 201,
+      "field": "complexity_metric",
+      "old": 7,
+      "new": 3
+    }
+  ],
+  "after_review": "All 717 inspected values accounted for; published aggregate mean differences remain unresolved",
+  "primary_semantic_distance_values_changed": false,
+  "source_sha256": "c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1"
+}

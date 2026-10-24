@@ -45,7 +45,7 @@ heading in `label`.
 
 The extraction used the existing local PDF, pdfplumber/Pillow to render number
 columns, and macOS Vision through a small Swift helper for OCR. All 239 number
-columns were visually reviewed; 52 explicit corrections are recorded in
+columns were visually reviewed; 53 explicit corrections are recorded in
 `measurement-corrections.csv`. Missing OCR values were read from the scan,
 not estimated. Decimal commas recognized by OCR are normalized to periods.
 `measurement-ocr.json` preserves OCR observations, confidence, and normalized
@@ -82,7 +82,7 @@ to its printed two decimal places. Three other reconstructed means differ:
 
 | Measure | Reconstructed mean | Table 1 mean |
 | --- | ---: | ---: |
-| Complexity metric | 8.5439 | 8.60 |
+| Complexity metric | 8.5230 | 8.60 |
 | Concept agreement (%) | 15.6464 | 15.49 |
 | Name agreement (%) | 32.0594 | 31.39 |
 
@@ -90,3 +90,27 @@ The cause is unresolved; extraction mistakes or source inconsistencies remain
 possible. The per-icon transcriptions have not been altered to fit summary
 statistics. Review these discrepancies before drawing research conclusions.
 `measurement-validation.json` records the computed comparison for reruns.
+
+## Second pass over the discrepant columns
+
+A follow-up audit examined all 717 complexity-count, concept-agreement, and
+name-agreement values using single-value source crops rather than full number
+columns. The second OCR pass agreed numerically on 628 values; all 89 other
+results were inspected visually. Most flags were OCR omissions or punctuation
+errors. Four actual complexity-count transcription errors were confirmed:
+
+| Icon | Previous transcription | Source value |
+| --- | ---: | ---: |
+| 34 | 3 | 5 |
+| 136 | 8 | 3 |
+| 172 | 4 | 6 |
+| 201 | 7 | 3 |
+
+These corrections are now applied by `extract_pdf_measurements.py`; the explicit
+correction ledger has 53 entries. Source crops are retained in `audit-evidence/`,
+and the second OCR observations and audit account are in `measurement-audit-ocr.json`
+and `measurement-audit.json`. All 478 agreement values were included in this
+second pass; no changes to them were confirmed. None of the five subjective
+rating fields changed. This audit did not reconcile the three Table 1 means,
+so those differences remain unresolved rather than being attributed definitively
+to either the paper or the extraction.

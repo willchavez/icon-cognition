@@ -1,0 +1,16 @@
+{
+  "icons": 239,
+  "candidates": 231,
+  "image_text_pairs": 55209,
+  "all_scores_finite_and_in_range": true,
+  "ranks_and_candidate_uniqueness_checked": true,
+  "summary_and_all_human_measurements_match": true,
+  "repeat_csvs_byte_identical": true,
+  "source_script_and_dataset_hashes_match_current_files": true,
+  "weights_state_sha256": "cf4e516c00859f7b9ccbd587e141872b9d4315fa89dba2586e52c90a67fb2b0c",
+  "csv_sha256": {
+    "summary.csv": "480d04bf4e49070b2cad2606857aef160b86470cfecc58ba5c97b39a6510d631",
+    "similarities.csv": "dd81ab30d9f831c1ea9e2116591172aa0d44b43b57ec2e17951892ae92363bf1"
+  },
+  "repeat_started_at_utc": "2026-10-24T19:43:52.978482+00:00"
+}
