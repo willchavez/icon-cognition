@@ -1,0 +1,65 @@
+{
+  "icon_count": 239,
+  "numerical_value_count": 1912,
+  "manual_correction_count": 52,
+  "source_sha256": "c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1",
+  "summary_comparison": {
+    "concreteness": {
+      "extracted_mean": 3.260418410041841,
+      "published_table_1_mean": 3.26,
+      "matches_at_two_decimals": true,
+      "minimum": 1.6,
+      "maximum": 4.93
+    },
+    "complexity": {
+      "extracted_mean": 2.6185355648535564,
+      "published_table_1_mean": 2.62,
+      "matches_at_two_decimals": true,
+      "minimum": 1.04,
+      "maximum": 4.6
+    },
+    "familiarity": {
+      "extracted_mean": 2.972092050209205,
+      "published_table_1_mean": 2.97,
+      "matches_at_two_decimals": true,
+      "minimum": 1.38,
+      "maximum": 4.95
+    },
+    "meaningfulness": {
+      "extracted_mean": 2.8047698744769876,
+      "published_table_1_mean": 2.8,
+      "matches_at_two_decimals": true,
+      "minimum": 1.28,
+      "maximum": 4.75
+    },
+    "semantic_distance": {
+      "extracted_mean": 2.5935146443514645,
+      "published_table_1_mean": 2.59,
+      "matches_at_two_decimals": true,
+      "minimum": 1.02,
+      "maximum": 4.9
+    },
+    "complexity_metric": {
+      "extracted_mean": 8.543933054393305,
+      "published_table_1_mean": 8.6,
+      "matches_at_two_decimals": false,
+      "minimum": 1.0,
+      "maximum": 51.0
+    },
+    "concept_agreement_pct": {
+      "extracted_mean": 15.646443514644352,
+      "published_table_1_mean": 15.49,
+      "matches_at_two_decimals": false,
+      "minimum": 0.0,
+      "maximum": 82.5
+    },
+    "name_agreement_pct": {
+      "extracted_mean": 32.059414225941424,
+      "published_table_1_mean": 31.39,
+      "matches_at_two_decimals": false,
+      "minimum": 2.5,
+      "maximum": 87.5
+    }
+  },
+  "limitation": "Some reconstructed means differ from Table 1; cause unresolved. Printed per-icon values are retained without adjustment."
+}

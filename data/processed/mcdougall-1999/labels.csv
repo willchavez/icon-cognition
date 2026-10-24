@@ -1,0 +1,240 @@
+icon_id,label,pdf_page,printed_page,label_status
+1,Add task,9,495,visually checked
+2,Added fabric web width,9,495,visually checked
+3,Adjust contrast,9,495,visually checked
+4,Air cooled condenser,9,495,visually checked
+5,Air vent - right and left outlets,9,495,visually checked
+6,Airborne troops,9,495,visually checked
+7,Airbrush,9,495,visually checked
+8,All operators,9,495,visually checked
+9,American health service,9,495,visually checked
+10,Apple computer,9,495,visually checked
+11,Arc ignition by contact,10,496,visually checked
+12,Archive,10,496,visually checked
+13,Atomic site,10,496,visually checked
+14,Automatic control (closed loop),10,496,visually checked
+15,Axe,10,496,visually checked
+16,Baggage lockers,10,496,visually checked
+17,Balance,10,496,visually checked
+18,Beating process of fabrics,10,496,visually checked
+19,Belt drive,10,496,visually checked
+20,Bending,10,496,visually checked
+21,Binary file,11,497,visually checked
+22,Biohazard,11,497,visually checked
+23,Bitmap,11,497,visually checked
+24,Blow moulding,11,497,visually checked
+25,Break glass to access,11,497,visually checked
+26,Bridging troops,11,497,visually checked
+27,Brushing by means of brush belt,11,497,visually checked
+28,Building,11,497,visually checked
+29,Button,11,497,visually checked
+30,Calendar,11,497,visually checked
+31,Cancer,12,498,visually checked
+32,Cartoons,12,498,visually checked
+33,CD-interactive,12,498,visually checked
+34,Centre alignment,12,498,visually checked
+35,Centre of gravity,12,498,visually checked
+36,Chain reaction,12,498,visually checked
+37,Chain saw,12,498,visually checked
+38,Chemistry,12,498,visually checked
+39,Chess,12,498,visually checked
+40,Choke,12,498,visually checked
+41,Christianity,13,499,visually checked
+42,Clean edge pins,13,499,visually checked
+43,Cleaning of chain-link,13,499,visually checked
+44,Closed,13,499,visually checked
+45,Cloth track steaming,13,499,visually checked
+46,Co-operate,13,499,visually checked
+47,Cockpit,13,499,visually checked
+48,Colour area,13,499,visually checked
+49,Colour temperature lamp,13,499,visually checked
+50,Communication,13,499,visually checked
+51,Compress file,14,500,visually checked
+52,Confucianism,14,500,visually checked
+53,Connect,14,500,visually checked
+54,Convert multiple files,14,500,visually checked
+55,Conveyer belt,14,500,visually checked
+56,Creel,14,500,visually checked
+57,Crop,14,500,visually checked
+58,Cube,14,500,visually checked
+59,Currency exchange,14,500,visually checked
+60,Dam,14,500,visually checked
+61,Dangerous voltage,15,501,visually checked
+62,Debug,15,501,visually checked
+63,Debug,15,501,visually checked
+64,Desk set,15,501,visually checked
+65,Device driver,15,501,visually checked
+66,Diagnose,15,501,visually checked
+67,Diamond extraction,15,501,visually checked
+68,Discard files,15,501,visually checked
+69,Distressed vessel,15,501,visually checked
+70,Diver,15,501,visually checked
+71,Draw,16,502,visually checked
+72,Earthing point,16,502,visually checked
+73,Educate,16,502,visually checked
+74,Eject,16,502,visually checked
+75,Electric shaver outlet,16,502,visually checked
+76,Electric transmission,16,502,visually checked
+77,Electrical loop,16,502,visually checked
+78,Electrical precipitator,16,502,visually checked
+79,End of reel,16,502,visually checked
+80,Engage pile-raising roller,16,502,visually checked
+81,Engagement of seat belt,17,503,visually checked
+82,Entrance,17,503,visually checked
+83,Equipotentials,17,503,visually checked
+84,External cylindrical grinding,17,503,visually checked
+85,External hard disk,17,503,visually checked
+86,External honing,17,503,visually checked
+87,Fallout shelter,17,503,visually checked
+88,Fan,17,503,visually checked
+89,Farm kitchen,17,503,visually checked
+90,Fast,17,503,visually checked
+91,Fast forward,18,504,visually checked
+92,Fast rewind,18,504,visually checked
+93,Female,18,504,visually checked
+94,Fighter,18,504,visually checked
+95,File manager,18,504,visually checked
+96,Films,18,504,visually checked
+97,Films,18,504,visually checked
+98,First aid,18,504,visually checked
+99,Fixed bed reactor,18,504,visually checked
+100,Focal plane,18,504,visually checked
+101,Food processing industry,19,505,visually checked
+102,Football,19,505,visually checked
+103,Football ground,19,505,visually checked
+104,Frog,19,505,visually checked
+105,Fun,19,505,visually checked
+106,Gastropods,19,505,visually checked
+107,Gents toilets,19,505,visually checked
+108,Go rapidly,19,505,visually checked
+109,Graph,19,505,visually checked
+110,Gravel pit,19,505,visually checked
+111,Handle with care,20,506,visually checked
+112,Headlamp cleaner,20,506,visually checked
+113,Heavy manufacturing,20,506,visually checked
+114,Heliport,20,506,visually checked
+115,Hierarchy,20,506,visually checked
+116,High water level in laundry machines,20,506,visually checked
+117,Hiking trail,20,506,visually checked
+118,Information,20,506,visually checked
+119,Inject reacting resin,20,506,visually checked
+120,Insert object linking and embedding file,20,506,visually checked
+121,Inspect,21,507,visually checked
+122,Instrument illumination,21,507,visually checked
+123,Ionising radiation,21,507,visually checked
+124,Iris diaphragm: Open,21,507,visually checked
+125,Iron,21,507,visually checked
+126,Jacketed reactor,21,507,visually checked
+127,Justice,21,507,visually checked
+128,Kitchen,21,507,visually checked
+129,Laminate,21,507,visually checked
+130,Launch application program,21,507,visually checked
+131,Library,22,508,visually checked
+132,Lift,22,508,visually checked
+133,Lift,22,508,visually checked
+134,Line vessel,22,508,visually checked
+135,Links to other web sites,22,508,visually checked
+136,Lock,22,508,visually checked
+137,Loudspeaker connection,22,508,visually checked
+138,Lumber industry,22,508,visually checked
+139,Mace,22,508,visually checked
+140,Macrobiotics,22,508,visually checked
+141,Magnify,23,509,visually checked
+142,Mail merge main document,23,509,visually checked
+143,Male,23,509,visually checked
+144,Manual control,23,509,visually checked
+145,Measure,23,509,visually checked
+146,Microphone,23,509,visually checked
+147,Mineral spring,23,509,visually checked
+148,Missile in flight,23,509,visually checked
+149,Module,23,509,visually checked
+150,Mouse,23,509,visually checked
+151,Mouse connection,24,510,visually checked
+152,Mouse properties,24,510,visually checked
+153,Museum,24,510,visually checked
+154,Naughty,24,510,visually checked
+155,Navy,24,510,visually checked
+156,No entry,24,510,visually checked
+157,No entry,24,510,visually checked
+158,No entry,24,510,visually checked
+159,No!,24,510,visually checked
+160,Noise,24,510,visually checked
+161,Non-ionising radiation,25,511,visually checked
+162,Note,25,511,visually checked
+163,Open half-nut,25,511,visually checked
+164,Open location,25,511,visually checked
+165,Open shade,25,511,visually checked
+166,Opening of selvedge loops,25,511,visually checked
+167,Oscillating motor,25,511,visually checked
+168,Paper industry,25,511,visually checked
+169,Paradox,25,511,visually checked
+170,Pause,25,511,visually checked
+171,Peace,26,512,visually checked
+172,Picnic area,26,512,visually checked
+173,Plasticizing cylinder with plunger,26,512,visually checked
+174,Plate column,26,512,visually checked
+175,Polishing process of fabrics,26,512,visually checked
+176,Portable files,26,512,visually checked
+177,Press tool,26,512,visually checked
+178,Product,26,512,visually checked
+179,Protect from heat and radioactive,26,512,visually checked
+180,Punch marking,26,512,visually checked
+181,Radiation of laser apparatus,27,513,visually checked
+182,Random Access Memory (RAM),27,513,visually checked
+183,Recycle,27,513,visually checked
+184,Return to home page,27,513,visually checked
+185,Rinse,27,513,visually checked
+186,Risk of explosion,27,513,visually checked
+187,Roman,27,513,visually checked
+188,Rotary vacuum filter,27,513,visually checked
+189,Rotation of cylinder with direction of cloth,27,513,visually checked
+190,Rye,27,513,visually checked
+191,Safe,28,514,visually checked
+192,Safety device against overload,28,514,visually checked
+193,Safety isolating transformer,28,514,visually checked
+194,Scale of measurement,28,514,visually checked
+195,Scythe,28,514,visually checked
+196,Sea mine decoy,28,514,visually checked
+197,Search,28,514,visually checked
+198,Search,28,514,visually checked
+199,Search,28,514,visually checked
+200,Select irregular area,28,514,visually checked
+201,Shopping,29,515,visually checked
+202,Slow,29,515,visually checked
+203,Smooth edges,29,515,visually checked
+204,Sound,29,515,visually checked
+205,Spade,29,515,visually checked
+206,Spark coil-ignition element,29,515,visually checked
+207,Spark plug,29,515,visually checked
+208,Sterilizer,29,515,visually checked
+209,Straining element,29,515,visually checked
+210,Suction removal of trimmed edges,29,515,visually checked
+211,Surgery,30,516,visually checked
+212,Tape cassette,30,516,visually checked
+213,Tape recorder,30,516,visually checked
+214,Temperature,30,516,visually checked
+215,Thin ice,30,516,visually checked
+216,Three star freezing compartment,30,516,visually checked
+217,Timber,30,516,visually checked
+218,Time,30,516,visually checked
+219,Timed page cancelled,30,516,visually checked
+220,Toolbox,30,516,visually checked
+221,Topic,31,517,visually checked
+222,Tourist activities,31,517,visually checked
+223,Toxic substances,31,517,visually checked
+224,Tubular film die,31,517,visually checked
+225,Typewriter,31,517,visually checked
+226,Undo,31,517,visually checked
+227,Vertebrates,31,517,visually checked
+228,Vibrate,31,517,visually checked
+229,Video camera,31,517,visually checked
+230,Wall,31,517,visually checked
+231,Water cooled condenser,32,518,visually checked
+232,Water power,32,518,visually checked
+233,Webcrawler,32,518,visually checked
+234,Weight,32,518,visually checked
+235,Wheel,32,518,visually checked
+236,Windscreen demisting and defrosting,32,518,visually checked
+237,Winter sports area,32,518,visually checked
+238,Zoom,32,518,visually checked
+239,Zoom,32,518,visually checked

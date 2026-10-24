@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 .venv/
 .ipynb_checkpoints/
+tmp/
+data/raw/mcdougall-1999/paper.pdf

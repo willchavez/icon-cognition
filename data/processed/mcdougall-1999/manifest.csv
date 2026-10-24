@@ -1,0 +1,240 @@
+icon_id,label,image,pdf_page,printed_page,crop_left,crop_top,crop_right,crop_bottom,dpi,source_sha256,label_status,crop_status
+1,Add task,icon-001.png,9,495,84,154,172,232,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+2,Added fabric web width,icon-002.png,9,495,328,154,416,232,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+3,Adjust contrast,icon-003.png,9,495,84,280,172,358,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+4,Air cooled condenser,icon-004.png,9,495,328,280,416,358,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+5,Air vent - right and left outlets,icon-005.png,9,495,84,406,172,484,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+6,Airborne troops,icon-006.png,9,495,328,406,416,484,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+7,Airbrush,icon-007.png,9,495,84,532,172,610,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+8,All operators,icon-008.png,9,495,328,532,416,610,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+9,American health service,icon-009.png,9,495,84,658,172,736,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+10,Apple computer,icon-010.png,9,495,328,658,416,736,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+11,Arc ignition by contact,icon-011.png,10,496,82.5258,148.6853,174.9861,228.9142,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+12,Archive,icon-012.png,10,496,325.5132,148.6853,417.9735,228.9142,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+13,Atomic site,icon-013.png,10,496,82.5258,274.5829,174.9861,354.8118,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+14,Automatic control (closed loop),icon-014.png,10,496,325.5132,274.5829,417.9735,354.8118,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+15,Axe,icon-015.png,10,496,82.5258,400.4806,174.9861,480.7095,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+16,Baggage lockers,icon-016.png,10,496,325.5132,400.4806,417.9735,480.7095,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+17,Balance,icon-017.png,10,496,82.5258,526.3782,174.9861,606.6071,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+18,Beating process of fabrics,icon-018.png,10,496,325.5132,526.3782,417.9735,606.6071,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+19,Belt drive,icon-019.png,10,496,82.5258,652.2759,174.9861,732.5048,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+20,Bending,icon-020.png,10,496,325.5132,652.2759,417.9735,732.5048,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+21,Binary file,icon-021.png,11,497,82.9668,148.2386,175.2282,227.5603,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+22,Biohazard,icon-022.png,11,497,325.4316,148.2386,417.6931,227.5603,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+23,Bitmap,icon-023.png,11,497,82.9668,272.7126,175.2282,352.0342,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+24,Blow moulding,icon-024.png,11,497,325.4316,272.7126,417.6931,352.0342,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+25,Break glass to access,icon-025.png,11,497,82.9668,397.1865,175.2282,476.5082,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+26,Bridging troops,icon-026.png,11,497,325.4316,397.1865,417.6931,476.5082,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+27,Brushing by means of brush belt,icon-027.png,11,497,82.9668,521.6605,175.2282,600.9821,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+28,Building,icon-028.png,11,497,325.4316,521.6605,417.6931,600.9821,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+29,Button,icon-029.png,11,497,82.9668,646.1344,175.2282,725.4561,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+30,Calendar,icon-030.png,11,497,325.4316,646.1344,417.6931,725.4561,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+31,Cancer,icon-031.png,12,498,81.1832,148.2221,174.24,227.5298,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+32,Cartoons,icon-032.png,12,498,325.7382,148.2221,418.795,227.5298,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+33,CD-interactive,icon-033.png,12,498,81.1832,272.6741,174.24,351.9818,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+34,Centre alignment,icon-034.png,12,498,325.7382,272.6741,418.795,351.9818,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+35,Centre of gravity,icon-035.png,12,498,81.1832,397.1262,174.24,476.4339,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+36,Chain reaction,icon-036.png,12,498,325.7382,397.1262,418.795,476.4339,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+37,Chain saw,icon-037.png,12,498,81.1832,521.5783,174.24,600.8859,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+38,Chemistry,icon-038.png,12,498,325.7382,521.5783,418.795,600.8859,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+39,Chess,icon-039.png,12,498,81.1832,646.0303,174.24,725.338,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+40,Choke,icon-040.png,12,498,325.7382,646.0303,418.795,725.338,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+41,Christianity,icon-041.png,13,499,84.7602,148.9758,176.2263,229.7351,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+42,Clean edge pins,icon-042.png,13,499,325.1348,148.9758,416.6008,229.7351,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+43,Cleaning of chain-link,icon-043.png,13,499,84.7602,275.7058,176.2263,356.465,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+44,Closed,icon-044.png,13,499,325.1348,275.7058,416.6008,356.465,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+45,Cloth track steaming,icon-045.png,13,499,84.7602,402.4357,176.2263,483.195,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+46,Co-operate,icon-046.png,13,499,325.1348,402.4357,416.6008,483.195,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+47,Cockpit,icon-047.png,13,499,84.7602,529.1656,176.2263,609.9249,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+48,Colour area,icon-048.png,13,499,325.1348,529.1656,416.6008,609.9249,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+49,Colour temperature lamp,icon-049.png,13,499,84.7602,655.8956,176.2263,736.6549,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+50,Communication,icon-050.png,13,499,325.1348,655.8956,416.6008,736.6549,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+51,Compress file,icon-051.png,14,500,81.1832,148.8551,174.24,229.3492,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+52,Confucianism,icon-052.png,14,500,325.7382,148.8551,418.795,229.3492,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+53,Connect,icon-053.png,14,500,81.1832,275.1689,174.24,355.663,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+54,Convert multiple files,icon-054.png,14,500,325.7382,275.1689,418.795,355.663,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+55,Conveyer belt,icon-055.png,14,500,81.1832,401.4827,174.24,481.9767,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+56,Creel,icon-056.png,14,500,325.7382,401.4827,418.795,481.9767,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+57,Crop,icon-057.png,14,500,81.1832,527.7964,174.24,608.2905,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+58,Cube,icon-058.png,14,500,325.7382,527.7964,418.795,608.2905,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+59,Currency exchange,icon-059.png,14,500,81.1832,654.1102,174.24,734.6043,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+60,Dam,icon-060.png,14,500,325.7382,654.1102,418.795,734.6043,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+61,Dangerous voltage,icon-061.png,15,501,81.1832,148.8032,174.24,229.3112,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+62,Debug,icon-062.png,15,501,325.7382,148.8032,418.795,229.3112,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+63,Debug,icon-063.png,15,501,81.1832,275.1389,174.24,355.6469,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+64,Desk set,icon-064.png,15,501,325.7382,275.1389,418.795,355.6469,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+65,Device driver,icon-065.png,15,501,81.1832,401.4746,174.24,481.9826,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+66,Diagnose,icon-066.png,15,501,325.7382,401.4746,418.795,481.9826,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+67,Diamond extraction,icon-067.png,15,501,81.1832,527.8102,174.24,608.3183,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+68,Discard files,icon-068.png,15,501,325.7382,527.8102,418.795,608.3183,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+69,Distressed vessel,icon-069.png,15,501,81.1832,654.1459,174.24,734.6539,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+70,Diver,icon-070.png,15,501,325.7382,654.1459,418.795,734.6539,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+71,Draw,icon-071.png,16,502,82.9668,148.8326,175.2282,229.3406,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+72,Earthing point,icon-072.png,16,502,325.4316,148.8326,417.6931,229.3406,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+73,Educate,icon-073.png,16,502,82.9668,275.1683,175.2282,355.6763,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+74,Eject,icon-074.png,16,502,325.4316,275.1683,417.6931,355.6763,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+75,Electric shaver outlet,icon-075.png,16,502,82.9668,401.504,175.2282,482.012,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+76,Electric transmission,icon-076.png,16,502,325.4316,401.504,417.6931,482.012,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+77,Electrical loop,icon-077.png,16,502,82.9668,527.8396,175.2282,608.3477,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+78,Electrical precipitator,icon-078.png,16,502,325.4316,527.8396,417.6931,608.3477,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+79,End of reel,icon-079.png,16,502,82.9668,654.1753,175.2282,734.6833,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+80,Engage pile-raising roller,icon-080.png,16,502,325.4316,654.1753,417.6931,734.6833,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+81,Engagement of seat belt,icon-081.png,17,503,82.5258,148.7119,174.9861,228.9547,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+82,Entrance,icon-082.png,17,503,325.5132,148.7119,417.9735,228.9547,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+83,Equipotentials,icon-083.png,17,503,82.5258,274.6314,174.9861,354.8742,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+84,External cylindrical grinding,icon-084.png,17,503,325.5132,274.6314,417.9735,354.8742,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+85,External hard disk,icon-085.png,17,503,82.5258,400.5509,174.9861,480.7938,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+86,External honing,icon-086.png,17,503,325.5132,400.5509,417.9735,480.7938,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+87,Fallout shelter,icon-087.png,17,503,82.5258,526.4705,174.9861,606.7133,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+88,Fan,icon-088.png,17,503,325.5132,526.4705,417.9735,606.7133,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+89,Farm kitchen,icon-089.png,17,503,82.5258,652.39,174.9861,732.6328,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+90,Fast,icon-090.png,17,503,325.5132,652.39,417.9735,732.6328,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+91,Fast forward,icon-091.png,18,504,82.5258,148.7834,174.9861,229.1519,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+92,Fast rewind,icon-092.png,18,504,325.5132,148.7834,417.9735,229.1519,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+93,Female,icon-093.png,18,504,82.5258,274.9001,174.9861,355.2685,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+94,Fighter,icon-094.png,18,504,325.5132,274.9001,417.9735,355.2685,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+95,File manager,icon-095.png,18,504,82.5258,401.0167,174.9861,481.3852,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+96,Films,icon-096.png,18,504,325.5132,401.0167,417.9735,481.3852,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+97,Films,icon-097.png,18,504,82.5258,527.1334,174.9861,607.5018,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+98,First aid,icon-098.png,18,504,325.5132,527.1334,417.9735,607.5018,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+99,Fixed bed reactor,icon-099.png,18,504,82.5258,653.25,174.9861,733.6185,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+100,Focal plane,icon-100.png,18,504,325.5132,653.25,417.9735,733.6185,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+101,Food processing industry,icon-101.png,19,505,81.6242,148.6717,174.4822,228.8726,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+102,Football,icon-102.png,19,505,325.6567,148.6717,418.5147,228.8726,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+103,Football ground,icon-103.png,19,505,81.6242,274.5255,174.4822,354.7264,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+104,Frog,icon-104.png,19,505,325.6567,274.5255,418.5147,354.7264,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+105,Fun,icon-105.png,19,505,81.6242,400.3793,174.4822,480.5803,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+106,Gastropods,icon-106.png,19,505,325.6567,400.3793,418.5147,480.5803,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+107,Gents toilets,icon-107.png,19,505,81.6242,526.2331,174.4822,606.4341,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+108,Go rapidly,icon-108.png,19,505,325.6567,526.2331,418.5147,606.4341,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+109,Graph,icon-109.png,19,505,81.6242,652.0869,174.4822,732.2879,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+110,Gravel pit,icon-110.png,19,505,325.6567,652.0869,418.5147,732.2879,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+111,Handle with care,icon-111.png,20,506,81.6242,148.7315,174.4821,229.1139,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+112,Headlamp cleaner,icon-112.png,20,506,325.6567,148.7315,418.5146,229.1139,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+113,Heavy manufacturing,icon-113.png,20,506,81.6242,274.87,174.4821,355.2525,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+114,Heliport,icon-114.png,20,506,325.6567,274.87,418.5146,355.2525,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+115,Hierarchy,icon-115.png,20,506,81.6242,401.0086,174.4821,481.391,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+116,High water level in laundry machines,icon-116.png,20,506,325.6567,401.0086,418.5146,481.391,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+117,Hiking trail,icon-117.png,20,506,81.6242,527.1472,174.4821,607.5296,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+118,Information,icon-118.png,20,506,325.6567,527.1472,418.5146,607.5296,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+119,Inject reacting resin,icon-119.png,20,506,81.6242,653.2857,174.4821,733.6682,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+120,Insert object linking and embedding file,icon-120.png,20,506,325.6567,653.2857,418.5146,733.6682,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+121,Inspect,icon-121.png,21,507,81.1832,148.7834,174.24,229.1519,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+122,Instrument illumination,icon-122.png,21,507,325.7382,148.7834,418.795,229.1519,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+123,Ionising radiation,icon-123.png,21,507,81.1832,274.9001,174.24,355.2685,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+124,Iris diaphragm: Open,icon-124.png,21,507,325.7382,274.9001,418.795,355.2685,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+125,Iron,icon-125.png,21,507,81.1832,401.0167,174.24,481.3852,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+126,Jacketed reactor,icon-126.png,21,507,325.7382,401.0167,418.795,481.3852,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+127,Justice,icon-127.png,21,507,81.1832,527.1334,174.24,607.5018,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+128,Kitchen,icon-128.png,21,507,325.7382,527.1334,418.795,607.5018,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+129,Laminate,icon-129.png,21,507,81.1832,653.25,174.24,733.6185,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+130,Launch application program,icon-130.png,21,507,325.7382,653.25,418.795,733.6185,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+131,Library,icon-131.png,22,508,80.7324,148.7119,173.988,229.0943,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+132,Lift,icon-132.png,22,508,325.8099,148.7119,419.0656,229.0943,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+133,Lift,icon-133.png,22,508,80.7324,274.8504,173.988,355.2329,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+134,Line vessel,icon-134.png,22,508,325.8099,274.8504,419.0656,355.2329,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+135,Links to other web sites,icon-135.png,22,508,80.7324,400.989,173.988,481.3714,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+136,Lock,icon-136.png,22,508,325.8099,400.989,419.0656,481.3714,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+137,Loudspeaker connection,icon-137.png,22,508,80.7324,527.1276,173.988,607.51,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+138,Lumber industry,icon-138.png,22,508,325.8099,527.1276,419.0656,607.51,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+139,Mace,icon-139.png,22,508,80.7324,653.2661,173.988,733.6486,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+140,Macrobiotics,icon-140.png,22,508,325.8099,653.2661,419.0656,733.6486,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+141,Magnify,icon-141.png,23,509,76.7046,148.6156,171.5509,228.663,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+142,Mail merge main document,icon-142.png,23,509,325.9626,148.6156,420.809,228.663,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+143,Male,icon-143.png,23,509,76.7046,274.2284,171.5509,354.2759,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+144,Manual control,icon-144.png,23,509,325.9626,274.2284,420.809,354.2759,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+145,Measure,icon-145.png,23,509,76.7046,399.8413,171.5509,479.8887,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+146,Microphone,icon-146.png,23,509,325.9626,399.8413,420.809,479.8887,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+147,Mineral spring,icon-147.png,23,509,76.7046,525.4542,171.5509,605.5016,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+148,Missile in flight,icon-148.png,23,509,325.9626,525.4542,420.809,605.5016,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+149,Module,icon-149.png,23,509,76.7046,651.0671,171.5509,731.1145,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+150,Mouse,icon-150.png,23,509,325.9626,651.0671,420.809,731.1145,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+151,Mouse connection,icon-151.png,24,510,80.7324,148.1209,173.988,227.1634,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+152,Mouse properties,icon-152.png,24,510,325.8099,148.1209,419.0656,227.1634,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+153,Museum,icon-153.png,24,510,80.7324,272.1568,173.988,351.1992,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+154,Naughty,icon-154.png,24,510,325.8099,272.1568,419.0656,351.1992,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+155,Navy,icon-155.png,24,510,80.7324,396.1926,173.988,475.2351,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+156,No entry,icon-156.png,24,510,325.8099,396.1926,419.0656,475.2351,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+157,No entry,icon-157.png,24,510,80.7324,520.2285,173.988,599.2709,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+158,No entry,icon-158.png,24,510,325.8099,520.2285,419.0656,599.2709,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+159,No!,icon-159.png,24,510,80.7324,644.2643,173.988,723.3068,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+160,Noise,icon-160.png,24,510,325.8099,644.2643,419.0656,723.3068,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+161,Non-ionising radiation,icon-161.png,25,511,76.44,148.7118,169.2979,228.9546,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+162,Note,icon-162.png,25,511,320.4725,148.7118,413.3304,228.9546,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+163,Open half-nut,icon-163.png,25,511,76.44,274.6313,169.2979,354.8741,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+164,Open location,icon-164.png,25,511,320.4725,274.6313,413.3304,354.8741,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+165,Open shade,icon-165.png,25,511,76.44,400.5508,169.2979,480.7937,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+166,Opening of selvedge loops,icon-166.png,25,511,320.4725,400.5508,413.3304,480.7937,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+167,Oscillating motor,icon-167.png,25,511,76.44,526.4704,169.2979,606.7132,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+168,Paper industry,icon-168.png,25,511,320.4725,526.4704,413.3304,606.7132,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+169,Paradox,icon-169.png,25,511,76.44,652.3899,169.2979,732.6327,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+170,Pause,icon-170.png,25,511,320.4725,652.3899,413.3304,732.6327,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+171,Peace,icon-171.png,26,512,80.2914,149.4515,173.7459,229.485,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+172,Picnic area,icon-172.png,26,512,325.8916,149.4515,419.346,229.485,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+173,Plasticizing cylinder with plunger,icon-173.png,26,512,80.2914,275.0425,173.7459,355.076,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+174,Plate column,icon-174.png,26,512,325.8916,275.0425,419.346,355.076,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+175,Polishing process of fabrics,icon-175.png,26,512,80.2914,400.6335,173.7459,480.6669,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+176,Portable files,icon-176.png,26,512,325.8916,400.6335,419.346,480.6669,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+177,Press tool,icon-177.png,26,512,80.2914,526.2245,173.7459,606.2579,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+178,Product,icon-178.png,26,512,325.8916,526.2245,419.346,606.2579,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+179,Protect from heat and radioactive,icon-179.png,26,512,80.2914,651.8154,173.7459,731.8489,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+180,Punch marking,icon-180.png,26,512,325.8916,651.8154,419.346,731.8489,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+181,Radiation of laser apparatus,icon-181.png,27,513,78.0472,148.9238,172.297,229.5574,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+182,Random Access Memory (RAM),icon-182.png,27,513,325.7376,148.9238,419.9874,229.5574,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+183,Recycle,icon-183.png,27,513,78.0472,275.4566,172.297,356.0902,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+184,Return to home page,icon-184.png,27,513,325.7376,275.4566,419.9874,356.0902,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+185,Rinse,icon-185.png,27,513,78.0472,401.9894,172.297,482.6231,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+186,Risk of explosion,icon-186.png,27,513,325.7376,401.9894,419.9874,482.6231,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+187,Roman,icon-187.png,27,513,78.0472,528.5222,172.297,609.1559,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+188,Rotary vacuum filter,icon-188.png,27,513,325.7376,528.5222,419.9874,609.1559,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+189,Rotation of cylinder with direction of cloth,icon-189.png,27,513,78.0472,655.055,172.297,735.6887,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+190,Rye,icon-190.png,27,513,325.7376,655.055,419.9874,735.6887,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+191,Safe,icon-191.png,28,514,76.2636,148.8356,171.3088,229.4692,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+192,Safety device against overload,icon-192.png,28,514,326.0442,148.8356,421.0894,229.4692,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+193,Safety isolating transformer,icon-193.png,28,514,76.2636,275.3684,171.3088,356.002,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+194,Scale of measurement,icon-194.png,28,514,326.0442,275.3684,421.0894,356.002,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+195,Scythe,icon-195.png,28,514,76.2636,401.9012,171.3088,482.5349,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+196,Sea mine decoy,icon-196.png,28,514,326.0442,401.9012,421.0894,482.5349,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+197,Search,icon-197.png,28,514,76.2636,528.434,171.3088,609.0677,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+198,Search,icon-198.png,28,514,326.0442,528.434,421.0894,609.0677,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+199,Search,icon-199.png,28,514,76.2636,654.9668,171.3088,735.6005,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+200,Select irregular area,icon-200.png,28,514,326.0442,654.9668,421.0894,735.6005,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+201,Shopping,icon-201.png,29,515,78.9488,148.8001,172.8009,229.1825,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+202,Slow,icon-202.png,29,515,325.594,148.8001,419.4462,229.1825,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+203,Smooth edges,icon-203.png,29,515,78.9488,274.9386,172.8009,355.3211,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+204,Sound,icon-204.png,29,515,325.594,274.9386,419.4462,355.3211,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+205,Spade,icon-205.png,29,515,78.9488,401.0772,172.8009,481.4596,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+206,Spark coil-ignition element,icon-206.png,29,515,325.594,401.0772,419.4462,481.4596,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+207,Spark plug,icon-207.png,29,515,78.9488,527.2158,172.8009,607.5982,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+208,Sterilizer,icon-208.png,29,515,325.594,527.2158,419.4462,607.5982,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+209,Straining element,icon-209.png,29,515,78.9488,653.3543,172.8009,733.7368,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+210,Suction removal of trimmed edges,icon-210.png,29,515,325.594,653.3543,419.4462,733.7368,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+211,Surgery,icon-211.png,30,516,77.6062,148.5891,172.0549,228.6226,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+212,Tape cassette,icon-212.png,30,516,325.8191,148.5891,420.2677,228.6226,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+213,Tape recorder,icon-213.png,30,516,77.6062,274.1801,172.0549,354.2136,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+214,Temperature,icon-214.png,30,516,325.8191,274.1801,420.2677,354.2136,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+215,Thin ice,icon-215.png,30,516,77.6062,399.7711,172.0549,479.8045,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+216,Three star freezing compartment,icon-216.png,30,516,325.8191,399.7711,420.2677,479.8045,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+217,Timber,icon-217.png,30,516,77.6062,525.3621,172.0549,605.3955,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+218,Time,icon-218.png,30,516,325.8191,525.3621,420.2677,605.3955,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+219,Timed page cancelled,icon-219.png,30,516,77.6062,650.953,172.0549,730.9865,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+220,Toolbox,icon-220.png,30,516,325.8191,650.953,420.2677,730.9865,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+221,Topic,icon-221.png,31,517,79.3898,148.4635,173.0431,228.1619,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+222,Tourist activities,icon-222.png,31,517,325.5125,148.4635,419.1658,228.1619,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+223,Toxic substances,icon-223.png,31,517,79.3898,273.5288,173.0431,353.2272,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+224,Tubular film die,icon-224.png,31,517,325.5125,273.5288,419.1658,353.2272,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+225,Typewriter,icon-225.png,31,517,79.3898,398.5941,173.0431,478.2926,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+226,Undo,icon-226.png,31,517,325.5125,398.5941,419.1658,478.2926,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+227,Vertebrates,icon-227.png,31,517,79.3898,523.6594,173.0431,603.3579,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+228,Vibrate,icon-228.png,31,517,325.5125,523.6594,419.1658,603.3579,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+229,Video camera,icon-229.png,31,517,79.3898,648.7247,173.0431,728.4232,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+230,Wall,icon-230.png,31,517,325.5125,648.7247,419.1658,728.4232,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+231,Water cooled condenser,icon-231.png,32,518,80.36,148.3749,173.2179,227.6547,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+232,Water power,icon-232.png,32,518,324.3925,148.3749,417.2504,227.6547,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+233,Webcrawler,icon-233.png,32,518,80.36,272.7831,173.2179,352.0629,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+234,Weight,icon-234.png,32,518,324.3925,272.7831,417.2504,352.0629,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+235,Wheel,icon-235.png,32,518,80.36,397.1914,173.2179,476.4711,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+236,Windscreen demisting and defrosting,icon-236.png,32,518,324.3925,405.1914,417.2504,476.4711,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+237,Winter sports area,icon-237.png,32,518,80.36,521.5996,173.2179,600.8793,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+238,Zoom,icon-238.png,32,518,324.3925,521.5996,417.2504,600.8793,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet
+239,Zoom,icon-239.png,32,518,80.36,646.0078,173.2179,725.2875,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,visually checked,visually reviewed in page contact sheet

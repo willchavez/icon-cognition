@@ -1,0 +1,11 @@
+icon_id,label,image,pdf_page,printed_page,crop_left,crop_top,crop_right,crop_bottom,dpi,source_sha256,verification
+1,Add task,icon-001.png,9,495,84,154,172,232,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+2,Added fabric web width,icon-002.png,9,495,328,154,416,232,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+3,Adjust contrast,icon-003.png,9,495,84,280,172,358,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+4,Air cooled condenser,icon-004.png,9,495,328,280,416,358,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+5,Air vent - right and left outlets,icon-005.png,9,495,84,406,172,484,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+6,Airborne troops,icon-006.png,9,495,328,406,416,484,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+7,Airbrush,icon-007.png,9,495,84,532,172,610,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+8,All operators,icon-008.png,9,495,328,532,416,610,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+9,American health service,icon-009.png,9,495,84,658,172,736,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
+10,Apple computer,icon-010.png,9,495,328,658,416,736,300,c34c50131f8936b77ff7feab9eaa83c95dc1e7ac4555659dd154a0a202ecebe1,ID and label visually checked; crop visually reviewed
